@@ -1,0 +1,352 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.all{
+    float: left;
+    width: 100%;
+}
+.container{
+    float: none;
+    margin: auto;
+    overflow: auto;
+    box-sizing: border-box;
+}
+.container-top{
+    width: 920px;
+    height: 48px;
+    float: none;
+    margin: auto;
+}
+
+.header .container{
+    margin-top: 50px;
+    border-bottom: 1px solid black;
+    height: 100px;
+    width: 95%;
+
+}
+.container h1{
+    text-align: center;
+    height: 48px;
+}
+.menu{
+    width: 1200px;
+    float: none;
+    margin: auto;
+}
+.nav{
+    margin-top: 20px;
+    height: 50px;
+}
+
+#img-lg img{
+    width: 23px;
+    height: 23px;
+    margin-top: 8px;
+}
+#img-lg{
+    width: 160px;
+    height: 23px;
+    float: left;
+}
+#img-lg span{
+    top: -5px;
+    position: relative;
+}
+#run{
+    position: fixed;
+    background-color: white;
+    z-index: 100;
+}
+.bot{
+    margin-top: 25px;
+    display: block;
+    text-align: center;
+    height: 428px;
+}
+.bot img{
+    width: 100%;
+    height: 350.75px;
+
+}
+.menu ul{
+    color: black;
+    list-style-type: none;
+    text-align: center;
+}
+.menu ul li{
+    display: list-item;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    width: 130px;
+    list-style-type: none;
+    float: left;
+}
+.quanao{
+    display: none;
+    background-color: white;
+}
+.quanao1{
+    width: 200px;
+    display: block;
+    background-color: white;
+}
+.quanao  li{
+    width: 160px;
+    text-align: left;
+    padding-left: 30px;
+}
+.quanao1 li{
+    width: 160px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.menu ul li:hover .quanao{
+    display: block;
+    position: absolute;
+    left: -20px;
+}
+.menu ul li:hover .quanao1{
+    display: block;
+    position: absolute;
+    left: -20px;
+}
+.section{
+    overflow: auto;
+    margin-top: 300px;
+}
+.form-section-1{
+    width:  50%;
+    height: 100%;
+    float: left;
+}
+.form-section-2{
+    width:  50%;
+    height: 100%;
+    float: right;
+
+}
+#fr-s2{
+    height: 100%;
+    width: 435px;
+}
+#fr-s2 select{
+    width:  175.5px;
+    height: 100%;
+    float: right;
+}
+#fr-s1{
+    height: 100%;
+    width: 50%;
+}
+#fr-s1 select{
+    height: 100%;
+}
+.footer{
+    background-color: black;
+    color: white;
+}
+.sub-menu1 li{
+    list-style-type: none;
+    float: left;
+    margin-top: 60px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: 35px;
+
+}
+#form-bot{
+    height: 48px;
+    width: 575px;
+    float: left;
+    margin-left: 313.500px;
+    margin-top: 30px;
+}
+#form-bot input{
+    height: 100%;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #757575;
+}
+.fr-b1 input{
+    background-color: black;
+    padding-left: 10px;
+    font-size: 16px;
+    color: white;
+    height: 55px;
+    width: 50%;
+    float: right;
+}
+.fr-b2 input{
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    color: #757575;
+    height: 55px;
+    width: 30%;
+    float: left;
+}
+.info{
+    margin-top: 80px;
+    text-align: center;
+}
+.icon-info img{
+    height: 35px;
+    width: 55px;
+
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.sub-menu1 a{
+    color: white;
+    text-decoration: none;
+}
+.stt{
+    overflow: auto;
+    width: 100%;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+.sub-stt{
+    width: 42px;
+    float: right;
+    height: 42px;
+    margin-right: 20px;
+    line-height: 42px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.stt .sub-stt:hover{
+    color: white;
+    background-color: black;
+}
+.sub-stt a{
+    width: 100%;
+}
+.icon-info .fab{
+    font-size: 35px;
+}
+.stt-spm{
+    overflow: auto;
+    width: 100%;
+    padding: 40px;
+}
+.stt-spm .sub-stt{
+    width: 42px;
+    float: right;
+    height: 42px;
+    margin-right: 20px;
+    line-height: 42px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.stt-spm .sub-stt:hover{
+    color: white;
+    background-color: black;
+}
+.stt-tuixach{
+    overflow: auto;
+    width: 100%;
+    padding-right: 50px;
+    margin-bottom: 40px;
+}
+.stt-tuixach .sub-stt{
+    width: 42px;
+    float: right;
+    height: 42px;
+    margin-right: 20px;
+    line-height: 42px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.stt-tuixach .sub-stt:hover{
+    color: white;
+    background-color: black;
+}
+.img-trangchu img{
+    width: 100%;
+}
+.video-trangchu{
+    width: 1170px;
+    float: none;
+    margin: auto;
+
+}
+.login-nav{
+    top: 10px;
+    position: relative;
+}
+.sub-submenu1{
+    border-bottom: 1px solid;
+}
+.form-bot{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.anhImgs{
+    overflow: hidden;
+    transition: 1.2s;
+}
+.anhhien{
+    opacity: 1;
+    transition: 1.2s;
+}
+.anhan{
+    opacity: 0;
+    transform: translate(0px,-350px);
+    transition: 1.2s;
+    height: 350px;
+}
+.anhImgs:hover .anhhien{
+    transition: 1.2s ;
+    opacity: 0;
+}
+.anhImgs:hover .anhan{
+    opacity: 1;
+    transition: 1.2s ;
+
+}
+.App{
+    width: 1280px;
+    text-align: justify;
+}
+.anhhien:hover{
+    transition: 1.2s;
+}
+.all-anh{
+    height: 350px;
+}
+.scale{
+    margin: 60px 0;
+    overflow: hidden;
+    width: 530px;
+}
+
+.scale img:hover{
+    transform: scale(1.2);
+    transition: 1.2s;
+}
+.scale img{
+    transition: 1.2s;
+    vertical-align: middle;
+}
+.col-md-6{
+    width: 50%;
+}
+.container h1{
+    font-weight: 800;
+}
+.container h1 span{
+    font-weight: 300;
+}
