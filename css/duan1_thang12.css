@@ -1,0 +1,40 @@
+
+#run nav{
+    text-align: center;
+    background-color: #ff5050;
+    height: 40px;
+    line-height: 40px;
+}
+.sub-menu{
+    list-style-type: none;
+    display: inline-table;
+    color: black;
+    padding-right: 30px;
+}
+.ssmenu {
+    position: relative;
+
+}
+.sub-menu a{
+    color: black;
+    text-decoration: none;
+}
+.menu-an{
+    display: none;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    text-align: left;
+    transition: 1.2s;
+}
+.menu-an li{
+    list-style-type: none;
+}
+.sub-menu:hover .menu-an{
+    display: block;
+    transition: tra 1.2s;
+;
+}
+.menu-an img{
+    width: 100%;
+}
