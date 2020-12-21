@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="" />
+    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/JScode/JS_code_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/tesst.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/duan1_thang12.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/duan1_thang12.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,8 +37,13 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1loUrKK1PEXLOFk3ABTtOhOCdYr" />
   <component name="ProjectViewState">
@@ -24,6 +55,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -48,11 +80,35 @@
       <updated>1608263134793</updated>
       <workItem from="1608263135864" duration="187000" />
       <workItem from="1608263359893" duration="5549000" />
+      <workItem from="1608274440594" duration="54779000" />
     </task>
+    <task id="LOCAL-00001" summary="up">
+      <created>1608303939187</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1608303939188</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="up" />
+    <option name="LAST_COMMIT_MESSAGE" value="up" />
   </component>
   <component name="WindowStateProjectService">
     <state x="549" y="202" key="FileChooserDialogImpl" timestamp="1608263506592">
@@ -63,9 +119,19 @@
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="640" y="358" key="Github.ShareDialog/0.0.1536.920@0.0.1536.920" timestamp="1608263386419" />
-    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1608268042112">
-      <screen x="0" y="0" width="1536" height="920" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1608514875033">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608478306949">
+      <screen x="0" y="23" width="1280" height="726" />
+    </state>
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
+    <state x="359" y="170" width="670" height="590" key="search.everywhere.popup" timestamp="1608466516469">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="359" y="170" width="670" height="590" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1608466516469" />
     <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1608268042112" />
     <state x="599" y="251" key="svn.repositoryBrowser" timestamp="1608263443443">
       <screen x="0" y="0" width="1536" height="920" />

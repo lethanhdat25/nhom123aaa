@@ -4,32 +4,34 @@
     <meta charset="UTF-8">
     <title>HOME</title>
     <link rel="stylesheet" href="list/bootrap3.4.1/css/bootstrap.css">
+    <link rel="stylesheet" href="list/bootrap3.4.1/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="css/duan1_thang12.css">
+
 </head>
 <body>
-<header>
+<header class="container">
     <div class="top-head">
         <div class="container">
-            <div class="gmail-sdt col-md-6" >
+            <div class="gmail-sdt " >
                 <span>(00)000 111 222</span>
             </div>
-            <div class="acc-giohang col-md-6">
+            <div class="acc-giohang ">
                 <span>My account</span>
             </div>
         </div>
     </div>
     <div class="top-2-head">
         <div class="container">
-            <div class="col-md-4">
+            <div class="lg_sr col-md-4">
                 <img src="img/logo.webp">
             </div>
-            <div class="col-md-4">
+            <div class="lg_sr col-md-4" style="top: 10px">
                 <form >
                     <input type="text" placeholder="Search......">
                     <button>Tim kiem</button>
                 </form>
             </div>
-            <div class="col-md-4">
+            <div class="lg_sr col-md-4" style="top: 10px">
                 <img src="img/icon-freeship.webp">
                 <span class="freeship">FREE DELIVERY ORDER OVER $100</span>
             </div>
@@ -37,14 +39,14 @@
         </div>
     </div>
 </header>
+
 <div id="run">
-    <div class="container">
         <nav >
             <div class="menu">
                             <ul class="ssmenu" >
-                                <li class="sub-menu "><a href="#"><b>Home</b></a> </li>
+                                <li class="sub-menu "><a href="#">Home</a> </li>
 
-                                <li class="sub-menu"><a href="#"><b>Collection</b></a>
+                                <li class="sub-menu"><a href="#">Collection</a>
                                     <div class="menu-an">
                                         <ul class=" col-md-2">
 
@@ -86,18 +88,95 @@
                                             <img src="img/logo_collection.webp">
                                         </div>
                                     </div>
-
-
                                   </li>
-                                <li class="sub-menu"><a href="#"><b>Shop</b></a> </li>
-                                <li class="sub-menu"><a href="#"><b>Indoor Light</b></a> </li>
-                                <li class="sub-menu"><a href="#"><b>Lighting</b></a> </li>
-                                <li class="sub-menu"><a href="#"><b>Outdoor</b></a> </li>
-                                <li class="sub-menu"><a href="#"><b>Pages</b></a> </li>
+                                <li class="sub-menu"><a href="#">Shop</a>
+                                    <div class="menu-an">
+                                        <ul class=" col-md-2">
+
+                                            <li><b>DOWNLIGHT</b></li>
+                                            <li>Surya</li>
+                                            <li>Murphy</li>
+                                            <li>Syska</li>
+                                            <li>Generic</li>
+                                            <li>Wipro</li>
+                                            <li>Reiz</li>
+                                            <li>Puffin</li>
+                                            <li>E-Ware</li>
+                                        </ul>
+                                        <ul class="  col-md-2">
+
+                                            <li><b>DOWNLIGHT</b></li>
+                                            <li>Surya</li>
+                                            <li>Murphy</li>
+                                            <li>Syska</li>
+                                            <li>Generic</li>
+                                            <li>Wipro</li>
+                                            <li>Reiz</li>
+                                            <li>Puffin</li>
+                                            <li>E-Ware</li>
+                                        </ul>
+                                        <ul class="  col-md-2">
+
+                                            <li><b>DOWNLIGHT</b></li>
+                                            <li>Surya</li>
+                                            <li>Murphy</li>
+                                            <li>Syska</li>
+                                            <li>Generic</li>
+                                            <li>Wipro</li>
+                                            <li>Reiz</li>
+                                            <li>Puffin</li>
+                                            <li>E-Ware</li>
+                                        </ul>
+                                        <div class=" col-md-6">
+                                            <img src="img/logo_collection.webp">
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="sub-menu"><a href="#">Indoor Light</a> </li>
+                                <li class="sub-menu"><a href="#">Lighting</a> </li>
+                                <li class="sub-menu"><a href="#">Outdoor</a> </li>
+                                <li class="sub-menu"><a href="#">Pages</a> </li>
                             </ul>
                        </div>
         </nav>
-    </div>
 </div>
+
+<section class="banner container">
+    <img src="img/img_doinen1.jpg" class="img_change">
+    <i class="fas fa-chevron-left slide-left-banner" onclick="click_prev_banner(this)"></i>
+    <i class="fas fa-chevron-right slide-right-banner" onclick="click_next_banner(this)"></i>
+</section>
+<section class="review container">
+        <div class="col-md-4 review_left"> <img src="img/img_review1.webp"></div>
+        <div class="col-md-4"><img src="img/img_review2.jpg"></div>
+        <div class="col-md-4 review_right" ><img src="img/img_review3.jpg"></div>
+</section>
+<section class="latestCollection container">
+    <h1>Latest Collection</h1>
+    <div>
+        <div class="luachon col-md-9">
+            <div class="list_luachon col-md-3">Featured Products</div>
+            <div class="list_luachon col-md-2">New Products</div>
+            <div class="list_luachon col-md-2">Best Seller</div>
+        </div>
+        <div class="control_luachon col-md-3">
+            <i class="fas fa-chevron-left slide-left-luachon" onclick="click_prev_luachon(this)"></i>
+            <i class="fas fa-chevron-right slide-right-luachon" onclick="click_next_luachon(this)"></i>
+        </div>
+    </div>
+    <div class="image_luachon ">
+        <div class="col-md-4 luachon_left">
+            <img src="img/img_luachon1.jpg">
+        </div>
+        <div class="col-md-4">
+            <img src="img/img_luachon2.jpg">
+        </div>
+        <div class="col-md-4 luachon_right">
+            <img src="img/img_luachon3.jpg">
+        </div>
+    </div>
+</section>
+<script src="JScode/JS_code_1.js"></script>
+
 </body>
 </html>

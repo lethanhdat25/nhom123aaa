@@ -1,9 +1,44 @@
+.top-head{
+    height: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid darkgray;
+}
+.gmail-sdt{
+    width: 300px;
+}
+.acc-giohang{
 
+    text-align: right;
+    float: right;
+    transform: translate(-30px, -20px);}
+.top-2-head{
+    margin-bottom:20px ;
+}
+.acc-giohang{
+    text-align: right;
+}
+.top-2-head input{
+    height: 40px;
+    width: 200px;
+}
+.top-2-head button{
+    height: 40px;
+}
+.lg_sr{
+    height: 50px;
+}
+
+#run{
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 50;
+}
 #run nav{
     text-align: center;
     background-color: #ff5050;
-    height: 40px;
-    line-height: 40px;
+    height: 80px;
+    line-height: 80px;
+
 }
 .sub-menu{
     list-style-type: none;
@@ -16,7 +51,7 @@
 
 }
 .sub-menu a{
-    color: black;
+    color: white;
     text-decoration: none;
 }
 .menu-an{
@@ -25,7 +60,8 @@
     position: absolute;
     right: 0px;
     text-align: left;
-    transition: 1.2s;
+    background-color: white;
+    line-height: 40px;
 }
 .menu-an li{
     list-style-type: none;
@@ -33,8 +69,99 @@
 .sub-menu:hover .menu-an{
     display: block;
     transition: tra 1.2s;
+    z-index: 30;
 ;
 }
 .menu-an img{
     width: 100%;
+}
+.menu-an b{
+    color:#ff5050;
+}
+.banner {
+    height: 430px;
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+.banner img{
+    width: 100%;
+}
+.slide-left-banner {
+    font-size: 40px;
+    color: darkgray;
+    position: absolute;
+    z-index: 20;
+    top: 45%;
+    left: 25px;
+    cursor: pointer;
+}
+.slide-right-banner{
+    font-size: 40px;
+    color: darkgray;
+    position: absolute;
+    z-index: 20;
+    top: 45%;
+    right: 25px;
+    cursor: pointer;
+}
+.review{
+    margin-top: 130px;
+}
+.review_left{
+    padding-left: 0;
+}
+.review_right{
+    padding-right: 0;
+}
+.review img{
+    width: 100%;
+}
+.latestCollection h1{
+    margin-bottom: 40px;
+}
+.luachon{
+    padding-right: 45px;
+    margin-bottom: 30px;
+}
+.luachon div{
+    height: 30px;
+    line-height: 30px;
+    float: right;
+}
+.latestCollection {
+    text-align: center;
+}
+.slide-left-luachon{
+    font-size: 20px;
+    color: darkgray;
+}
+.slide-right-luachon{
+    font-size: 20px;
+    color: darkgray;
+}
+.control_luachon{
+    text-align: right;
+    margin-bottom: 30px;
+}
+.list_luachon{
+    transition: 0.5s;
+}
+.list_luachon:hover{
+    background-color: #ff5050;
+    transition: 1s;
+}
+.control_luachon i{
+    padding-right: 20px;
+}
+.image_luachon img{
+    width: 100%;
+    border: 4px solid lightgray;
+    height: 423.86px;
+}
+.luachon_left{
+    padding-left: 0;
+}
+.luachon_right{
+    padding-right: 0;
 }
