@@ -20,13 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/JScode/JS_code_1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/tesst.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teest.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/page8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/duan1_thang12.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/duan1_thang12.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/duangroup.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/duangroup.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,9 +45,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -69,6 +78,9 @@
       <recent name="C:\Users\mac\Documents\nhom123aaa\css" />
       <recent name="C:\Users\mac\Documents\nhom123aaa" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\nhom123aaa\img" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -81,6 +93,28 @@
       <workItem from="1608263135864" duration="187000" />
       <workItem from="1608263359893" duration="5549000" />
       <workItem from="1608274440594" duration="54779000" />
+      <workItem from="1608515270654" duration="9511000" />
+      <workItem from="1608623606440" duration="17241000" />
+      <workItem from="1608656670260" duration="243000" />
+      <workItem from="1608686514581" duration="685000" />
+      <workItem from="1608695291488" duration="192000" />
+      <workItem from="1608711733774" duration="90000" />
+      <workItem from="1608712358835" duration="24000" />
+      <workItem from="1608712419819" duration="15000" />
+      <workItem from="1608712522358" duration="1135000" />
+      <workItem from="1608713695510" duration="1323000" />
+      <workItem from="1608715030551" duration="8000" />
+      <workItem from="1608715049965" duration="1014000" />
+      <workItem from="1608787644124" duration="171000" />
+      <workItem from="1608787834989" duration="2065000" />
+      <workItem from="1608789922505" duration="10000" />
+      <workItem from="1608789941644" duration="252000" />
+      <workItem from="1608790219289" duration="1622000" />
+      <workItem from="1608791860439" duration="13000" />
+      <workItem from="1608791881408" duration="68000" />
+      <workItem from="1608791960733" duration="397000" />
+      <workItem from="1608797702081" duration="8926000" />
+      <workItem from="1608806720622" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1608303939187</created>
@@ -105,6 +139,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="up" />
@@ -128,6 +163,10 @@
     </state>
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608798108700">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1608798108700" />
     <state x="359" y="170" width="670" height="590" key="search.everywhere.popup" timestamp="1608466516469">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

@@ -1,0 +1,208 @@
+.top-head{
+    height: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid darkgray;
+}
+.gmail-sdt{
+    width: 300px;
+}
+.acc-giohang{
+
+    text-align: right;
+    float: right;
+    transform: translate(-30px, -20px);}
+.top-2-head{
+    margin-bottom:20px ;
+}
+.acc-giohang{
+    text-align: right;
+}
+.top-2-head input{
+    height: 40px;
+    width: 200px;
+}
+.top-2-head button{
+    height: 40px;
+}
+.lg_sr{
+    height: 50px;
+}
+
+#run{
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 50;
+}
+#run nav{
+    text-align: center;
+    background-color: #ff5050;
+    height: 80px;
+    line-height: 80px;
+
+}
+.sub-menu{
+    list-style-type: none;
+    display: inline-table;
+    color: black;
+    padding-right: 30px;
+}
+.ssmenu {
+    position: relative;
+
+}
+.sub-menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu-an{
+    display: none;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    text-align: left;
+    background-color: white;
+    line-height: 40px;
+}
+.menu-an li{
+    list-style-type: none;
+}
+.sub-menu:hover .menu-an{
+    display: block;
+    transition: tra 1.2s;
+    z-index: 30;
+;
+}
+.menu-an img{
+    width: 100%;
+}
+.menu-an b{
+    color:#ff5050;
+}
+.pages{
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+.pages1{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+    color: black;
+}
+.pages1 a{
+    text-decoration: none;
+    color: black;
+}
+.pages1 a:hover{
+    color: red;
+}
+
+.background{
+    width: 100%;
+    background-color: yellow;
+}
+.image{
+    margin-top: 60px;
+    float: left;
+    margin-left: 25px;
+}
+.background-min{
+    width: 541.89px;
+    box-shadow: 0px 0px 5px black;
+    float: right;
+    margin-top: 60px;
+    margin-right: 25px;
+    height: 710px;
+}
+.font1{
+    margin-left: 40px;
+    padding-top: 15px;
+}
+.ccc{
+    margin-left: 40px;
+    margin-top: -1px;
+}
+.font2{
+    width: 460px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-left: 40px;
+}
+.menu1 ul li{
+    list-style: none;
+    float: left;
+    width: 140px;
+}
+.menu1{
+    margin-left: 35px;
+    margin-top: 90px;
+}
+.font-max1{
+    background-color: #f4f4f4;
+    width: 100%;
+    margin-top: 60px;
+}
+.font3{
+    text-align: center;
+    padding-top: 60px;
+    background-color: #f4f4f4;
+}
+.background-min1{
+    width: 331.25px;
+    height: 586.33px;
+    background-color: white;
+    float: left;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+.background-min2{
+    width: 271.25px;
+    height: 300px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.font4{
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+}
+.image1{
+    border-radius: 50%;
+}
+.font5{
+    text-align: center;
+    width: 271.25px;
+    line-height: 25px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.enter{
+    margin-right: 20px;
+}
+.button{
+    width: 121px;
+    height: 46px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #3c3c3c;
+    background-color: white;
+    border: 1px solid red;
+    box-shadow: 0px 0px 3px red;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background-color: red;
+    color: white;
+}
+
+.button:active {
+    background-color: red;
+    transform: translateY(4px);
+}
+
