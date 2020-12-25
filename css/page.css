@@ -3,6 +3,11 @@
     margin-bottom: 20px;
     border-bottom: 1px solid darkgray;
 }
+.container{
+    width: 1170px;
+    margin: auto;
+    float: none;
+}
 .gmail-sdt{
     width: 300px;
 }
@@ -97,112 +102,56 @@
 .pages1 a:hover{
     color: red;
 }
-
-.background{
-    width: 100%;
+.section{
     background-color: yellow;
 }
-.image{
-    margin-top: 60px;
-    float: left;
-    margin-left: 25px;
+.section-1{
+    width: 100%;
 }
-.background-min{
-    width: 541.89px;
-    box-shadow: 0px 0px 5px black;
-    float: right;
+.section-2{
+    width: 1083.77px;
+    height: 714.82px;
+    background-color: #5bc0de;
+    float: none;
+    margin: auto;
     margin-top: 60px;
-    margin-right: 25px;
-    height: 710px;
+}
+.photo{
+    width: 521.89px;
+    height: 528.68px;
+}
+.image{
+    width: 100%;
+}
+.section-3{
+    width: 50%;
+    float: left;
+}
+.section-4{
+    width: 50%;
+
+    float: right;
+    box-shadow: 0px 0px 5px black;
 }
 .font1{
+    float: left;
     margin-left: 40px;
-    padding-top: 15px;
+    margin-top: 20px;
 }
-.ccc{
-    margin-left: 40px;
-    margin-top: -1px;
+.hr{
+    border-top: 1px solid black;
+}
+.ke-ngang{
+    margin-top: -10px;
 }
 .font2{
-    width: 460px;
-    font-size: 15px;
-    line-height: 25px;
-    margin-left: 40px;
-}
-.menu1 ul li{
-    list-style: none;
     float: left;
-    width: 140px;
-}
-.menu1{
-    margin-left: 35px;
-    margin-top: 90px;
-}
-.font-max1{
-    background-color: #f4f4f4;
-    width: 100%;
-    margin-top: 60px;
+    margin-left: 40px;
+    margin-top: 20px;
 }
 .font3{
-    text-align: center;
-    padding-top: 60px;
-    background-color: #f4f4f4;
-}
-.background-min1{
-    width: 331.25px;
-    height: 586.33px;
-    background-color: white;
-    float: left;
-    margin-top: 50px;
-    margin-left: 30px;
-}
-.background-min2{
-    width: 271.25px;
-    height: 300px;
-    margin-top: 20px;
-    margin-left: 30px;
-}
-.font4{
-    text-align: center;
-    font-size: 15px;
-    padding-top: 30px;
-}
-.image1{
-    border-radius: 50%;
-}
-.font5{
-    text-align: center;
-    width: 271.25px;
-    line-height: 25px;
-    margin-left: 30px;
-    margin-top: 30px;
-}
-.enter{
-    margin-right: 20px;
-}
-.button{
-    width: 121px;
-    height: 46px;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
     color: #3c3c3c;
-    background-color: white;
-    border: 1px solid red;
-    box-shadow: 0px 0px 3px red;
-    margin-left: 110px;
-    margin-top: 30px;
+    font-size: 15px;
+    line-height: 24px;
+    width: 460px;
 }
-
-.button:hover {
-    background-color: red;
-    color: white;
-}
-
-.button:active {
-    background-color: red;
-    transform: translateY(4px);
-}
-
