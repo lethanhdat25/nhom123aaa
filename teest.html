@@ -1,31 +1,67 @@
-
-
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset = "UTF-8">
-    <title>Event</title>
-    <style>
-        h1{
-            transition: 2s;
-            height: 30px;
-        }
-        .move{
-            transform:translate(200px,500px)}
-    </style>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="css/tesst.css">
 </head>
 <body>
-<h1 id="txt1">Chạy xa anh</h1>
-<button id="nut1">Click me</button>
-<script>
-    document.addEventListener("DOMContentLoaded",function(){
-        var nut = document.getElementById('nut1');
-        var txt = document.getElementById('txt1');
-        nut.onclick = function(){
-            txt.style.backgroundColor='pink';
-        }
-    },false)
+<div class="benngoai">
+    <div class="owl-carousel owl-theme">
+    <div class="item"><h4>1</h4>
+    </div>
+    </div>
+</div>
+    <div class="benngoai">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><h4>2</h4></div>
+        </div>
+    </div>
+        <div class="benngoai">
+            <div class="owl-carousel owl-theme">
+                <div class="item"><h4>3</h4></div>
+            </div>
+        </div>
+            <div class="benngoai">
+                <div class="owl-carousel owl-theme">
+                    <div class="item"><h4>4</h4></div>
+                </div>
+            </div>
+                <div class="benngoai">
+                    <div class="owl-carousel owl-theme">
+                        <div class="item"><h4>5</h4></div>
+                    </div>
+                </div>
+                    <div class="benngoai">
+                        <div class="owl-carousel owl-theme">
+                            <div class="item"><h4>6</h4></div>
+                        </div>
+                    </div>
+                        <div class="benngoai">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item"><h4>7</h4></div>
+                            </div>
+                        </div>
+</div>
+
+    <button class="play"> Play</button>
+    <button class="stop"> Stop</button>
+
+    <script>
+    var owl = $('.owl-carousel');
+    owl.owlCarousel({
+        items:3,
+        loop:true,
+        margin:10,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true
+    });
+
+
 </script>
 </body>
-</html>
 </html>

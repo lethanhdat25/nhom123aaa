@@ -117,7 +117,7 @@
 .review img{
     width: 100%;
 }
-.latestCollection h1{
+.titleProduct h1{
     margin-bottom: 40px;
 }
 .luachon{
@@ -129,15 +129,17 @@
     line-height: 30px;
     float: right;
 }
-.latestCollection {
+.titleProduct {
     text-align: center;
 }
 .slide-left-luachon{
     font-size: 20px;
+    cursor: pointer;
     color: darkgray;
 }
 .slide-right-luachon{
     font-size: 20px;
+    cursor: pointer;
     color: darkgray;
 }
 .control_luachon{
@@ -164,4 +166,94 @@
 }
 .luachon_right{
     padding-right: 0;
+}
+.thaydoimau{
+    background-color: #ff5050;
+}
+.thongtin_luchon{
+    position: absolute;
+    top: 320px;
+    left: 12%;
+
+}
+.ten_image_left{
+    background-color: yellow;
+    height: 30px;
+}
+.review_sale{
+    margin-top: 50px;
+}
+.review_sale img{
+    width: 100%;
+    position: relative;
+}
+.text_sale{
+    position: absolute;
+    top: 50px;
+    left: 60px;
+    width: 70%;
+    font-size: 22px;
+    color: dimgrey;
+}
+.text_sale button{
+    margin-top: 10px;
+    border: 3px double dimgray;
+    transition: 1s;
+}
+.text_sale button:hover{
+    transition: 1s;
+    background-color: dimgray;
+    color: white;
+}
+#text_sale_2 h1{
+    color: saddlebrown;
+}
+#text_sale_2 button{
+    border: 3px double saddlebrown;
+}
+#text_sale_2 button:hover{
+    background-color: saddlebrown;
+    color: white;
+}
+.ContentBlog img{
+    width: 100%;
+}
+.TextContent{
+    text-align: left;
+}
+.ReadMore button{
+    height: 40px;
+    width: 120px;
+    border: 3px double #ff5050;
+    background-color: white;
+    transition: 1s;
+}
+.ReadMore button:hover{
+    color: white;
+    background-color: #ff5050;
+    transition: 1s;
+}
+.TextContent h3{
+    height: 52px;
+}
+.lists ul{
+    padding-left: 0;
+}
+.lists span{
+    font-size: 20px;
+    font-weight: lighter;
+    color: #ff5050;
+}
+
+.lists ul li{
+    list-style-type: none;
+    margin-top: 20px;
+}
+.lists input{
+    height: 40px;
+    margin-top: 40px;
+}
+.googlemap{
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
