@@ -1,7 +1,6 @@
 var slide_img=document.querySelector('.img_change');
 var images_banner=["img_doinen1.jpg","img_doinen2.jpg","img_doinen3.jpg"]
 var images_luachon=["img_luachon1.jpg","img_luachon2.jpg","img_luachon3.jpg","img_luachon4.jpg","img_luachon5.jpg","img_luachon6.jpg","img_luachon7.jpg","img_luachon8.jpg"]
-var img_list1=["img_luachon1.jpg","img_luachon1.jpg","img_luachon1.jpg","img_luachon1.jpg","img_luachon1.jpg","img_luachon1.jpg"]
 var i=0;
 var x=0;
 var y=1;
@@ -30,20 +29,17 @@ function click_list_1(){
     txt1.classList.add('thaydoimau');
     txt2.classList.remove('thaydoimau');
     txt3.classList.remove('thaydoimau');
-    images_luachon=["img_luachon1.jpg","img_luachon2.jpg","img_luachon3.jpg","img_luachon4.jpg","img_luachon5.jpg","img_luachon6.jpg","img_luachon7.jpg","img_luachon8.jpg"]
 
 }
 function click_list_2(){
     txt2.classList.add('thaydoimau');
     txt1.classList.remove('thaydoimau');
     txt3.classList.remove('thaydoimau');
-    images_luachon=["img_luachon2.jpg","img_luachon2.jpg","img_luachon3.jpg","img_luachon4.jpg","img_luachon5.jpg","img_luachon6.jpg","img_luachon7.jpg","img_luachon8.jpg"]
 }
 function click_list_3(){
     txt3.classList.add('thaydoimau');
     txt1.classList.remove('thaydoimau');
     txt2.classList.remove('thaydoimau');
-    images_luachon=["img_luachon3.jpg","img_luachon3.jpg","img_luachon3.jpg","img_luachon4.jpg","img_luachon5.jpg","img_luachon6.jpg","img_luachon7.jpg","img_luachon8.jpg"]
 
 }
 
@@ -58,8 +54,8 @@ function luachon(){
         "            <img src=\"img/"+images_luachon[z]+"\" class=\"luachon_right\">\n" +
         "        </div>"
 }
-var gan=document.getElementById("image_luachon");
-gan.innerHTML=luachon();
+var ganzzz=document.getElementById("image_luachon");
+ganzzz.innerHTML=luachon();
 /*-------luachon-----*/
 var luachon_left=document.querySelector('.luachon_left');
 var luachon_mid=document.querySelector('.luachon_mid');
@@ -88,3 +84,26 @@ function change_luachon(){
 ]    ;
     return dulieu ;
 }
+/*--------page--------*/
+var img_reviewpage_left=["page2.jpg","page3.jpg","page4.jpg"];
+var u=0;
+var l=1;
+var o=2;
+
+function anhcuapage(){
+    return "<i class=\"fas fa-chevron-left slide-left-page col-md-1\" onclick=\"click_prev_page(this)\"></i>\n" +
+        "                        <div class=\"image_review col-md-3 page_left\">\n" +
+        "                            <img src=\"img/img_doinen1.jpg\" class=\"img_change reviewpage_left\">\n" +
+        "                        </div>\n" +
+        "                        <div class=\"image_review col-md-3 page_mid\">\n" +
+        "                            <img src=\"img/img_doinen1.jpg\" class=\"img_change reviewpage_mid\">\n" +
+        "                        </div>\n" +
+        "                        <div class=\"image_review col-md-3 page_right\">\n" +
+        "                            <img src=\"img/img_doinen1.jpg\" class=\"img_change reviewpage_right\">\n" +
+        "                        </div>\n" +
+        "\n" +
+        "                    <i class=\"fas fa-chevron-right slide-right-page col-md-1\" onclick=\"click_next_page(this)\"></i>"
+}
+var gan2=document.getElementById("review_page");
+gan2.innerHTML=anhcuapage();
+
