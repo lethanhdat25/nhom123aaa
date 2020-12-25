@@ -20,37 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/product.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh10product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh11product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh12product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh13product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh14product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh15product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh16product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh17product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh18product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh1product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh2product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh3product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh4product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh5product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh6product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh7product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh8product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/anh9product.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mauden.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/maudo.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mauhong.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/maulon.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/maunau.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mausandal.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mautim.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mautrang.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mauvang.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/mauxanh.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sanpham.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JScode/JS_code_1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/tesst.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teest.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/duan1_thang12.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/duan1_thang12.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,9 +36,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -93,9 +69,6 @@
       <recent name="C:\Users\mac\Documents\nhom123aaa\css" />
       <recent name="C:\Users\mac\Documents\nhom123aaa" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\WebstormProjects\nhom123aaa\img" />
-    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -108,9 +81,6 @@
       <workItem from="1608263135864" duration="187000" />
       <workItem from="1608263359893" duration="5549000" />
       <workItem from="1608274440594" duration="54779000" />
-      <workItem from="1608627364575" duration="18598000" />
-      <workItem from="1608685660612" duration="998000" />
-      <workItem from="1608862668833" duration="7845000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1608303939187</created>
@@ -135,7 +105,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="up" />
@@ -154,17 +123,15 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
-    <state x="120" y="87" width="1296" height="681" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608865844216">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608478306949">
+      <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
-    <state x="120" y="87" width="1296" height="681" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1608865844216" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
-    <state x="431" y="175" width="804" height="608" key="search.everywhere.popup" timestamp="1608645058894">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="359" y="170" width="670" height="590" key="search.everywhere.popup" timestamp="1608466516469">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="359" y="170" width="670" height="590" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1608466516469" />
-    <state x="431" y="175" width="804" height="608" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1608645058894" />
     <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1608268042112" />
     <state x="599" y="251" key="svn.repositoryBrowser" timestamp="1608263443443">
       <screen x="0" y="0" width="1536" height="920" />
