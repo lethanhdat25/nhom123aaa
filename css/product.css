@@ -175,6 +175,10 @@ body{
 .thinhpro a{
     color: #0f0f0f;
     text-decoration: none;
+    transition: 0.5s;
+}
+.thinhpro a:hover{
+    color: #ff253a;
 }
 .thinh1{
     width: 100%;
@@ -230,9 +234,14 @@ body{
 .thinh2_3 a{
     color: black;
     text-decoration: none;
+    transition: 0.5s;
 }
 .thinh2_3 a:hover{
     color: red;
+}
+ .thinh2_2 a:hover{
+    color: red;
+
 }
 .thinh2_3 img{
     border-radius: 100%;
@@ -301,6 +310,7 @@ body{
 article a{
     text-align: center;
     color: #ff5050;
+    transition: 0.5s;
 }
 .thinh3_3 select{
     width: 200px;
@@ -319,12 +329,11 @@ article a{
     font-size: 15px;
     font-family: Roboto;
 }
-.col-md-8{
-    float: right;
+.new input{
+ width: 110px;
 }
 ul{
     padding: 0;
-
 }
 
 .thinh2_5_1 h4{
@@ -341,15 +350,6 @@ ul{
 }
 .thinh2_5_2 ul li span{
     color: black;
-}
-.col-md-3{
-    padding: 0;
-}
-.col-md-9{
-    margin-top: 10px;
-}
-div.items{
-
 }
 div.item{
     padding: 20px;
@@ -404,14 +404,24 @@ div.detail a:hover{
 .googlemap{
     margin-top: 25px;
     margin-bottom: 25px;
+    padding: 0;
 }
 .lists a{
     color: black;
     text-decoration: none;
-    font-family: Roboto;
     font-size: 15px;
+    transition: 0.5s;
 }
 .lists i{
     margin: auto;
     color: black;
+}
+.contact{
+    padding-left: 100px;
+}
+.col-md-3{
+    padding: 0;
+}
+.lists a:hover{
+    color: #ff5050;
 }
