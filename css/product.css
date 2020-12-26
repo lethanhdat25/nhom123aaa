@@ -425,3 +425,36 @@ div.detail a:hover{
 .lists a:hover{
     color: #ff5050;
 }
+.border{
+    float: none;
+    margin: auto;
+    width: 78%;
+    border-bottom: 1px solid black;
+}
+.last{
+    padding-left: 150px;
+    font-size: 15px;
+}
+.last ul li{
+    list-style: none;
+    float: left;
+}
+.copy{
+    float: left;
+    padding-left: 20px;
+    font-size: 18px;
+}
+.icon{
+    margin-left: 10px;
+}
+.card{
+    float: right;
+}
+.last a{
+    color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.last a:hover{
+    color: #ff253a;
+}
