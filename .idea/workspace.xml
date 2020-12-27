@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="">
+    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="code mới">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +34,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="JavaScript File" />
         <option value="HTML File" />
         <option value="CSS File" />
-        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -61,12 +63,12 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\WebstormProjects\nhom123aaa\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mac\Documents\nhom123aaa\css" />
       <recent name="C:\Users\mac\Documents\nhom123aaa" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\nhom123aaa\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -80,7 +82,28 @@
       <workItem from="1608263135864" duration="187000" />
       <workItem from="1608263359893" duration="5549000" />
       <workItem from="1608274440594" duration="54779000" />
-      <workItem from="1609092441254" duration="1678000" />
+      <workItem from="1608515270654" duration="9511000" />
+      <workItem from="1608623606440" duration="17241000" />
+      <workItem from="1608656670260" duration="243000" />
+      <workItem from="1608686514581" duration="685000" />
+      <workItem from="1608695291488" duration="192000" />
+      <workItem from="1608711733774" duration="90000" />
+      <workItem from="1608712358835" duration="24000" />
+      <workItem from="1608712419819" duration="15000" />
+      <workItem from="1608712522358" duration="1135000" />
+      <workItem from="1608713695510" duration="1323000" />
+      <workItem from="1608715030551" duration="8000" />
+      <workItem from="1608715049965" duration="1014000" />
+      <workItem from="1608787644124" duration="171000" />
+      <workItem from="1608787834989" duration="2065000" />
+      <workItem from="1608789922505" duration="10000" />
+      <workItem from="1608789941644" duration="252000" />
+      <workItem from="1608790219289" duration="1622000" />
+      <workItem from="1608791860439" duration="13000" />
+      <workItem from="1608791881408" duration="68000" />
+      <workItem from="1608791960733" duration="397000" />
+      <workItem from="1608797702081" duration="8926000" />
+      <workItem from="1608806720622" duration="2776000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1608303939187</created>
@@ -90,18 +113,18 @@
       <updated>1608303939188</updated>
     </task>
     <task id="LOCAL-00002" summary="up">
-      <created>1609000145768</created>
+      <created>1608899530636</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1609000145769</updated>
+      <updated>1608899530636</updated>
     </task>
-    <task id="LOCAL-00003" summary="up">
-      <created>1609001832166</created>
+    <task id="LOCAL-00003" summary="code mới">
+      <created>1609095048614</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1609001832166</updated>
+      <updated>1609095048614</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
@@ -123,13 +146,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="up" />
-    <option name="LAST_COMMIT_MESSAGE" value="up" />
+    <MESSAGE value="code mới" />
+    <option name="LAST_COMMIT_MESSAGE" value="code mới" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="318" y="0" key="CommitChangelistDialog2" timestamp="1609001831644">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="128" y="96" key="DiffContextDialog" timestamp="1608899554468">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="318" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609001831644" />
+    <state x="128" y="96" key="DiffContextDialog/0.0.1280.680@0.0.1280.680" timestamp="1608899554468" />
     <state x="549" y="202" key="FileChooserDialogImpl" timestamp="1608263506592">
       <screen x="0" y="0" width="1536" height="920" />
     </state>
@@ -138,24 +162,21 @@
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="640" y="358" key="Github.ShareDialog/0.0.1536.920@0.0.1536.920" timestamp="1608263386419" />
-    <state x="288" y="144" key="Vcs.Push.Dialog.v2" timestamp="1609001833590">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="240" y="119" key="Vcs.Push.Dialog.v2" timestamp="1609095113543">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="240" y="119" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609095113543" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
-    <state x="288" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609001833590" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608478306949">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608872703673">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608859286329">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608872703673" />
-    <state x="425" y="187" key="run.anything.popup" timestamp="1609000534543">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1609000534543" />
+    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1608798108700" />
+    <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1608859286329" />
     <state x="359" y="170" width="670" height="590" key="search.everywhere.popup" timestamp="1608466516469">
       <screen x="0" y="0" width="1280" height="800" />
     </state>

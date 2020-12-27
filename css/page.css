@@ -387,10 +387,79 @@ span .fa-train{
     height: 270px;
     margin-top: 100px;
 }
-.background-min-min4{
+.khung{
     width: 270.94px;
     height: 157.33px;
-    background-color: yellow;
-    margin-left: 30px;
-    padding-top: 40px;
+    margin-left: 5px;
+    margin-top: 60px;
+    float: left;
+    cursor: pointer;
 }
+.khung-min{
+    width: 100%;
+    height: 50%;
+    float: top;
+}
+.khung-min1{
+    width: 100%;
+    height: 50%;
+    float: bottom;
+}
+.font12{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+.font13{
+    color: white;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 17px;
+}
+.khung-maxmin{
+    width: 78.66px;
+    height: 78.66px;
+    background-color: white;
+    margin: auto;
+    float: none;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.khung-minmax{
+    height: 90%;
+    width: 90%;
+    background-color: black;
+    float: none;
+    border-radius: 50%;
+    margin: auto;
+    margin-top: 4px;
+}
+.fa-gem{
+    color: white;
+    font-size: 22px;
+    line-height: 70px;
+    margin-left: 20px;
+}
+.fa-coffee{
+    color: white;
+    font-size: 22px;
+    line-height: 70px;
+    margin-left: 20px;
+
+}
+.fa-adjust{
+    color: white;
+    font-size: 22px;
+    line-height: 70px;
+    margin-left: 23px;
+}
+.fa-building{
+    color: white;
+    font-size: 22px;
+    line-height: 70px;
+    margin-left: 25px;
+}
+.khung-minmax:hover{
+    background-color: #ff5050;
+}
+
