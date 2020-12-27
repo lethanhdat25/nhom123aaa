@@ -209,7 +209,7 @@ body{
     border-bottom: 1px solid #ff5050;
     padding: 0;
 }
-.thinh2_2 ul li span{
+.thinh2_2 ul li {
     color: black;
     padding: 0;
 }
@@ -239,9 +239,25 @@ body{
 .thinh2_3 a:hover{
     color: red;
 }
- .thinh2_2 a:hover{
-    color: red;
+.thinh2_2 a{
+    text-decoration: none;
+    transition: 0.5s;
+    color: black;
+}
+.thinh2_2 ul li {
+    color: black;
+    list-style-type: none;
+}
 
+.thinh2_2 ul li:before {
+    color: red;
+    float: left;
+    margin: 0 0 0 -1em;
+    width: 1em;
+    content: '\2022';
+}
+.thinh2_2 a:hover{
+    color: red;
 }
 .thinh2_3 img{
     border-radius: 100%;
@@ -263,8 +279,33 @@ body{
     color: #ff253a;
     border-bottom: 1px solid #ff253a;
 }
-.thinh2_4 ul li span{
+.thinh2_4 a{
     color: black;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.thinh2_4 a:hover{
+    color: #ff253a;
+}
+.thinh2_4 ul li {
+    color: black;
+    list-style-type: none;
+}
+
+.thinh2_4 ul li:before {
+    color: red;
+    float: left;
+    margin: 0 0 0 -1em;
+    width: 1em;
+    content: '\2022';
+}
+.thinh2_5 a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+.thinh2_5 a:hover{
+    color: #ff253a;
 }
 .thinh2_6_1{
     background-color: #ff5050;
@@ -281,8 +322,25 @@ body{
     color: #ff253a;
     border-bottom: 1px solid #ff253a;
 }
-.thinh2_6 ul li span{
+.thinh2_6 a{
+    text-decoration: none;
     color: black;
+    transition: 0.5s;
+}
+.thinh2_6 a:hover{
+    color: #ff253a;
+}
+.thinh2_6 ul li {
+    color: black;
+    list-style-type: none;
+}
+
+.thinh2_6 ul li:before {
+    color: red;
+    float: left;
+    margin: 0 0 0 -1em;
+    width: 1em;
+    content: '\2022';
 }
 .thinh2_7 h4{
     line-height: 40px;
@@ -306,11 +364,15 @@ body{
     color: black;
     border: 1px solid #ff253a;
     margin-left: 10px;
+    transition: 0.5s;
 }
 article a{
     text-align: center;
     color: #ff5050;
     transition: 0.5s;
+}
+.thinh3 i:hover{
+    color: #ff253a;
 }
 .thinh3_3 select{
     width: 200px;
@@ -348,8 +410,17 @@ ul{
     margin-top: 20px;
     border-bottom: 1px solid #ff5050;
 }
-.thinh2_5_2 ul li span{
+.thinh2_5 ul li {
     color: black;
+    list-style-type: none;
+}
+
+.thinh2_5 ul li:before {
+    color: red;
+    float: left;
+    margin: 0 0 0 -1em;
+    width: 1em;
+    content: '\2022';
 }
 div.item{
     padding: 20px;
@@ -457,4 +528,8 @@ div.detail a:hover{
 }
 .last a:hover{
     color: #ff253a;
+}
+.icon ul li{
+    margin-left: 20px;
+    padding: 0;
 }
