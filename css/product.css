@@ -604,3 +604,12 @@ div.detail a:hover{
 .card ul li{
     margin-left: 5px;
 }
+.anh2{
+    border: 1px solid darkgray;
+}
+.col-md-6{
+    padding: 0;
+}
+.read a{
+    border: 1px solid #ff253a;
+}
