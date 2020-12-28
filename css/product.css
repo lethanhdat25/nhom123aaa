@@ -1,37 +1,80 @@
 
 body{
-    font-family: Roboto;
+    font-family: Roboto, sans-serif;
 }
 .top-head{
     height: 30px;
     margin-bottom: 20px;
     border-bottom: 1px solid darkgray;
 }
-.gmail-sdt{
-    width: 300px;
-}
-.acc-giohang{
 
-    text-align: right;
-    float: right;
-    transform: translate(-30px, -20px);}
 .top-2-head{
     margin-bottom:20px ;
-}
-.acc-giohang{
-    text-align: right;
 }
 .top-2-head input{
     height: 40px;
     width: 200px;
 }
+.gmail-sdt li{
+    display: inline-table;
+    list-style: none;
+    margin-left: 20px;
+}
+.gmail-sdt ul{
+    width: 500px;
+    margin-top: 10px;
+}
+.acc-giohang ul li{
+    float: left;
+    list-style: none;
+}
+.gio2{
+    margin-left: 10px;
+    background-color: #ff5050;
+    height: 20px;
+    width: 80px;
+    text-align: center;
+    color: white;
+}
+.gio2 a{
+    text-decoration: none;
+    color: white;
+}
+.acc{
+    margin-left: 8px;
+}
+.money{
+    margin-left: 8px;
+    border: none;
+}
+.acc-giohang{
+    float: right;
+}
+.gmail-sdt a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.gmail-sdt a:hover{
+    color: #ff5050;
+}
 .top-2-head button{
     height: 40px;
 }
-.lg_sr{
+.lg_sr input{
     height: 50px;
+    width: 300px;
+    background-color: #f0f0f0;
+    border: none;
 }
-
+.lg_sr button{
+    color: white;
+    background-color: #ff5050;
+    border: none;
+    margin-left: -40px;
+    height: 30px;
+    width: 30px;
+}
 #run{
     /*position: fixed;*/
     width: 100%;
@@ -291,7 +334,9 @@ body{
     color: black;
     list-style-type: none;
 }
-
+.thinh2_4{
+    line-height: 40px;
+}
 .thinh2_4 ul li:before {
     color: red;
     float: left;
@@ -299,13 +344,28 @@ body{
     width: 1em;
     content: '\2022';
 }
+.thinh2_5{
+    line-height: 40px;
+}
 .thinh2_5 a{
     text-decoration: none;
     color: black;
     transition: 0.5s;
 }
+ .ins{
+    transform: translateY(-227px);
+    opacity: 0;
+}
+.ins:hover{
+    background:url("../img/blog3.webp");
+    transition: 1.2s;
+    opacity: 1;
+}
 .thinh2_5 a:hover{
     color: #ff253a;
+}
+.thinh2_6{
+    line-height: 40px;
 }
 .thinh2_6_1{
     background-color: #ff5050;
@@ -390,6 +450,7 @@ article a{
 .thinh3{
     font-size: 15px;
     font-family: Roboto;
+    padding-top: 10px;
 }
 .new input{
  width: 110px;
@@ -532,4 +593,14 @@ div.detail a:hover{
 .icon ul li{
     margin-left: 20px;
     padding: 0;
+}
+.input button{
+    position: absolute;
+    top: 49px;
+    right: 110px;
+    border: none;
+    background-color: white;
+}
+.card ul li{
+    margin-left: 5px;
 }
