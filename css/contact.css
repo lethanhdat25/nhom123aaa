@@ -1,0 +1,201 @@
+.top-head{
+    height: 30px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid darkgray;
+}
+.container{
+    width: 1170px;
+    margin: auto;
+    float: none;
+}
+.gmail-sdt{
+    width: 300px;
+}
+.acc-giohang{
+
+    text-align: right;
+    float: right;
+}
+.top-2-head{
+    margin-bottom:20px ;
+}
+.acc-giohang{
+    text-align: right;
+}
+.top-2-head input{
+    height: 40px;
+    width: 200px;
+}
+.top-2-head button{
+    height: 40px;
+}
+.lg_sr{
+    height: 50px;
+}
+
+#run{
+    /*position: fixed;*/
+    width: 100%;
+    z-index: 50;
+}
+#run nav{
+    text-align: center;
+    background-color: #ff5050;
+    height: 80px;
+    line-height: 80px;
+
+}
+.sub-menu{
+    list-style-type: none;
+    display: inline-table;
+    color: black;
+    padding-right: 30px;
+}
+.ssmenu {
+    position: relative;
+
+}
+.sub-menu a{
+    color: white;
+    text-decoration: none;
+}
+.menu-an{
+    display: none;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    text-align: left;
+    background-color: white;
+    line-height: 40px;
+}
+.menu-an li{
+    list-style-type: none;
+}
+.sub-menu:hover .menu-an{
+    display: block;
+    transition: tra 1.2s;
+    z-index: 30;
+;
+}
+.menu-an img{
+    width: 100%;
+}
+.menu-an b{
+    color:#ff5050;
+}
+.pages{
+    background-color: #f4f4f4;
+    text-decoration: none;
+}
+.pages1{
+    width: 100%;
+    height: 150px;
+    text-align: center;
+    font-size: 15px;
+    padding-top: 30px;
+    color: black;
+}
+.pages1 a{
+    text-decoration: none;
+    color: black;
+}
+.pages1 a:hover{
+    color: red;
+}
+.pages3{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: black;
+}
+.pages2{
+    margin-top: 50px;
+}
+.back-ground{
+    width: 270.94px;
+    height: 156.33px;
+    float: left;
+    margin-left: 10px;
+}
+.back-ground1{
+    width: 230.94px;
+    margin: auto;
+    float: none;
+}
+.font2{
+    padding-top: 10px;
+}
+.font1{
+    color: grey;
+}
+.icons{
+    color: white;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 50%;
+    float: none;
+    margin: auto;
+
+}
+.fa-location-arrow{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.fa-envelope{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.fa-phone-alt {
+    margin-top: 15px;
+    font-size: 20px;
+}
+.fa-clock{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.pages4{
+    margin-top: 100px;
+}
+.map{
+    width: 100%;
+    height: 578px;
+    border: none;
+}
+.pages5{
+    width: 939.2px;
+    height: 500px;
+    background-color: yellow;
+    float: none;
+    margin: auto;
+    margin-top: 60px;
+}
+.hr{
+    border-top: 2px solid red;
+    margin-top: -2px;
+}
+.name{
+    width: 450.81px;
+    height: 48.67px;
+    margin-top: 10px;
+    float: left;
+}
+.gmail{
+    width: 450.81px;
+    height: 48.67px;
+    float: left;
+    margin-top: 10px;
+}
+.phone{
+    width: 450.81px;
+    margin-top: 10px;
+    float: left;
+    height: 48.67px;
+}
+.message{
+    float: right;
+    width: 450.81px;
+    height: 148.67px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
