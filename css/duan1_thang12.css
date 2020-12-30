@@ -131,6 +131,8 @@
 }
 .titleProduct {
     text-align: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 30px;
 }
 .slide-left-luachon{
     font-size: 20px;
@@ -256,4 +258,81 @@
 .googlemap{
     margin-top: 25px;
     margin-bottom: 25px;
+}
+.soluong_giohang{
+    height: 30px;
+    width: 80px;
+    text-align: center;
+}
+.sanphamI{
+    height: 70px;
+    line-height: 70px;
+}
+.sanphamI button{
+    height: 30px;
+    line-height: 3px;
+
+}
+.Quantity button{
+    width: 30px;
+    height: 30px;
+
+}
+.button_backgroundcolor{
+    background-color: white;
+}
+.Buy_it{
+    height: 40px;
+    width: 160px;
+    border: 3px double #ff5050;
+    background-color: white;
+    transition: 0.5s;
+
+}
+.Buy_it:hover {
+    background-color: #ff5050;
+    color: white;
+    transition: 0.5s;
+}
+.write:hover{
+    cursor: pointer;
+    color: #ff5050;
+}
+.star-box {
+    float: left;
+    width: 50px;
+    height: 30px;
+    background-image: url("../img/star-off.png");
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    cursor: pointer;
+
+}
+.star-rate{
+    float: left;
+    width: 50px;
+    height: 30px;
+    background-image: url("../img/star-on.png");
+    background-repeat: no-repeat;
+    transition: 0.5s;
+    cursor: pointer;
+}
+#button_rv{
+    height: 50px;
+    width: 130px;
+    float: right;
+    transition: 1s;
+    border: 3px double #f50505;
+    background-color: white;
+}
+#button_rv:hover{
+    background-color: #ff5050;
+    color: white;
+    transition: 1s;
+}
+.andi_rv{
+    display: none;
+}
+.hienra_rv{
+    display: block;
 }
