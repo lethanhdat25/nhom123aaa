@@ -136,7 +136,9 @@
     border-radius: 50%;
     float: none;
     margin: auto;
-
+}
+.icons_contact:hover{
+    background-color: red;
 }
 .fa-location-arrow{
     margin-top: 15px;
