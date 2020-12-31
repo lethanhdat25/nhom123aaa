@@ -22,7 +22,7 @@ body{
 }
 .gmail-sdt ul{
     width: 500px;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 .acc-giohang ul li{
     float: left;
@@ -233,7 +233,6 @@ body{
 }
 .thinh2{
     padding: 0;
-    border-bottom: 1px solid black;
 }
 .thinh2_2_1{
     background-color: #ff5050;
@@ -353,8 +352,9 @@ body{
     transition: 0.5s;
 }
  .ins{
-    transform: translateY(-227px);
+    transform: translateY(-200px) translateX(1px);
     opacity: 0;
+     max-width: 100%;
 }
 .ins:hover{
     background:url("../img/blog3.webp");
@@ -411,7 +411,7 @@ body{
     background-color: #ff5050;
     height: 40px;
 }
-.thinh3 i{
+.thinh3_1 i{
     display: inline-block;
     padding: 0;
     width: 43px;
@@ -426,10 +426,11 @@ body{
     margin-left: 10px;
     transition: 0.5s;
 }
-article a{
-    text-align: center;
-    color: #ff5050;
+.items a{
     transition: 0.5s;
+}
+.items{
+    text-align: center;
 }
 .thinh3 i:hover{
     color: #ff253a;
@@ -551,7 +552,7 @@ div.detail a:hover{
 .contact{
     padding-left: 100px;
 }
-.col-md-3{
+.lists col-md-3{
     padding: 0;
 }
 .lists a:hover{
@@ -595,7 +596,6 @@ div.detail a:hover{
     padding: 0;
 }
 .input button{
-    position: absolute;
     top: 49px;
     right: 110px;
     border: none;
@@ -604,12 +604,30 @@ div.detail a:hover{
 .card ul li{
     margin-left: 5px;
 }
-.anh2{
-    border: 1px solid darkgray;
+.thongtin3{
+    width: 100px;
+    height: 30px;
+    border: 1px solid #ff253a;
+    line-height: 30px;
+    text-align: center;
+    transition: 0.5s;
 }
-.col-md-6{
-    padding: 0;
+.thongtin3:hover{
+    background-color: #ff253a;
+}
+.thongtin_1 a{
+    color: black;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.thongtin_1 a:hover{
+    color: #ff253a;
+}
+.thongtin_1 {
+    border: 1px solid #e4e4e4;
+    padding: 30px;
 }
 .read a{
     border: 1px solid #ff253a;
 }
+
