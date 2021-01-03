@@ -1,0 +1,460 @@
+Index: home.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>HOME</title>\n    <link rel=\"stylesheet\" href=\"list/bootrap3.4.1/css/bootstrap.css\">\n    <link rel=\"stylesheet\" href=\"list/bootrap3.4.1/fontawesome-free-5.15.1-web/css/all.css\">\n    <link rel=\"stylesheet\" href=\"css/duan1_thang12.css\">\n    <link rel=\"stylesheet\" href=\"css/product.css\">\n\n</head>\n<body>\n<header class=\"container\">\n    <div class=\"top-head\">\n        <div class=\"container\">\n            <div class=\"gmail-sdt col-md-3\" >\n                <ul class=\"mail\">\n                    <li>\n                        <i class=\"fas fa-phone-alt\"></i>\n                        <span>(00)000 111 222</span>\n                    </li>\n                    <li>\n                        <i class=\"fas fa-envelope\"></i>\n                        <a href=\"/\"> info@somedomain.com</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"acc-giohang col-md-3\" style=\"display: flex;padding-left: 50px;padding-top: 8px\">\n                <div class=\"acc\"><span>My account</span></div>\n                <div class=\"money\">\n                    <select>\n                        <option value=\"USD\">USD</option>\n                        <option value=\"EUR\">EUR</option>\n                        <option value=\"GBP\">GBP</option>\n                        <option value=\"AUD\">AUD</option>\n                        <option value=\"INR\">INR</option>\n                        <option value=\"JPY\">JPY</option>\n                        <option value=\"CAD\">CAD</option>\n                        <option value=\"CNY\">CNY</option>\n                        <option value=\"RUB\">RUB</option>\n                    </select>\n                </div>\n                <div class=\"gio2\">\n                    <ul>\n                        <li style=\"margin-left: 5px\">\n                            <i class=\"fas fa-shopping-cart\"></i>\n                        </li>\n                        <li style=\"margin-left: 10px\"><a href=\"/\">Cart : 0</a></li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n    </div>\n</header>\n\n<div id=\"run\">\n    <nav class=\"container\">\n        <div class=\"menu\">\n            <ul class=\"ssmenu\" >\n                <li class=\"sub-menu \"><a href=\"#\">Home</a> </li>\n\n                <li class=\"sub-menu\"><a href=\"#\">Collection</a>\n                    <div class=\"menu-an\">\n                        <ul class=\" col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <div class=\" col-md-6\">\n                            <img src=\"img/logo_collection.webp\">\n                        </div>\n                    </div>\n                </li>\n                <li class=\"sub-menu\"><a href=\"#\">Shop</a>\n                    <div class=\"menu-an\">\n                        <ul class=\" col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <div class=\" col-md-6\">\n                            <img src=\"img/logo_collection.webp\">\n                        </div>\n                    </div>\n                </li>\n                <li class=\"sub-menu\"><a href=\"#\">Indoor Light</a> </li>\n                <li class=\"sub-menu\"><a href=\"#\">Lighting</a> </li>\n                <li class=\"sub-menu\"><a href=\"#\">Outdoor</a> </li>\n                <li class=\"sub-menu\"><a href=\"#\">Pages</a> </li>\n            </ul>\n        </div>\n    </nav>\n</div>\n\n<section class=\"banner container\">\n    <img src=\"img/img_doinen1.jpg\" class=\"img_change\">\n    <i class=\"fas fa-chevron-left slide-left-banner\" onclick=\"click_prev_banner(this)\"></i>\n    <i class=\"fas fa-chevron-right slide-right-banner\" onclick=\"click_next_banner(this)\"></i>\n</section>\n<section class=\"review container\">\n    <div class=\"col-md-4 review_left\"> <img src=\"img/img_review1.webp\"></div>\n    <div class=\"col-md-4\"><img src=\"img/img_review2.jpg\"></div>\n    <div class=\"col-md-4 review_right\" ><img src=\"img/img_review3.jpg\"></div>\n</section>\n<section class=\"titleProduct container\">\n    <h1>Latest Collection</h1>\n    <div>\n        <div class=\"luachon col-md-9\">\n            <div class=\"list_luachon col-md-3\" id=\"list_3\" onclick=\"click_list_3(this)\">Featured Products</div>\n            <div class=\"list_luachon col-md-2\" id=\"list_2\" onclick=\"click_list_2(this)\">New Products</div>\n            <div class=\"list_luachon col-md-2\" id=\"list_1\" onclick=\"click_list_1(this)\">Best Seller</div>\n        </div>\n        <div class=\"control_luachon col-md-3\">\n            <i class=\"fas fa-chevron-left slide-left-luachon\" onclick=\"click_prev_luachon(this)\"></i>\n            <i class=\"fas fa-chevron-right slide-right-luachon\" onclick=\"click_next_luachon(this)\"></i>\n        </div>\n    </div>\n    <div class=\"image_luachon\" id=\"image_luachon\">\n\n    </div>\n</section>\n<section class=\"container review_sale\">\n    <div class=\"col-md-6\">\n        <img src=\"img/img_review_sale.jpg\">\n        <div class=\"text_sale\" id=\"text_sale_1\">\n            <span>Get Upto</span>\n            <h1>40% OFF</h1>\n            <span>On floor lamps</span><br>\n            <button type=\"button\">Shop Now</button>\n        </div>\n    </div>\n    <div class=\"col-md-6\">\n        <img src=\"img/img_review_sale2.jpg\">\n        <div class=\"text_sale\" id=\"text_sale_2\">\n            <span>Flat Upto</span>\n            <h1>60% OFF</h1>\n            <span>On floor lamps</span><br>\n            <button type=\"button\">Shop Now</button>\n        </div>\n    </div>\n</section>\n<section class=\"titleProduct container\">\n    <h1>BLOG POST</h1>\n    <div class=\"ContentBlog col-md-4\">\n        <img src=\"img/img_review_blog1.jpg\">\n        <div class=\"TextContent\">\n            <h3>STANDING LIVING ROOM LAMP</h3>\n            <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tel...</span>\n            <div class=\"ReadMore\">\n                <button type=\"button\">Read More</button>\n            </div>\n        </div>\n    </div>\n    <div class=\"ContentBlog col-md-4\">\n        <img src=\"img/img_review_blog2.jpg\">\n        <div class=\"TextContent\">\n            <h3>MODERN FRAME HANGING LIGHT </h3>\n            <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tel..</span>\n            <div class=\"ReadMore\">\n                <button type=\"button\">Read More</button>\n            </div>\n        </div>\n    </div>\n    <div class=\"ContentBlog col-md-4\">\n        <img src=\"img/img_review_blog3.jpg\">\n        <div class=\"TextContent\">\n            <h3>EDISON TABLE LAMP</h3>\n            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tel...</span>\n            <div class=\"ReadMore\">\n                <button type=\"button\">Read More</button>\n            </div>\n        </div>\n    </div>\n</section>\n<section class=\"container googlemap\">\n    <iframe class=\"col-md-8\" src=\"https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d251637.95196238213!2d105.6189045!3d9.779349!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1608787176109!5m2!1svi!2s\" width=\"100%\" height=\"300\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>\n    <div class=\"col-md-4 lists contact\">\n        <span>CONTACT US</span>\n        <ul>\n            <li>\n                No: 58 A, East Madison Street,<br>\n                Baltimore, MD,<br>\n                USA 4508.<br>\n                <i class=\"fas fa-phone-alt\"></i>\n                +080 123 4567<br>\n                <a href=\"/\"><i class=\"far fa-envelope\"></i>\n                    support@somemail.com</a>\n            </li>\n        </ul>\n    </div>\n</section>\n<footer class=\"container list_footer\">\n    <div class=\"col-md-3 lists\">\n        <span>HELP</span>\n        <ul>\n            <li><a href=\"/\">Search</a></li>\n            <li><a href=\"/\">Help</a></li>\n            <li><a href=\"/\">Information</a></li>\n            <li><a href=\"/\">Privacy Policy</a></li>\n            <li><a href=\"/\">Shipping Details</a></li>\n        </ul>\n    </div>\n    <div class=\"col-md-3 lists\">\n        <span>SUPPORT</span>\n        <ul>\n            <li><a href=\"/\">Contact us</a></li>\n            <li><a href=\"/\">About us</a></li>\n            <li><a href=\"/\">Careers</a></li>\n            <li><a href=\"/\">Refund & Return</a></li>\n            <li><a href=\"/\">Deliveries</a></li>\n        </ul>\n    </div>\n    <div class=\"col-md-3 lists\">\n        <span>INFORMATION</span>\n        <ul>\n            <li><a href=\"/\">Search Terms</a></li>\n            <li><a href=\"/\">Advance Search</a></li>\n            <li><a href=\"/\">Help & Faq's</a></li>\n            <li><a href=\"/\">Store Location</a></li>\n            <li><a href=\"/\">Orders & Returns</a></li>\n        </ul>\n    </div>\n    </div>\n    <div class=\"col-md-3 lists\">\n        <span>NEWSLETTER</span>\n        <ul>\n            <li>\n                A short sentence describing <br>\n                what someone will receive by <br>\n                subscribing\n            </li>\n        </ul>\n        <form>\n            <div class=\"input\" style=\"position:relative\">\n                <input type=\"email\" placeholder=\"Email Address\">\n                <button type=\"submit\">\n                    <i class=\"fas fa-location-arrow\"></i>\n                </button>\n            </div>\n        </form>\n    </div>\n</footer>\n</br>\n</br>\n<div class=\"border\"></div>\n</br>\n</br>\n<div class=\"last col-md-12\">\n    <div class=\"copy col-md-3\">\n        <p>\n            Copyright\n            <a href=\"/\">Powered by Shopify</a>\n        </p>\n    </div>\n    <div class=\"icon col-md-2\">\n        <ul class=\"icons\">\n            <li>\n                <a href=\"/\"><i class=\"fab fa-twitter\"></i></a>\n            </li>\n            <li>\n                <a href=\"/\"><i class=\"fab fa-facebook-square\"></i></a>\n            </li>\n            <li>\n                <a href=\"/\"><i class=\"fab fa-google\"></i></a>\n            </li>\n            <li>\n                <a href=\"/\"><i class=\"fab fa-tumblr\"></i></a>\n            </li>\n        </ul>\n    </div>\n    <div class=\"card col-md-4\">\n        <ul>\n            <li><a href=\"/\"><img src=\"img/paypal.webp\" height=\"28\" width=\"45\"/></a></li>\n            <li><a href=\"/\"><img src=\"img/cirrus.webp\" height=\"28\" width=\"45\"/></a></li>\n            <li><a href=\"/\"><img src=\"img/sage.webp\" height=\"28\" width=\"45\"/></a></li>\n            <li><a href=\"/\"><img src=\"img/master.webp\" height=\"28\" width=\"45\"/></a></li>\n            <li><a href=\"/\"><img src=\"img/visa.webp\" height=\"28\" width=\"45\"/></a></li>\n        </ul>\n    </div>\n</div>\n<script src=\"JScode/JS_code_1.js\"></script>\n\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- home.html	(revision 2ae045f257b51805252d7e705930969d7297fd85)
++++ home.html	(date 1609351549901)
+@@ -57,9 +57,9 @@
+     <nav class="container">
+         <div class="menu">
+             <ul class="ssmenu" >
+-                <li class="sub-menu "><a href="#">Home</a> </li>
++                <li class="sub-menu "><a href="home.html">Home</a> </li>
+ 
+-                <li class="sub-menu"><a href="#">Collection</a>
++                <li class="sub-menu"><a href="sanpham.html">Collection</a>
+                     <div class="menu-an">
+                         <ul class=" col-md-2">
+ 
+@@ -102,7 +102,7 @@
+                         </div>
+                     </div>
+                 </li>
+-                <li class="sub-menu"><a href="#">Shop</a>
++                <li class="sub-menu"><a href="sanpham.html">Shop</a>
+                     <div class="menu-an">
+                         <ul class=" col-md-2">
+ 
+@@ -158,6 +158,25 @@
+     <img src="img/img_doinen1.jpg" class="img_change">
+     <i class="fas fa-chevron-left slide-left-banner" onclick="click_prev_banner(this)"></i>
+     <i class="fas fa-chevron-right slide-right-banner" onclick="click_next_banner(this)"></i>
++    <div class="chu_chay">
++        <div class="chu_chay1">
++            <span>Ligting</span>
++        </div>
++        <h2 style="margin-top: -15px;color: white">MODERN LAMPS</h2>
++        <div class="col-md-5" style="padding: 0">
++            <h1 style="font-size: 60px;font-weight: bolder;color: #fecd60">60%</h1>
++        </div>
++        <div class="col-md-7" style="padding: 0;margin-top: 20px;height: 66px;">
++            <div class="chu_nguoc col-md-4">
++                <span>OFF</span>
++            </div>
++            <div class="col-md-8 limited">
++                <span>LIMITED OFFER</span>
++            </div>
++        </div>
++        <button type="button" class="buttonssss"> SHOP NOW</button>
++    </div>
++
+ </section>
+ <section class="review container">
+     <div class="col-md-4 review_left"> <img src="img/img_review1.webp"></div>
+@@ -188,7 +207,7 @@
+             <span>Get Upto</span>
+             <h1>40% OFF</h1>
+             <span>On floor lamps</span><br>
+-            <button type="button">Shop Now</button>
++            <button type="button"><a href="sanpham.html" style="text-decoration: none;color: inherit">Shop Now</a></button>
+         </div>
+     </div>
+     <div class="col-md-6">
+@@ -197,7 +216,7 @@
+             <span>Flat Upto</span>
+             <h1>60% OFF</h1>
+             <span>On floor lamps</span><br>
+-            <button type="button">Shop Now</button>
++            <button type="button"> <a href="sanpham.html" style="text-decoration: none;color: inherit">Shop Now</a></button>
+         </div>
+     </div>
+ </section>
+@@ -209,7 +228,7 @@
+             <h3>STANDING LIVING ROOM LAMP</h3>
+             <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tel...</span>
+             <div class="ReadMore">
+-                <button type="button">Read More</button>
++                <button type="button"><<a href="blog.html" style="text-decoration: none;color: inherit">Read More</a></button>
+             </div>
+         </div>
+     </div>
+@@ -219,7 +238,7 @@
+             <h3>MODERN FRAME HANGING LIGHT </h3>
+             <span> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tel..</span>
+             <div class="ReadMore">
+-                <button type="button">Read More</button>
++                <button type="button"><a href="blog.html" style="text-decoration: none;color: inherit">Read More</a></button>
+             </div>
+         </div>
+     </div>
+@@ -229,7 +248,7 @@
+             <h3>EDISON TABLE LAMP</h3>
+             <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Proin nibh augue, suscipit a, scelerisque sed, lacinia in, mi. Cras vel lorem. Etiam pellentesque aliquet tel...</span>
+             <div class="ReadMore">
+-                <button type="button">Read More</button>
++                <button type="button"><a href="blog.html" style="text-decoration: none;color: inherit">Read More</a></button>
+             </div>
+         </div>
+     </div>
+@@ -237,7 +256,7 @@
+ <section class="container googlemap">
+     <iframe class="col-md-8" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d251637.95196238213!2d105.6189045!3d9.779349!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1608787176109!5m2!1svi!2s" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+     <div class="col-md-4 lists contact">
+-        <span>CONTACT US</span>
++        <a href="contact.html" style="text-decoration: none;color: inherit"><span>CONTACT US</span></a>
+         <ul>
+             <li>
+                 No: 58 A, East Madison Street,<br>
+Index: css/duan1_thang12.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.top-head{\n    height: 30px;\n    margin-bottom: 20px;\n    border-bottom: 1px solid darkgray;\n}\n.gmail-sdt{\n    width: 300px;\n}\n.acc-giohang{\n\n    text-align: right;\n    float: right;\n}\n.top-2-head{\n    margin-bottom:20px ;\n}\n.acc-giohang{\n    text-align: right;\n}\n.top-2-head input{\n    height: 40px;\n    width: 200px;\n}\n.top-2-head button{\n    height: 40px;\n}\n.lg_sr{\n    height: 50px;\n}\n\n#run{\n    /*position: fixed;*/\n    width: 100%;\n    z-index: 50;\n}\n#run nav{\n    text-align: center;\n    background-color: #ff5050;\n    height: 80px;\n    line-height: 80px;\n\n}\n.sub-menu{\n    list-style-type: none;\n    display: inline-table;\n    color: black;\n    padding-right: 30px;\n}\n.ssmenu {\n    position: relative;\n\n}\n.sub-menu a{\n    color: white;\n    text-decoration: none;\n}\n.menu-an{\n    display: none;\n    width: 100%;\n    position: absolute;\n    right: 0px;\n    text-align: left;\n    background-color: white;\n    line-height: 40px;\n}\n.menu-an li{\n    list-style-type: none;\n}\n.sub-menu:hover .menu-an{\n    display: block;\n    transition: tra 1.2s;\n    z-index: 30;\n;\n}\n.menu-an img{\n    width: 100%;\n}\n.menu-an b{\n    color:#ff5050;\n}\n.banner {\n    height: 430px;\n    text-align: center;\n    position: relative;\n    top: 80px;\n}\n.banner img{\n    width: 100%;\n}\n.slide-left-banner {\n    font-size: 40px;\n    color: darkgray;\n    position: absolute;\n    z-index: 20;\n    top: 45%;\n    left: 25px;\n    cursor: pointer;\n}\n.slide-right-banner{\n    font-size: 40px;\n    color: darkgray;\n    position: absolute;\n    z-index: 20;\n    top: 45%;\n    right: 25px;\n    cursor: pointer;\n}\n.review{\n    margin-top: 130px;\n}\n.review_left{\n    padding-left: 0;\n}\n.review_right{\n    padding-right: 0;\n}\n.review img{\n    width: 100%;\n}\n.titleProduct h1{\n    margin-bottom: 40px;\n}\n.luachon{\n    padding-right: 45px;\n    margin-bottom: 30px;\n}\n.luachon div{\n    height: 30px;\n    line-height: 30px;\n    float: right;\n}\n.titleProduct {\n    text-align: center;\n    border-bottom: 1px solid black;\n    padding-bottom: 30px;\n}\n.slide-left-luachon{\n    font-size: 20px;\n    cursor: pointer;\n    color: darkgray;\n}\n.slide-right-luachon{\n    font-size: 20px;\n    cursor: pointer;\n    color: darkgray;\n}\n.control_luachon{\n    text-align: right;\n    margin-bottom: 30px;\n}\n.list_luachon{\n    transition: 0.5s;\n}\n.list_luachon:hover{\n    background-color: #ff5050;\n    transition: 1s;\n}\n.control_luachon i{\n    padding-right: 20px;\n}\n.image_luachon img{\n    width: 100%;\n    border: 4px solid lightgray;\n    height: 423.86px;\n}\n.luachon_left{\n    padding-left: 0;\n}\n.luachon_right{\n    padding-right: 0;\n}\n.thaydoimau{\n    background-color: #ff5050;\n}\n.thongtin_luchon{\n    position: absolute;\n    top: 320px;\n    left: 12%;\n\n}\n.ten_image_left{\n    background-color: yellow;\n    height: 30px;\n}\n.review_sale{\n    margin-top: 50px;\n}\n.review_sale img{\n    width: 100%;\n    position: relative;\n}\n.text_sale{\n    position: absolute;\n    top: 50px;\n    left: 60px;\n    width: 70%;\n    font-size: 22px;\n    color: dimgrey;\n}\n.text_sale button{\n    margin-top: 10px;\n    border: 3px double dimgray;\n    transition: 1s;\n}\n.text_sale button:hover{\n    transition: 1s;\n    background-color: dimgray;\n    color: white;\n}\n#text_sale_2 h1{\n    color: saddlebrown;\n}\n#text_sale_2 button{\n    border: 3px double saddlebrown;\n}\n#text_sale_2 button:hover{\n    background-color: saddlebrown;\n    color: white;\n}\n.ContentBlog img{\n    width: 100%;\n}\n.TextContent{\n    text-align: left;\n}\n.ReadMore button{\n    height: 40px;\n    width: 120px;\n    border: 3px double #ff5050;\n    background-color: white;\n    transition: 1s;\n}\n.ReadMore button:hover{\n    color: white;\n    background-color: #ff5050;\n    transition: 1s;\n}\n.TextContent h3{\n    height: 52px;\n}\n.lists ul{\n    padding-left: 0;\n}\n.lists span{\n    font-size: 20px;\n    font-weight: lighter;\n    color: #ff5050;\n}\n\n.lists ul li{\n    list-style-type: none;\n    margin-top: 20px;\n}\n.lists input{\n    height: 40px;\n    margin-top: 40px;\n}\n.googlemap{\n    margin-top: 25px;\n    margin-bottom: 25px;\n}\n.soluong_giohang{\n    height: 30px;\n    width: 80px;\n    text-align: center;\n}\n.sanphamI{\n    height: 70px;\n    line-height: 70px;\n}\n.sanphamI button{\n    height: 30px;\n    line-height: 3px;\n\n}\n.Quantity button{\n    width: 30px;\n    height: 30px;\n\n}\n.button_backgroundcolor{\n    background-color: white;\n}\n.Buy_it{\n    height: 40px;\n    width: 160px;\n    border: 3px double #ff5050;\n    background-color: white;\n    transition: 0.5s;\n\n}\n.Buy_it:hover {\n    background-color: #ff5050;\n    color: white;\n    transition: 0.5s;\n}\n.write:hover{\n    cursor: pointer;\n    color: #ff5050;\n}\n.star-box {\n    float: left;\n    width: 50px;\n    height: 30px;\n    background-image: url(\"../img/star-off.png\");\n    background-repeat: no-repeat;\n    transition: 0.5s;\n    cursor: pointer;\n\n}\n.star-rate{\n    float: left;\n    width: 50px;\n    height: 30px;\n    background-image: url(\"../img/star-on.png\");\n    background-repeat: no-repeat;\n    transition: 0.5s;\n    cursor: pointer;\n}\n#button_rv{\n    height: 50px;\n    width: 130px;\n    float: right;\n    transition: 1s;\n    border: 3px double #f50505;\n    background-color: white;\n}\n#button_rv:hover{\n    background-color: #ff5050;\n    color: white;\n    transition: 1s;\n}\n.andi_rv{\n    display: none;\n}\n.hienra_rv{\n    display: block;\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/duan1_thang12.css	(revision 2ae045f257b51805252d7e705930969d7297fd85)
++++ css/duan1_thang12.css	(date 1609353927712)
+@@ -335,4 +335,58 @@
+ }
+ .hienra_rv{
+     display: block;
+-}
+\ No newline at end of file
++}
++.chu_chay{
++    position: absolute;
++    text-align: left;
++    top: 20%;
++    left: 15%;
++    width: 350px;
++    animation: chuChay 3s forwards;
++}
++.chu_chay1{
++    height: 60px;
++    line-height: 40px;
++    background-color: #6a3621;
++    font-size: 26px;
++    color: goldenrod;
++    font-weight: 300;
++}
++.chu_nguoc{
++    font-size: 30px;
++    color: #fecd60;
++    transform: rotate(-90deg);
++    height: 50px;
++    padding: 0;
++    border-bottom: 1px solid;
++}
++.limited{
++    font-size: 20px;
++    color: #fecd60;
++    font-weight: 200;
++}
++.buttonssss{
++    height: 40px;
++    width: 120px;
++    border: 3px double;
++    background: none;
++    color: white;
++    margin-right: 130px;
++    transition: 0.5s;
++}
++.buttonssss:hover{
++    color: black;
++    background-color: white;
++    transition: 0.5s;
++}
++@-webkit-keyframes chuChay {
++    from{
++        opacity: 0;
++        left: 0;
++        top: 20%;
++    }
++    to{
++        opacity: 1;
++        left: 15%;
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"6a152d3a-8240-4284-9f9e-b8dc72bf0bad\" name=\"Default Changelist\" comment=\"page xong\">\n      <change afterPath=\"$PROJECT_DIR$/contact.html\" afterDir=\"false\" />\n      <change afterPath=\"$PROJECT_DIR$/css/contact.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/css/page.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/page.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/page.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/page.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"HTML File\" />\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1loUrKK1PEXLOFk3ABTtOhOCdYr\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/css\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\mac\\Documents\\nhom123aaa\\css\" />\n      <recent name=\"C:\\Users\\mac\\Documents\\nhom123aaa\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\nhom123aaa\\img\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"6a152d3a-8240-4284-9f9e-b8dc72bf0bad\" name=\"Default Changelist\" comment=\"\" />\n      <created>1608263134793</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1608263134793</updated>\n      <workItem from=\"1608263135864\" duration=\"187000\" />\n      <workItem from=\"1608263359893\" duration=\"5549000\" />\n      <workItem from=\"1608274440594\" duration=\"54779000\" />\n      <workItem from=\"1608515270654\" duration=\"9511000\" />\n      <workItem from=\"1608623606440\" duration=\"17241000\" />\n      <workItem from=\"1608656670260\" duration=\"243000\" />\n      <workItem from=\"1608686514581\" duration=\"685000\" />\n      <workItem from=\"1608695291488\" duration=\"192000\" />\n      <workItem from=\"1608711733774\" duration=\"90000\" />\n      <workItem from=\"1608712358835\" duration=\"24000\" />\n      <workItem from=\"1608712419819\" duration=\"15000\" />\n      <workItem from=\"1608712522358\" duration=\"1135000\" />\n      <workItem from=\"1608713695510\" duration=\"1323000\" />\n      <workItem from=\"1608715030551\" duration=\"8000\" />\n      <workItem from=\"1608715049965\" duration=\"1014000\" />\n      <workItem from=\"1608787644124\" duration=\"171000\" />\n      <workItem from=\"1608787834989\" duration=\"2065000\" />\n      <workItem from=\"1608789922505\" duration=\"10000\" />\n      <workItem from=\"1608789941644\" duration=\"252000\" />\n      <workItem from=\"1608790219289\" duration=\"1622000\" />\n      <workItem from=\"1608791860439\" duration=\"13000\" />\n      <workItem from=\"1608791881408\" duration=\"68000\" />\n      <workItem from=\"1608791960733\" duration=\"397000\" />\n      <workItem from=\"1608797702081\" duration=\"8926000\" />\n      <workItem from=\"1608806720622\" duration=\"2776000\" />\n      <workItem from=\"1609219840823\" duration=\"10587000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"up\">\n      <created>1608303939187</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1608303939188</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"up\">\n      <created>1608899530636</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1608899530636</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"code mới\">\n      <created>1609095048614</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1609095048614</updated>\n    </task>\n    <task id=\"LOCAL-00004\" summary=\"page xong\">\n      <created>1609184456634</created>\n      <option name=\"number\" value=\"00004\" />\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1609184456634</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"5\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"up\" />\n    <MESSAGE value=\"code mới\" />\n    <MESSAGE value=\"page xong\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"page xong\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"128\" y=\"96\" key=\"DiffContextDialog\" timestamp=\"1608899554468\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\n    </state>\n    <state x=\"128\" y=\"96\" key=\"DiffContextDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1608899554468\" />\n    <state x=\"549\" y=\"202\" key=\"FileChooserDialogImpl\" timestamp=\"1608263506592\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"920\" />\n    </state>\n    <state x=\"549\" y=\"202\" key=\"FileChooserDialogImpl/0.0.1536.920@0.0.1536.920\" timestamp=\"1608263506592\" />\n    <state x=\"640\" y=\"358\" key=\"Github.ShareDialog\" timestamp=\"1608263386419\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"920\" />\n    </state>\n    <state x=\"640\" y=\"358\" key=\"Github.ShareDialog/0.0.1536.920@0.0.1536.920\" timestamp=\"1608263386419\" />\n    <state x=\"240\" y=\"119\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1609184461872\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\n    </state>\n    <state x=\"240\" y=\"119\" key=\"Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1609184461872\" />\n    <state x=\"240\" y=\"140\" key=\"Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800\" timestamp=\"1608514875033\" />\n    <state x=\"100\" y=\"100\" width=\"1080\" height=\"600\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog\" timestamp=\"1608478306949\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"726\" />\n    </state>\n    <state x=\"100\" y=\"100\" width=\"1080\" height=\"600\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1608397983778\" />\n    <state x=\"100\" y=\"100\" width=\"1080\" height=\"600\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726\" timestamp=\"1608478306949\" />\n    <state x=\"458\" y=\"255\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1609222537329\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\n    </state>\n    <state x=\"458\" y=\"255\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1609222537329\" />\n    <state x=\"458\" y=\"300\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800\" timestamp=\"1608859286329\" />\n    <state x=\"359\" y=\"170\" width=\"670\" height=\"590\" key=\"search.everywhere.popup\" timestamp=\"1608466516469\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"359\" y=\"170\" width=\"670\" height=\"590\" key=\"search.everywhere.popup/0.0.1280.800@0.0.1280.800\" timestamp=\"1608466516469\" />\n    <state x=\"431\" y=\"195\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1536.920@0.0.1536.920\" timestamp=\"1608268042112\" />\n    <state x=\"599\" y=\"251\" key=\"svn.repositoryBrowser\" timestamp=\"1608263443443\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"920\" />\n    </state>\n    <state x=\"599\" y=\"251\" key=\"svn.repositoryBrowser/0.0.1536.920@0.0.1536.920\" timestamp=\"1608263443443\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 2ae045f257b51805252d7e705930969d7297fd85)
++++ .idea/workspace.xml	(date 1609352124297)
+@@ -19,14 +19,13 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="page xong">
+-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml" afterDir="false" />
++    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="code mới">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/duan1_thang12.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/duan1_thang12.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/tesst.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tesst.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/teest.html" beforeDir="false" afterPath="$PROJECT_DIR$/teest.html" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -65,12 +64,12 @@
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\nhom123aaa\img" />
++    </key>
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\mac\Documents\nhom123aaa\css" />
+       <recent name="C:\Users\mac\Documents\nhom123aaa" />
+-    </key>
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\nhom123aaa\img" />
+     </key>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+@@ -136,7 +135,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1609184456634</updated>
+     </task>
+-    <option name="localTasksCounter" value="5" />
++    <task id="LOCAL-00005" summary="uuuuup">
++      <created>1609302063594</created>
++      <option name="number" value="00005" />
++      <option name="presentableId" value="LOCAL-00005" />
++      <option name="project" value="LOCAL" />
++      <updated>1609302063594</updated>
++    </task>
++    <option name="localTasksCounter" value="6" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -158,7 +164,8 @@
+     <MESSAGE value="up" />
+     <MESSAGE value="code mới" />
+     <MESSAGE value="page xong" />
+-    <option name="LAST_COMMIT_MESSAGE" value="page xong" />
++    <MESSAGE value="uuuuup" />
++    <option name="LAST_COMMIT_MESSAGE" value="uuuuup" />
+   </component>
+   <component name="WindowStateProjectService">
+     <state x="128" y="96" key="DiffContextDialog" timestamp="1608899554468">
+@@ -173,25 +180,29 @@
+       <screen x="0" y="0" width="1536" height="920" />
+     </state>
+     <state x="640" y="358" key="Github.ShareDialog/0.0.1536.920@0.0.1536.920" timestamp="1608263386419" />
+-    <state x="240" y="119" key="Vcs.Push.Dialog.v2" timestamp="1609184461872">
+-      <screen x="0" y="0" width="1280" height="680" />
++    <state x="450" y="127" key="RollbackChangesDialog" timestamp="1609291894593">
++      <screen x="0" y="0" width="1280" height="800" />
++    </state>
++    <state x="450" y="127" key="RollbackChangesDialog/0.0.1280.800@0.0.1280.800" timestamp="1609291894593" />
++    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1609302172624">
++      <screen x="0" y="0" width="1280" height="800" />
+     </state>
+     <state x="240" y="119" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609184461872" />
+-    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
+-    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608478306949">
+-      <screen x="0" y="23" width="1280" height="726" />
++    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1609302172624" />
++    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609292056944">
++      <screen x="0" y="0" width="1280" height="800" />
+     </state>
+-    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
++    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1609292056944" />
+     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
+-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609222537329">
+-      <screen x="0" y="0" width="1280" height="680" />
++    <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609340865142">
++      <screen x="0" y="0" width="1280" height="800" />
+     </state>
+     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1609222537329" />
+-    <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1608859286329" />
+-    <state x="359" y="170" width="670" height="590" key="search.everywhere.popup" timestamp="1608466516469">
++    <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1609340865142" />
++    <state x="359" y="170" width="670" height="590" key="search.everywhere.popup" timestamp="1609297779632">
+       <screen x="0" y="0" width="1280" height="800" />
+     </state>
+-    <state x="359" y="170" width="670" height="590" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1608466516469" />
++    <state x="359" y="170" width="670" height="590" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1609297779632" />
+     <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1608268042112" />
+     <state x="599" y="251" key="svn.repositoryBrowser" timestamp="1608263443443">
+       <screen x="0" y="0" width="1536" height="920" />
+Index: contact.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>HOME</title>\n    <link rel=\"stylesheet\" href=\"list/bootrap3.4.1/css/bootstrap.css\">\n    <link rel=\"stylesheet\" href=\"list/bootrap3.4.1/fontawesome-free-5.15.1-web/css/all.css\">\n    <link rel=\"stylesheet\" href=\"css/duan1_thang12.css\">\n    <link rel=\"stylesheet\" href=\"css/contact.css\">\n    <link rel=\"stylesheet\" href=\"css/product.css\">\n</head>\n<body>\n<header class=\"container\">\n    <div class=\"top-head\">\n        <div class=\"container\">\n            <div class=\"gmail-sdt col-md-3\" >\n                <ul class=\"mail\">\n                    <li>\n                        <i class=\"fas fa-phone-alt\"></i>\n                        <span>(00)000 111 222</span>\n                    </li>\n                    <li>\n                        <i class=\"fas fa-envelope\"></i>\n                        <a href=\"/\"> info@somedomain.com</a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"acc-giohang col-md-3\" style=\"display: flex;padding-left: 50px;padding-top: 8px\">\n                <div class=\"acc\"><span>My account</span></div>\n                <div class=\"money\">\n                    <select>\n                        <option value=\"USD\">USD</option>\n                        <option value=\"EUR\">EUR</option>\n                        <option value=\"GBP\">GBP</option>\n                        <option value=\"AUD\">AUD</option>\n                        <option value=\"INR\">INR</option>\n                        <option value=\"JPY\">JPY</option>\n                        <option value=\"CAD\">CAD</option>\n                        <option value=\"CNY\">CNY</option>\n                        <option value=\"RUB\">RUB</option>\n                    </select>\n                </div>\n                <div class=\"gio2\">\n                    <ul>\n                        <li style=\"margin-left: 5px\">\n                            <i class=\"fas fa-shopping-cart\"></i>\n                        </li>\n                        <li style=\"margin-left: 10px\"><a href=\"/\">Cart : 0</a></li>\n                    </ul>\n                </div>\n            </div>\n        </div>\n    </div>\n</header>\n\n<div id=\"run\">\n    <nav class=\"container\" >\n        <div class=\"menu\">\n            <ul class=\"ssmenu\" >\n                <li class=\"sub-menu \"><a href=\"#\">Home</a> </li>\n\n                <li class=\"sub-menu\"><a href=\"#\">Collection</a>\n                    <div class=\"menu-an\">\n                        <ul class=\" col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <div class=\" col-md-6\">\n                            <img src=\"img/logo_collection.webp\">\n                        </div>\n                    </div>\n                </li>\n                <li class=\"sub-menu\"><a href=\"#\">Shop</a>\n                    <div class=\"menu-an\">\n                        <ul class=\" col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <div class=\" col-md-6\">\n                            <img src=\"img/logo_collection.webp\">\n                        </div>\n                    </div>\n                </li>\n                <li class=\"sub-menu\"><a href=\"#\">Indoor Light</a> </li>\n                <li class=\"sub-menu\"><a href=\"#\">Lighting</a> </li>\n                <li class=\"sub-menu\"><a href=\"#\">Outdoor</a> </li>\n                <li class=\"sub-menu\"><a href=\"#\">Pages</a> </li>\n            </ul>\n        </div>\n    </nav>\n</div><section class=\"pages container\">\n    <div class=\"pages1\">\n        <h2>ABOUT US</h2>\n        <a href=\"home.html\">Home </a>/ About US\n    </div>\n</section>\n\n<section class=\"container\">\n    <section class=\"pages2\">\n        <div class=\"pages3\">\n            <div class=\"back-ground\">\n                <div class=\"back-ground1\">\n                    <div class=\"\">\n                        <a href=\"#\"><p class=\"icons_contact\"><i class=\"fas fa-location-arrow\"title=\"location\"></i></p></a>\n                    </div>\n                </div>\n                <h4 class=\"font2\">ADDRESS</h4>\n                <p class=\"font1\">62,74th Avenue-galendale NY 11385,US</p>\n            </div>\n            <div class=\"back-ground\">\n                <div class=\"back-ground1\">\n                    <div class=\"icon\">\n                        <a href=\"#\"><p class=\"icons_contact\"><i class=\"far fa-envelope\" title=\"email\"></i></p></a>\n                    </div>\n                </div>\n                <h4 class=\"font2\">ADDRESS</h4>\n                <p class=\"font1\">email:contact@domain.com</p>\n            </div>\n            <div class=\"back-ground\">\n                <div class=\"back-ground1\">\n                    <div class=\"icon\">\n                        <a href=\"#\"><p class=\"icons_contact\"><i class=\"fas fa-phone-alt\" title=\"phone\"></i></p></a>\n                    </div>\n                </div>\n                <h4 class=\"font2\">ADDRESS</h4>\n                <p class=\"font1\">call:+1800-567-879</p>\n            </div>\n            <div class=\"back-ground\">\n                <div class=\"back-ground1\">\n                    <div class=\"icon\">\n                        <a href=\"#\"><p class=\"icons_contact\"><i class=\"far fa-clock\"title=\"clock\"></i></p></a>\n                    </div>\n                </div>\n                <h4 class=\"font2\">ADDRESS</h4>\n                <p class=\"font1\">available at 10am-8pm</p>\n            </div>\n        </div>\n    </section>\n    <section class=\"pages4 \">\n        <iframe class=\"map\" src=\"https://maps.google.co.in/?ie=UTF8&t=m&ll=-37.823006,144.977388&spn=0.02034,0.042915&z=14&output=embed\"></iframe>\n        <div class=\"pages5\">\n            <h3>SEND US A MESSAGE</h3>\n            <hr class=\"hr\" width=\"5%\" align=\"left\"/>\n\n        </div>\n    </section>\n</section>\n<section class=\"container googlemap\">\n    <iframe class=\"col-md-8\" src=\"https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d251637.95196238213!2d105.6189045!3d9.779349!3m2!1i1024!2i768!4f13.1!5e0!3m2!1svi!2s!4v1608787176109!5m2!1svi!2s\" width=\"100%\" height=\"300\" frameborder=\"0\" style=\"border:0;\" allowfullscreen=\"\" aria-hidden=\"false\" tabindex=\"0\"></iframe>\n    <div class=\"col-md-4 lists contact\">\n        <span>CONTACT US</span>\n        <ul>\n            <li>\n                No: 58 A, East Madison Street,<br>\n                Baltimore, MD,<br>\n                USA 4508.<br>\n                <i class=\"fas fa-phone-alt\"></i>\n                +080 123 4567<br>\n                <a href=\"/\"><i class=\"far fa-envelope\"></i>\n                    support@somemail.com</a>\n            </li>\n        </ul>\n    </div>\n</section>\n<footer class=\"container list_footer\">\n    <div class=\"col-md-3 lists\">\n        <span>HELP</span>\n        <ul>\n            <li><a href=\"/\">Search</a></li>\n            <li><a href=\"/\">Help</a></li>\n            <li><a href=\"/\">Information</a></li>\n            <li><a href=\"/\">Privacy Policy</a></li>\n            <li><a href=\"/\">Shipping Details</a></li>\n        </ul>\n    </div>\n    <div class=\"col-md-3 lists\">\n        <span>SUPPORT</span>\n        <ul>\n            <li><a href=\"/\">Contact us</a></li>\n            <li><a href=\"/\">About us</a></li>\n            <li><a href=\"/\">Careers</a></li>\n            <li><a href=\"/\">Refund & Return</a></li>\n            <li><a href=\"/\">Deliveries</a></li>\n        </ul>\n    </div>\n    <div class=\"col-md-3 lists\">\n        <span>INFORMATION</span>\n        <ul>\n            <li><a href=\"/\">Search Terms</a></li>\n            <li><a href=\"/\">Advance Search</a></li>\n            <li><a href=\"/\">Help & Faq's</a></li>\n            <li><a href=\"/\">Store Location</a></li>\n            <li><a href=\"/\">Orders & Returns</a></li>\n        </ul>\n    </div>\n    </div>\n    <div class=\"col-md-3 lists\">\n        <span>NEWSLETTER</span>\n        <ul>\n            <li>\n                A short sentence describing <br>\n                what someone will receive by <br>\n                subscribing\n            </li>\n        </ul>\n        <form>\n            <div class=\"input\" style=\"position:relative\">\n                <input type=\"email\" placeholder=\"Email Address\">\n                <button type=\"submit\">\n                    <i class=\"fas fa-location-arrow\"></i>\n                </button>\n            </div>\n        </form>\n    </div>\n</footer>\n</br>\n</br>\n<div class=\"border\"></div>\n</br>\n</br>\n<div class=\"last col-md-12\">\n    <div class=\"copy col-md-3\">\n        <p>\n            Copyright\n            <a href=\"/\">Powered by Shopify</a>\n        </p>\n    </div>\n    <div class=\"icon col-md-2\">\n        <ul class=\"icons\">\n            <li>\n                <a href=\"/\"><i class=\"fab fa-twitter\"></i></a>\n            </li>\n            <li>\n                <a href=\"/\"><i class=\"fab fa-facebook-square\"></i></a>\n            </li>\n            <li>\n                <a href=\"/\"><i class=\"fab fa-google\"></i></a>\n            </li>\n            <li>\n                <a href=\"/\"><i class=\"fab fa-tumblr\"></i></a>\n            </li>\n        </ul>\n    </div>\n    <div class=\"card col-md-4\">\n        <ul>\n            <li><a href=\"/\"><img src=\"img/paypal.webp\" height=\"28\" width=\"45\"/></a></li>\n            <li><a href=\"/\"><img src=\"img/cirrus.webp\" height=\"28\" width=\"45\"/></a></li>\n            <li><a href=\"/\"><img src=\"img/sage.webp\" height=\"28\" width=\"45\"/></a></li>\n            <li><a href=\"/\"><img src=\"img/master.webp\" height=\"28\" width=\"45\"/></a></li>\n            <li><a href=\"/\"><img src=\"img/visa.webp\" height=\"28\" width=\"45\"/></a></li>\n        </ul>\n    </div>\n</div>\n\n<script src=\"JScode/JS_code_1.js\"></script>\n\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- contact.html	(revision 2ae045f257b51805252d7e705930969d7297fd85)
++++ contact.html	(date 1609304245617)
+@@ -14,7 +14,7 @@
+     <div class="top-head">
+         <div class="container">
+             <div class="gmail-sdt col-md-3" >
+-                <ul class="mail">
++                <ul class="mail" style="margin-top: -9px">
+                     <li>
+                         <i class="fas fa-phone-alt"></i>
+                         <span>(00)000 111 222</span>
+Index: css/tesst.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.benngoai{\n    background-color: green;\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/tesst.css	(revision 2ae045f257b51805252d7e705930969d7297fd85)
++++ css/tesst.css	(date 1609350239597)
+@@ -1,3 +1,54 @@
+-.benngoai{
+-    background-color: green;
+-}
+\ No newline at end of file
++.chu_chay{
++    position: absolute;
++    text-align: left;
++    top: 30%;
++    left: 15%;
++    width: 350px;
++    animation: chuChay 3s forwards;
++}
++.chu_chay1{
++    height: 60px;
++    line-height: 40px;
++    background-color: #6a3621;
++    font-size: 26px;
++    color: goldenrod;
++    font-weight: 300;
++}
++.chu_nguoc{
++    font-size: 30px;
++    color: #fecd60;
++    transform: rotate(-90deg);
++    height: 50px;
++    padding: 0;
++    border-bottom: 1px solid;
++}
++.limited{
++    font-size: 20px;
++    color: #fecd60;
++    font-weight: 200;
++}
++.buttonssss{
++    height: 40px;
++    width: 120px;
++    border: 3px double;
++    background: none;
++    color: white;
++    margin-right: 130px;
++    transition: 0.5s;
++}
++.buttonssss:hover{
++    color: black;
++    background-color: white;
++    transition: 0.5s;
++}
++@-webkit-keyframes chuChay {
++    from{
++        opacity: 0;
++        left: 0;
++        top: 30%;
++    }
++    to{
++        opacity: 1;
++        left: 15%;
++    }
++}
+Index: teest.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html>\n<head>\n    <script src=\"https://code.jquery.com/jquery-3.5.1.min.js\"></script>\n    <link rel=\"stylesheet\" href=\"OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css\">\n    <link rel=\"stylesheet\" href=\"OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css\">\n    <script src=\"node_modules/jquery/dist/jquery.min.js\"></script>\n    <script src=\"OwlCarousel2-2.3.4/dist/owl.carousel.min.js\"></script>\n    <link rel=\"stylesheet\" href=\"css/tesst.css\">\n</head>\n<body>\n    <div class=\"owl-carousel owl-theme\">\n    <div class=\"item\"><h4>1</h4>\n    </div>\n            <div class=\"item\"><h4>2</h4></div>\n                <div class=\"item\"><h4>3</h4></div>\n                    <div class=\"item\"><h4>4</h4></div>\n                        <div class=\"item\"><h4>5</h4></div>\n                            <div class=\"item\"><h4>6</h4></div>\n                                <div class=\"item\"><h4>7</h4></div>\n    </div>\n\n    </div>\n\n    <button class=\"play\"> Play</button>\n    <button class=\"stop\"> Stop</button>\n\n    <script>\n    var owl = $('.owl-carousel');\n    owl.owlCarousel({\n        items:3,\n        loop:true,\n        margin:10,\n        autoplay:true,\n        autoplayTimeout:3000,\n        autoplayHoverPause:true\n    });\n\n\n</script>\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- teest.html	(revision 2ae045f257b51805252d7e705930969d7297fd85)
++++ teest.html	(date 1609350239604)
+@@ -1,42 +1,40 @@
+ <!DOCTYPE html>
+ <html>
+ <head>
+-    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+-    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+-    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+-    <script src="node_modules/jquery/dist/jquery.min.js"></script>
+-    <script src="OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
++    <meta charset="UTF-8">
++    <title>HOME</title>
++    <link rel="stylesheet" href="list/bootrap3.4.1/css/bootstrap.css">
++    <link rel="stylesheet" href="list/bootrap3.4.1/fontawesome-free-5.15.1-web/css/all.css">
++    <link rel="stylesheet" href="css/duan1_thang12.css">
++    <link rel="stylesheet" href="css/product.css">
+     <link rel="stylesheet" href="css/tesst.css">
+ </head>
+ <body>
+-    <div class="owl-carousel owl-theme">
+-    <div class="item"><h4>1</h4>
+-    </div>
+-            <div class="item"><h4>2</h4></div>
+-                <div class="item"><h4>3</h4></div>
+-                    <div class="item"><h4>4</h4></div>
+-                        <div class="item"><h4>5</h4></div>
+-                            <div class="item"><h4>6</h4></div>
+-                                <div class="item"><h4>7</h4></div>
+-    </div>
+-
++<section class="banner container">
++    <img src="img/img_doinen1.jpg" class="img_change">
++    <i class="fas fa-chevron-left slide-left-banner" onclick="click_prev_banner(this)"></i>
++    <i class="fas fa-chevron-right slide-right-banner" onclick="click_next_banner(this)"></i>
++    <div class="chu_chay">
++        <div class="chu_chay1">
++            <span>Ligting</span>
++        </div>
++        <h2 style="margin-top: -15px;color: white">MODERN LAMPS</h2>
++        <div class="col-md-5" style="padding: 0">
++            <h1 style="font-size: 60px;font-weight: bolder;color: #fecd60">60%</h1>
++        </div>
++        <div class="col-md-7" style="padding: 0;margin-top: 20px;height: 66px;">
++            <div class="chu_nguoc col-md-4">
++                <span>OFF</span>
++            </div>
++            <div class="col-md-8 limited">
++                <span>LIMITED OFFER</span>
++            </div>
++        </div>
++        <button type="button" class="buttonssss"> SHOP NOW</button>
+     </div>
+-
+-    <button class="play"> Play</button>
+-    <button class="stop"> Stop</button>
+ 
+-    <script>
+-    var owl = $('.owl-carousel');
+-    owl.owlCarousel({
+-        items:3,
+-        loop:true,
+-        margin:10,
+-        autoplay:true,
+-        autoplayTimeout:3000,
+-        autoplayHoverPause:true
+-    });
++</section>
++<script src="JScode/JS_code_1.js"></script>
+ 
+-
+-</script>
+ </body>
+ </html>

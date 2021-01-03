@@ -68,7 +68,7 @@
 }
 .sub-menu:hover .menu-an{
     display: block;
-    transition: tra 1.2s;
+    transition:  1.2s;
     z-index: 30;
 ;
 }
@@ -336,3 +336,172 @@
 .hienra_rv{
     display: block;
 }
+.chu_chay{
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    left: 15%;
+    width: 350px;
+    animation: chuChay 3s forwards;
+
+}
+.chu_chay1{
+    height: 60px;
+    line-height: 40px;
+    background-color: #6a3621;
+    font-size: 26px;
+    color: goldenrod;
+    font-weight: 300;
+}
+.chu_nguoc{
+    font-size: 30px;
+    color: #fecd60;
+    transform: rotate(-90deg);
+    height: 50px;
+    padding: 0;
+    border-bottom: 1px solid;
+}
+.limited{
+    font-size: 20px;
+    color: #fecd60;
+    font-weight: 200;
+}
+.buttonssss{
+    height: 40px;
+    width: 120px;
+    border: 3px double;
+    background: none;
+    color: white;
+    margin-right: 130px;
+    transition: 0.5s;
+}
+.buttonssss:hover{
+    color: black;
+    background-color: white;
+    transition: 0.5s;
+}
+@-webkit-keyframes chuChay {
+    from{
+        opacity: 0;
+        left: 0;
+        top: 20%;
+    }
+    to{
+        opacity: 1;
+        left: 15%;
+    }
+}
+@-webkit-keyframes chuChayyyy {
+    from{
+        opacity: 0;
+        left: 0;
+        top: 20%;
+    }
+    to{
+        opacity: 1;
+        left: 15%;
+    }
+}
+.chu_chayyya{
+    position: absolute;
+    text-align: left;
+    top: 20%;
+    left: 15%;
+    width: 350px;
+    animation: chuChayyyy 3s forwards;
+
+}
+.review_left{
+    position: relative;
+}
+.chu_an1n{
+    position: absolute;
+    left: 8%;
+    top: 8%;
+    height: 80%;
+    padding-top: 20%;
+    color: white;
+    width: 80%;
+    text-align: center;
+    background-color: rgba(89, 76, 73, 0.9);
+    transition: 1s;
+    opacity: 0;
+}
+.chu_an1n:hover{
+    opacity: 1;
+    transform: scale(1.2);
+    transition: 1s;
+}
+.chu_an1n span{
+    font-size: 15px;
+    font-weight: 300;
+}
+.chu_an1n button{
+    width: 100px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: white;
+    color: black;
+    border: 3px double #ff5050;
+}
+.chu_an1n button:hover{
+    background-color: #ff5050;
+    color: white;
+}
+.div_luachon_an i{
+    font-size: 23px;
+}
+.div_luachon_an{
+    width: 90%;
+    position: absolute;
+    top: 85%;
+}
+.div_luachon_hien :hover .div_luachon_an{
+color: red;
+}
+.div_luachon_an{
+    width: 89%;
+    position: absolute;
+    top: 85%;
+
+}
+.div_luachon_an {
+    opacity: 0;
+    transition: 0.5s;
+    left: 6%;
+
+}
+
+.div_luachon_hien:hover .div_luachon_an{
+    opacity: 1;
+    transition: 0.5s;
+}
+.div_luachon_hien{
+    position: relative;
+    text-align: center;
+}
+.div_luachon_an i{
+    transition: 0.5s;
+}
+.div_luachon_an i:hover{
+    color: #ff5050;
+    transition: 0.5s;
+}
+.menu-an_page ul li{
+    list-style-type: none;
+}
+.menu-an_page{
+    display: none;
+    position: absolute;
+    background-color: white;
+    width: 200px;
+    text-align: left;
+    padding-left: 20px;
+    right: 200px;
+}
+.sub-menu:hover .menu-an_page{
+
+    display: block;
+    z-index: 30;
+}
+
