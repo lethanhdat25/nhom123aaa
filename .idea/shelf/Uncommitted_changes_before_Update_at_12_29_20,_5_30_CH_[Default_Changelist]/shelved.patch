@@ -1,0 +1,150 @@
+Index: css/duan1_thang12.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.top-head{\n    height: 30px;\n    margin-bottom: 20px;\n    border-bottom: 1px solid darkgray;\n}\n.gmail-sdt{\n    width: 300px;\n}\n.acc-giohang{\n\n    text-align: right;\n    float: right;\n}\n.top-2-head{\n    margin-bottom:20px ;\n}\n.acc-giohang{\n    text-align: right;\n}\n.top-2-head input{\n    height: 40px;\n    width: 200px;\n}\n.top-2-head button{\n    height: 40px;\n}\n.lg_sr{\n    height: 50px;\n}\n\n#run{\n    /*position: fixed;*/\n    width: 100%;\n    z-index: 50;\n}\n#run nav{\n    text-align: center;\n    background-color: #ff5050;\n    height: 80px;\n    line-height: 80px;\n\n}\n.sub-menu{\n    list-style-type: none;\n    display: inline-table;\n    color: black;\n    padding-right: 30px;\n}\n.ssmenu {\n    position: relative;\n\n}\n.sub-menu a{\n    color: white;\n    text-decoration: none;\n}\n.menu-an{\n    display: none;\n    width: 100%;\n    position: absolute;\n    right: 0px;\n    text-align: left;\n    background-color: white;\n    line-height: 40px;\n}\n.menu-an li{\n    list-style-type: none;\n}\n.sub-menu:hover .menu-an{\n    display: block;\n    transition: tra 1.2s;\n    z-index: 30;\n;\n}\n.menu-an img{\n    width: 100%;\n}\n.menu-an b{\n    color:#ff5050;\n}\n.banner {\n    height: 430px;\n    text-align: center;\n    position: relative;\n    top: 80px;\n}\n.banner img{\n    width: 100%;\n}\n.slide-left-banner {\n    font-size: 40px;\n    color: darkgray;\n    position: absolute;\n    z-index: 20;\n    top: 45%;\n    left: 25px;\n    cursor: pointer;\n}\n.slide-right-banner{\n    font-size: 40px;\n    color: darkgray;\n    position: absolute;\n    z-index: 20;\n    top: 45%;\n    right: 25px;\n    cursor: pointer;\n}\n.review{\n    margin-top: 130px;\n}\n.review_left{\n    padding-left: 0;\n}\n.review_right{\n    padding-right: 0;\n}\n.review img{\n    width: 100%;\n}\n.titleProduct h1{\n    margin-bottom: 40px;\n}\n.luachon{\n    padding-right: 45px;\n    margin-bottom: 30px;\n}\n.luachon div{\n    height: 30px;\n    line-height: 30px;\n    float: right;\n}\n.titleProduct {\n    text-align: center;\n}\n.slide-left-luachon{\n    font-size: 20px;\n    cursor: pointer;\n    color: darkgray;\n}\n.slide-right-luachon{\n    font-size: 20px;\n    cursor: pointer;\n    color: darkgray;\n}\n.control_luachon{\n    text-align: right;\n    margin-bottom: 30px;\n}\n.list_luachon{\n    transition: 0.5s;\n}\n.list_luachon:hover{\n    background-color: #ff5050;\n    transition: 1s;\n}\n.control_luachon i{\n    padding-right: 20px;\n}\n.image_luachon img{\n    width: 100%;\n    border: 4px solid lightgray;\n    height: 423.86px;\n}\n.luachon_left{\n    padding-left: 0;\n}\n.luachon_right{\n    padding-right: 0;\n}\n.thaydoimau{\n    background-color: #ff5050;\n}\n.thongtin_luchon{\n    position: absolute;\n    top: 320px;\n    left: 12%;\n\n}\n.ten_image_left{\n    background-color: yellow;\n    height: 30px;\n}\n.review_sale{\n    margin-top: 50px;\n}\n.review_sale img{\n    width: 100%;\n    position: relative;\n}\n.text_sale{\n    position: absolute;\n    top: 50px;\n    left: 60px;\n    width: 70%;\n    font-size: 22px;\n    color: dimgrey;\n}\n.text_sale button{\n    margin-top: 10px;\n    border: 3px double dimgray;\n    transition: 1s;\n}\n.text_sale button:hover{\n    transition: 1s;\n    background-color: dimgray;\n    color: white;\n}\n#text_sale_2 h1{\n    color: saddlebrown;\n}\n#text_sale_2 button{\n    border: 3px double saddlebrown;\n}\n#text_sale_2 button:hover{\n    background-color: saddlebrown;\n    color: white;\n}\n.ContentBlog img{\n    width: 100%;\n}\n.TextContent{\n    text-align: left;\n}\n.ReadMore button{\n    height: 40px;\n    width: 120px;\n    border: 3px double #ff5050;\n    background-color: white;\n    transition: 1s;\n}\n.ReadMore button:hover{\n    color: white;\n    background-color: #ff5050;\n    transition: 1s;\n}\n.TextContent h3{\n    height: 52px;\n}\n.lists ul{\n    padding-left: 0;\n}\n.lists span{\n    font-size: 20px;\n    font-weight: lighter;\n    color: #ff5050;\n}\n\n.lists ul li{\n    list-style-type: none;\n    margin-top: 20px;\n}\n.lists input{\n    height: 40px;\n    margin-top: 40px;\n}\n.googlemap{\n    margin-top: 25px;\n    margin-bottom: 25px;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/duan1_thang12.css	(revision 0dc2d837547026e3a8843110b2c6efcde37942b8)
++++ css/duan1_thang12.css	(date 1609233533102)
+@@ -257,3 +257,77 @@
+     margin-top: 25px;
+     margin-bottom: 25px;
+ }
++.soluong_giohang{
++    height: 30px;
++    width: 80px;
++    text-align: center;
++}
++.sanphamI{
++    height: 70px;
++    line-height: 70px;
++}
++.sanphamI button{
++    height: 30px;
++    line-height: 3px;
++
++}
++.Quantity button{
++    width: 30px;
++    height: 30px;
++
++}
++.button_backgroundcolor{
++    background-color: white;
++}
++.Buy_it{
++    height: 40px;
++    width: 160px;
++    border: 3px double #ff5050;
++    background-color: white;
++    transition: 0.5s;
++
++}
++.Buy_it:hover {
++    background-color: #ff5050;
++    color: white;
++    transition: 0.5s;
++}
++.write:hover{
++    cursor: pointer;
++    color: #ff5050;
++}
++.star-box {
++    float: left;
++    width: 80px;
++    height: 30px;
++    background-image: url("../img/star-off.png");
++    background-repeat: repeat-x;
++    background-size: 16px 30px;
++}
++.star-rate{
++    float: left;
++    height: 30px;
++    background-image: url("../img/star-on.png");
++    background-repeat: repeat-x;
++    background-size: 16px 30px;
++    width: 50px;
++}
++#button_rv{
++    height: 50px;
++    width: 130px;
++    float: right;
++    transition: 1s;
++    border: 3px double #f50505;
++    background-color: white;
++}
++#button_rv:hover{
++    background-color: #ff5050;
++    color: white;
++    transition: 1s;
++}
++.andi_rv{
++    display: none;
++}
++.hienra_rv{
++    display: block;
++}
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"6a152d3a-8240-4284-9f9e-b8dc72bf0bad\" name=\"Default Changelist\" comment=\"code mới\">\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/css/page.css\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/css/page.css\" afterDir=\"false\" />\n      <change beforePath=\"$PROJECT_DIR$/page.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/page.html\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"JavaScript File\" />\n        <option value=\"HTML File\" />\n        <option value=\"CSS File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1loUrKK1PEXLOFk3ABTtOhOCdYr\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/css\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\mac\\Documents\\nhom123aaa\\css\" />\n      <recent name=\"C:\\Users\\mac\\Documents\\nhom123aaa\" />\n    </key>\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"C:\\nhom123aaa\\img\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"6a152d3a-8240-4284-9f9e-b8dc72bf0bad\" name=\"Default Changelist\" comment=\"\" />\n      <created>1608263134793</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1608263134793</updated>\n      <workItem from=\"1608263135864\" duration=\"187000\" />\n      <workItem from=\"1608263359893\" duration=\"5549000\" />\n      <workItem from=\"1608274440594\" duration=\"54779000\" />\n      <workItem from=\"1608515270654\" duration=\"9511000\" />\n      <workItem from=\"1608623606440\" duration=\"17241000\" />\n      <workItem from=\"1608656670260\" duration=\"243000\" />\n      <workItem from=\"1608686514581\" duration=\"685000\" />\n      <workItem from=\"1608695291488\" duration=\"192000\" />\n      <workItem from=\"1608711733774\" duration=\"90000\" />\n      <workItem from=\"1608712358835\" duration=\"24000\" />\n      <workItem from=\"1608712419819\" duration=\"15000\" />\n      <workItem from=\"1608712522358\" duration=\"1135000\" />\n      <workItem from=\"1608713695510\" duration=\"1323000\" />\n      <workItem from=\"1608715030551\" duration=\"8000\" />\n      <workItem from=\"1608715049965\" duration=\"1014000\" />\n      <workItem from=\"1608787644124\" duration=\"171000\" />\n      <workItem from=\"1608787834989\" duration=\"2065000\" />\n      <workItem from=\"1608789922505\" duration=\"10000\" />\n      <workItem from=\"1608789941644\" duration=\"252000\" />\n      <workItem from=\"1608790219289\" duration=\"1622000\" />\n      <workItem from=\"1608791860439\" duration=\"13000\" />\n      <workItem from=\"1608791881408\" duration=\"68000\" />\n      <workItem from=\"1608791960733\" duration=\"397000\" />\n      <workItem from=\"1608797702081\" duration=\"8926000\" />\n      <workItem from=\"1608806720622\" duration=\"2776000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"up\">\n      <created>1608303939187</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1608303939188</updated>\n    </task>\n    <task id=\"LOCAL-00002\" summary=\"up\">\n      <created>1608899530636</created>\n      <option name=\"number\" value=\"00002\" />\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1608899530636</updated>\n    </task>\n    <task id=\"LOCAL-00003\" summary=\"code mới\">\n      <created>1609095048614</created>\n      <option name=\"number\" value=\"00003\" />\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1609095048614</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"4\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"up\" />\n    <MESSAGE value=\"code mới\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"code mới\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"128\" y=\"96\" key=\"DiffContextDialog\" timestamp=\"1608899554468\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\n    </state>\n    <state x=\"128\" y=\"96\" key=\"DiffContextDialog/0.0.1280.680@0.0.1280.680\" timestamp=\"1608899554468\" />\n    <state x=\"549\" y=\"202\" key=\"FileChooserDialogImpl\" timestamp=\"1608263506592\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"920\" />\n    </state>\n    <state x=\"549\" y=\"202\" key=\"FileChooserDialogImpl/0.0.1536.920@0.0.1536.920\" timestamp=\"1608263506592\" />\n    <state x=\"640\" y=\"358\" key=\"Github.ShareDialog\" timestamp=\"1608263386419\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"920\" />\n    </state>\n    <state x=\"640\" y=\"358\" key=\"Github.ShareDialog/0.0.1536.920@0.0.1536.920\" timestamp=\"1608263386419\" />\n    <state x=\"240\" y=\"119\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1609095113543\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"680\" />\n    </state>\n    <state x=\"240\" y=\"119\" key=\"Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1609095113543\" />\n    <state x=\"240\" y=\"140\" key=\"Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800\" timestamp=\"1608514875033\" />\n    <state x=\"100\" y=\"100\" width=\"1080\" height=\"600\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog\" timestamp=\"1608478306949\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"726\" />\n    </state>\n    <state x=\"100\" y=\"100\" width=\"1080\" height=\"600\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1608397983778\" />\n    <state x=\"100\" y=\"100\" width=\"1080\" height=\"600\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726\" timestamp=\"1608478306949\" />\n    <state x=\"458\" y=\"300\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1608859286329\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"458\" y=\"255\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680\" timestamp=\"1608798108700\" />\n    <state x=\"458\" y=\"300\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800\" timestamp=\"1608859286329\" />\n    <state x=\"359\" y=\"170\" width=\"670\" height=\"590\" key=\"search.everywhere.popup\" timestamp=\"1608466516469\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"359\" y=\"170\" width=\"670\" height=\"590\" key=\"search.everywhere.popup/0.0.1280.800@0.0.1280.800\" timestamp=\"1608466516469\" />\n    <state x=\"431\" y=\"195\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1536.920@0.0.1536.920\" timestamp=\"1608268042112\" />\n    <state x=\"599\" y=\"251\" key=\"svn.repositoryBrowser\" timestamp=\"1608263443443\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"920\" />\n    </state>\n    <state x=\"599\" y=\"251\" key=\"svn.repositoryBrowser/0.0.1536.920@0.0.1536.920\" timestamp=\"1608263443443\" />\n  </component>\n</project>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 0dc2d837547026e3a8843110b2c6efcde37942b8)
++++ .idea/workspace.xml	(date 1609226001441)
+@@ -19,12 +19,9 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="code mới">
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_1.xml" afterDir="false" />
++    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="">
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page.css" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/duan1_thang12.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/duan1_thang12.css" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -63,13 +60,13 @@
+     <property name="vue.rearranger.settings.migration" value="true" />
+   </component>
+   <component name="RecentsManager">
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\nhom123aaa\img" />
++    </key>
+     <key name="CopyFile.RECENT_KEYS">
+       <recent name="C:\Users\mac\Documents\nhom123aaa\css" />
+       <recent name="C:\Users\mac\Documents\nhom123aaa" />
+     </key>
+-    <key name="MoveFile.RECENT_KEYS">
+-      <recent name="C:\nhom123aaa\img" />
+-    </key>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -167,11 +164,11 @@
+     </state>
+     <state x="240" y="119" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609095113543" />
+     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
+-    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608478306949">
++    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609226001424">
+       <screen x="0" y="23" width="1280" height="726" />
+     </state>
+     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
+-    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
++    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1609226001424" />
+     <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608859286329">
+       <screen x="0" y="0" width="1280" height="800" />
+     </state>
+@@ -187,4 +184,4 @@
+     </state>
+     <state x="599" y="251" key="svn.repositoryBrowser/0.0.1536.920@0.0.1536.920" timestamp="1608263443443" />
+   </component>
+-</project>
++</project>
+\ No newline at end of file

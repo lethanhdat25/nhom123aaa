@@ -1,0 +1,404 @@
+Index: JScode/JS_code_1.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>var slide_img=document.querySelector('.img_change');\nvar images_banner=[\"img_doinen1.jpg\",\"img_doinen2.jpg\",\"img_doinen3.jpg\"]\nvar images_luachon=[\"img_luachon1.jpg\",\"img_luachon2.jpg\",\"img_luachon3.jpg\",\"img_luachon4.jpg\",\"img_luachon5.jpg\",\"img_luachon6.jpg\",\"img_luachon7.jpg\",\"img_luachon8.jpg\"]\nvar img_list1=[\"img_luachon1.jpg\",\"img_luachon1.jpg\",\"img_luachon1.jpg\",\"img_luachon1.jpg\",\"img_luachon1.jpg\",\"img_luachon1.jpg\"]\nvar i=0;\nvar x=0;\nvar y=1;\nvar z=2;\n/*-------banner-----*/\nfunction click_prev_banner(e){\n    if(i<=0) i=images_banner.length;\n    i--;\n    return change_banner();\n}\nfunction click_next_banner(e){\n    if(i>=images_banner.length-1) i=-1;\n    i++;\n    return change_banner();\n}\nfunction change_banner(){\n    return slide_img.setAttribute(\"src\",\"img/\"+images_banner[i]);\n}\n/*----listluachon---*/\nvar txt1=document.getElementById(\"list_1\");\nvar txt2=document.getElementById(\"list_2\");\nvar txt3=document.getElementById(\"list_3\");\n\n\nfunction click_list_1(){\n    txt1.classList.add('thaydoimau');\n    txt2.classList.remove('thaydoimau');\n    txt3.classList.remove('thaydoimau');\n    images_luachon=[\"img_luachon1.jpg\",\"img_luachon2.jpg\",\"img_luachon3.jpg\",\"img_luachon4.jpg\",\"img_luachon5.jpg\",\"img_luachon6.jpg\",\"img_luachon7.jpg\",\"img_luachon8.jpg\"]\n\n}\nfunction click_list_2(){\n    txt2.classList.add('thaydoimau');\n    txt1.classList.remove('thaydoimau');\n    txt3.classList.remove('thaydoimau');\n    images_luachon=[\"img_luachon2.jpg\",\"img_luachon2.jpg\",\"img_luachon3.jpg\",\"img_luachon4.jpg\",\"img_luachon5.jpg\",\"img_luachon6.jpg\",\"img_luachon7.jpg\",\"img_luachon8.jpg\"]\n}\nfunction click_list_3(){\n    txt3.classList.add('thaydoimau');\n    txt1.classList.remove('thaydoimau');\n    txt2.classList.remove('thaydoimau');\n    images_luachon=[\"img_luachon3.jpg\",\"img_luachon3.jpg\",\"img_luachon3.jpg\",\"img_luachon4.jpg\",\"img_luachon5.jpg\",\"img_luachon6.jpg\",\"img_luachon7.jpg\",\"img_luachon8.jpg\"]\n\n}\n\nfunction luachon(){\n    return\"<div class=\\\"col-md-4\\\">\\n\" +\n        \"            <img src=\\\"img/\"+images_luachon[x]+\"\\\" class=\\\"luachon_left\\\">\\n\" +\n        \"        </div>\\n\" +\n        \"        <div class=\\\"col-md-4\\\">\\n\" +\n        \"            <img src=\\\"img/\"+images_luachon[y]+\"\\\" class=\\\"luachon_mid\\\">\\n\" +\n        \"        </div>\\n\" +\n        \"        <div class=\\\"col-md-4\\\">\\n\" +\n        \"            <img src=\\\"img/\"+images_luachon[z]+\"\\\" class=\\\"luachon_right\\\">\\n\" +\n        \"        </div>\"\n}\nvar gan=document.getElementById(\"image_luachon\");\ngan.innerHTML=luachon();\n/*-------luachon-----*/\nvar luachon_left=document.querySelector('.luachon_left');\nvar luachon_mid=document.querySelector('.luachon_mid');\nvar luachon_right=document.querySelector('.luachon_right');\nfunction click_prev_luachon(e){\n    if(z>=3){\n        z--;\n        y--;\n        x--;\n        return change_luachon();\n    }\n}\n\nfunction click_next_luachon(e){\n    if(z>=2 && z<images_luachon.length-1){\n        z++;\n        y++;\n        x++;\n        return change_luachon();\n    }\n}\nfunction change_luachon(){\n    var dulieu=[luachon_left.setAttribute(\"src\",\"img/\"+images_luachon[x]),\n        luachon_mid.setAttribute(\"src\",\"img/\"+images_luachon[y]),\n        luachon_right.setAttribute(\"src\",\"img/\"+images_luachon[z]),\n]    ;\n    return dulieu ;\n}\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- JScode/JS_code_1.js	(revision a9ce3d1b9981a95c60143c0c29d0b3a05d445b28)
++++ JScode/JS_code_1.js	(date 1608904800617)
+@@ -88,3 +88,17 @@
+ ]    ;
+     return dulieu ;
+ }
++/*------page-----*/
++function dulieupage(){
++    return"<div class=\"col-md-4\">\n" +
++        "                        <img src=\"img/img_review_blog1.jpg\" width=\"100%\">\n" +
++        "                    </div>\n" +
++        "                    <div class=\"col-md-4\">\n" +
++        "                        <img src=\"img/img_review_blog1.jpg\" width=\"100%\">\n" +
++        "                    </div>\n" +
++        "                    <div class=\"col-md-4\">\n" +
++        "                        <img src=\"img/img_review_blog1.jpg\" width=\"100%\">\n" +
++        "                    </div>"
++}
++var gan2=document.getElementById("reviewpage");
++gan2.innerHTML= dulieupage();
+Index: page.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>HOME</title>\n    <link rel=\"stylesheet\" href=\"list/bootrap3.4.1/css/bootstrap.css\">\n    <link rel=\"stylesheet\" href=\"list/bootrap3.4.1/fontawesome-free-5.15.1-web/css/all.css\">\n    <link rel=\"stylesheet\" href=\"css/page.css\">\n</head>\n<body>\n<header class=\"container\">\n    <div class=\"top-head\">\n        <div class=\"container\">\n            <div class=\"gmail-sdt \" >\n                <span>(00)000 111 222</span>\n            </div>\n            <div class=\"acc-giohang \">\n                <span>My account</span>\n            </div>\n        </div>\n    </div>\n    <div class=\"top-2-head\">\n        <div class=\"container\">\n            <div class=\"lg_sr col-md-4\">\n                <img src=\"img/logo.webp\">\n            </div>\n            <div class=\"lg_sr col-md-4\" style=\"top: 10px\">\n                <form >\n                    <input type=\"text\" placeholder=\"Search......\">\n                    <button>Tim kiem</button>\n                </form>\n            </div>\n            <div class=\"lg_sr col-md-4\" style=\"top: 10px\">\n                <img src=\"img/icon-freeship.webp\">\n                <span class=\"freeship\">FREE DELIVERY ORDER OVER $100</span>\n            </div>\n\n        </div>\n    </div>\n</header>\n\n<div id=\"run\">\n    <nav class=\"container\">\n        <div class=\"menu\">\n            <ul class=\"ssmenu\" >\n                <li class=\"sub-menu \"><a href=\"#\">Home</a> </li>\n\n                <li class=\"sub-menu\"><a href=\"#\">Collection</a>\n                    <div class=\"menu-an\">\n                        <ul class=\" col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <div class=\" col-md-6\">\n                            <img src=\"img/logo_collection.webp\">\n                        </div>\n                    </div>\n                </li>\n                <li class=\"sub-menu\"><a href=\"#\">Shop</a>\n                    <div class=\"menu-an\">\n                        <ul class=\" col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <ul class=\"  col-md-2\">\n\n                            <li><b>DOWNLIGHT</b></li>\n                            <li>Surya</li>\n                            <li>Murphy</li>\n                            <li>Syska</li>\n                            <li>Generic</li>\n                            <li>Wipro</li>\n                            <li>Reiz</li>\n                            <li>Puffin</li>\n                            <li>E-Ware</li>\n                        </ul>\n                        <div class=\" col-md-6\">\n                            <img src=\"img/logo_collection.webp\">\n                        </div>\n                    </div>\n                </li>\n                <li class=\"sub-menu\"><a href=\"#\">Indoor Light</a> </li>\n                <li class=\"sub-menu\"><a href=\"#\">Lighting</a> </li>\n                <li class=\"sub-menu\"><a href=\"#\">Outdoor</a> </li>\n                <li class=\"sub-menu\"><a href=\"#\">Pages</a> </li>\n            </ul>\n        </div>\n    </nav>\n</div>\n<div class=\"pages container\">\n    <div class=\"pages1\">\n        <h2>ABOUT US</h2>\n        <a href=\"home.html\">Home </a>/ About US\n    </div>\n</div>\n<section class=\"section container\">\n    <div class=\"section-1\">\n        <div class=\"section-2\">\n            <div class=\"section-3\">\n                <div class=\"photo\">\n                    <img class=\"image\" src=\"img/page1.jpg\">\n                </div>\n            </div>\n            <div class=\"section-4\">\n                <div class=\"font1\">\n                    <h2>WELCOME TO LIGHTS</h2>\n                    <div class=\"ke-ngang\">\n                        <hr class=\"hr\" width=\"15%\" align=\"left\"/>\n                    </div>\n                </div>\n                <div class=\"font2\">\n                    <p class=\"font3\">\n                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do<br>eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut<br>enim ad minim veniam, quis nostrud exercitation ullamco laboris<br>nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in<br>reprehenderit in voluptate id est laborum.<br>\n                        <br>\n                        us ferri velit sanctus cu, sed at soleat accusata. Dictas prompta et<br>Ut placerat legendos interpre.Donec vitae sapien ut libero<br>venenatis faucibus. Nullam quis ante Etiam sit amet orci eget<br>Duis dan molestie, sem in sollicitudin sodales, mi justo sagittis<br>est, id consequat ipsum ligula a ante. Pellentesque sapien dui,<br>miverra et commodo id ductus id est. Cras eu tempor eros donec<br>ut porttitor lacus, nec ullamcorper massa maecenas eu nulla nisl.<br>Destibulum ante ipsum primis in faucibus orci luctus et ultrices<br>posuere.\n                    </p>\n                </div>\n                <div class=\"\">\n\n                </div>\n            </div>\n        </div>\n    </div>\n</section>\n<script src=\"JScode/JS_code_1.js\"></script>\n\n</body>\n</html>\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- page.html	(revision a9ce3d1b9981a95c60143c0c29d0b3a05d445b28)
++++ page.html	(date 1608906072874)
+@@ -167,14 +167,14 @@
+                         us ferri velit sanctus cu, sed at soleat accusata. Dictas prompta et<br>Ut placerat legendos interpre.Donec vitae sapien ut libero<br>venenatis faucibus. Nullam quis ante Etiam sit amet orci eget<br>Duis dan molestie, sem in sollicitudin sodales, mi justo sagittis<br>est, id consequat ipsum ligula a ante. Pellentesque sapien dui,<br>miverra et commodo id ductus id est. Cras eu tempor eros donec<br>ut porttitor lacus, nec ullamcorper massa maecenas eu nulla nisl.<br>Destibulum ante ipsum primis in faucibus orci luctus et ultrices<br>posuere.
+                     </p>
+                 </div>
+-                <div class="">
++                <div id="reviewpage" class="col-md-12">
+ 
+                 </div>
+             </div>
+         </div>
+     </div>
+ </section>
+-<script src="JScode/JS_code_1.js"></script>
++<script src="JScode/image_luachon.js"></script>
+ 
+ </body>
+ </html>
+Index: css/duan1_thang12.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>.top-head{\n    height: 30px;\n    margin-bottom: 20px;\n    border-bottom: 1px solid darkgray;\n}\n.gmail-sdt{\n    width: 300px;\n}\n.acc-giohang{\n\n    text-align: right;\n    float: right;\n    transform: translate(-30px, -20px);}\n.top-2-head{\n    margin-bottom:20px ;\n}\n.acc-giohang{\n    text-align: right;\n}\n.top-2-head input{\n    height: 40px;\n    width: 200px;\n}\n.top-2-head button{\n    height: 40px;\n}\n.lg_sr{\n    height: 50px;\n}\n\n#run{\n    /*position: fixed;*/\n    width: 100%;\n    z-index: 50;\n}\n#run nav{\n    text-align: center;\n    background-color: #ff5050;\n    height: 80px;\n    line-height: 80px;\n\n}\n.sub-menu{\n    list-style-type: none;\n    display: inline-table;\n    color: black;\n    padding-right: 30px;\n}\n.ssmenu {\n    position: relative;\n\n}\n.sub-menu a{\n    color: white;\n    text-decoration: none;\n}\n.menu-an{\n    display: none;\n    width: 100%;\n    position: absolute;\n    right: 0px;\n    text-align: left;\n    background-color: white;\n    line-height: 40px;\n}\n.menu-an li{\n    list-style-type: none;\n}\n.sub-menu:hover .menu-an{\n    display: block;\n    transition: tra 1.2s;\n    z-index: 30;\n;\n}\n.menu-an img{\n    width: 100%;\n}\n.menu-an b{\n    color:#ff5050;\n}\n.banner {\n    height: 430px;\n    text-align: center;\n    position: relative;\n    top: 80px;\n}\n.banner img{\n    width: 100%;\n}\n.slide-left-banner {\n    font-size: 40px;\n    color: darkgray;\n    position: absolute;\n    z-index: 20;\n    top: 45%;\n    left: 25px;\n    cursor: pointer;\n}\n.slide-right-banner{\n    font-size: 40px;\n    color: darkgray;\n    position: absolute;\n    z-index: 20;\n    top: 45%;\n    right: 25px;\n    cursor: pointer;\n}\n.review{\n    margin-top: 130px;\n}\n.review_left{\n    padding-left: 0;\n}\n.review_right{\n    padding-right: 0;\n}\n.review img{\n    width: 100%;\n}\n.titleProduct h1{\n    margin-bottom: 40px;\n}\n.luachon{\n    padding-right: 45px;\n    margin-bottom: 30px;\n}\n.luachon div{\n    height: 30px;\n    line-height: 30px;\n    float: right;\n}\n.titleProduct {\n    text-align: center;\n}\n.slide-left-luachon{\n    font-size: 20px;\n    cursor: pointer;\n    color: darkgray;\n}\n.slide-right-luachon{\n    font-size: 20px;\n    cursor: pointer;\n    color: darkgray;\n}\n.control_luachon{\n    text-align: right;\n    margin-bottom: 30px;\n}\n.list_luachon{\n    transition: 0.5s;\n}\n.list_luachon:hover{\n    background-color: #ff5050;\n    transition: 1s;\n}\n.control_luachon i{\n    padding-right: 20px;\n}\n.image_luachon img{\n    width: 100%;\n    border: 4px solid lightgray;\n    height: 423.86px;\n}\n.luachon_left{\n    padding-left: 0;\n}\n.luachon_right{\n    padding-right: 0;\n}\n.thaydoimau{\n    background-color: #ff5050;\n}\n.thongtin_luchon{\n    position: absolute;\n    top: 320px;\n    left: 12%;\n\n}\n.ten_image_left{\n    background-color: yellow;\n    height: 30px;\n}\n.review_sale{\n    margin-top: 50px;\n}\n.review_sale img{\n    width: 100%;\n    position: relative;\n}\n.text_sale{\n    position: absolute;\n    top: 50px;\n    left: 60px;\n    width: 70%;\n    font-size: 22px;\n    color: dimgrey;\n}\n.text_sale button{\n    margin-top: 10px;\n    border: 3px double dimgray;\n    transition: 1s;\n}\n.text_sale button:hover{\n    transition: 1s;\n    background-color: dimgray;\n    color: white;\n}\n#text_sale_2 h1{\n    color: saddlebrown;\n}\n#text_sale_2 button{\n    border: 3px double saddlebrown;\n}\n#text_sale_2 button:hover{\n    background-color: saddlebrown;\n    color: white;\n}\n.ContentBlog img{\n    width: 100%;\n}\n.TextContent{\n    text-align: left;\n}\n.ReadMore button{\n    height: 40px;\n    width: 120px;\n    border: 3px double #ff5050;\n    background-color: white;\n    transition: 1s;\n}\n.ReadMore button:hover{\n    color: white;\n    background-color: #ff5050;\n    transition: 1s;\n}\n.TextContent h3{\n    height: 52px;\n}\n.lists ul{\n    padding-left: 0;\n}\n.lists span{\n    font-size: 20px;\n    font-weight: lighter;\n    color: #ff5050;\n}\n\n.lists ul li{\n    list-style-type: none;\n    margin-top: 20px;\n}\n.lists input{\n    height: 40px;\n    margin-top: 40px;\n}\n.googlemap{\n    margin-top: 25px;\n    margin-bottom: 25px;\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/duan1_thang12.css	(revision a9ce3d1b9981a95c60143c0c29d0b3a05d445b28)
++++ css/duan1_thang12.css	(date 1608901207658)
+@@ -256,4 +256,9 @@
+ .googlemap{
+     margin-top: 25px;
+     margin-bottom: 25px;
+-}
+\ No newline at end of file
++}
++.soluong_giohang{
++    height: 30px;
++    width: 80px;
++    text-align: center;
++}
+Index: JScode/image_luachon.js
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- JScode/image_luachon.js	(revision a9ce3d1b9981a95c60143c0c29d0b3a05d445b28)
++++ JScode/image_luachon.js	(date 1608906072865)
+@@ -1,0 +1,14 @@
++
++function dulieupage(){
++    return"<div class=\"col-md-4\">\n" +
++        "                        <img src=\"img/img_review_blog1.jpg\" width=\"100%\">\n" +
++        "                    </div>\n" +
++        "                    <div class=\"col-md-4\">\n" +
++        "                        <img src=\"img/img_review_blog1.jpg\" width=\"100%\">\n" +
++        "                    </div>\n" +
++        "                    <div class=\"col-md-4\">\n" +
++        "                        <img src=\"img/img_review_blog1.jpg\" width=\"100%\">\n" +
++        "                    </div>"
++}
++var gan2=document.getElementById("reviewpage");
++gan2.innerHTML= dulieupage();
+\ No newline at end of file
+Index: giohang.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- giohang.html	(date 1608901207670)
++++ giohang.html	(date 1608901207670)
+@@ -0,0 +1,182 @@
++<!DOCTYPE html>
++<html lang="en">
++<head>
++    <meta charset="UTF-8">
++    <title>Gio Hang</title>
++    <link rel="stylesheet" href="list/bootrap3.4.1/css/bootstrap.css">
++    <link rel="stylesheet" href="css/duan1_thang12.css">
++    <link rel="stylesheet" href="list/bootrap3.4.1/fontawesome-free-5.15.1-web/css/all.css">
++
++</head>
++<body>
++<header class="container">
++    <div class="top-head">
++        <div class="container">
++            <div class="gmail-sdt " >
++                <span>(00)000 111 222</span>
++            </div>
++            <div class="acc-giohang ">
++                <span>My account</span>
++            </div>
++        </div>
++    </div>
++    <div class="top-2-head">
++        <div class="container">
++            <div class="lg_sr col-md-4">
++                <img src="img/logo.webp">
++            </div>
++            <div class="lg_sr col-md-4" style="top: 10px">
++                <form >
++                    <input type="text" placeholder="Search......">
++                    <button>Tim kiem</button>
++                </form>
++            </div>
++            <div class="lg_sr col-md-4" style="top: 10px">
++                <img src="img/icon-freeship.webp">
++                <span class="freeship">FREE DELIVERY ORDER OVER $100</span>
++            </div>
++
++        </div>
++    </div>
++</header>
++<div id="run">
++    <nav >
++        <div class="menu">
++            <ul class="ssmenu" >
++                <li class="sub-menu "><a href="#">Home</a> </li>
++
++                <li class="sub-menu"><a href="#">Collection</a>
++                    <div class="menu-an">
++                        <ul class=" col-md-2">
++
++                            <li><b>DOWNLIGHT</b></li>
++                            <li>Surya</li>
++                            <li>Murphy</li>
++                            <li>Syska</li>
++                            <li>Generic</li>
++                            <li>Wipro</li>
++                            <li>Reiz</li>
++                            <li>Puffin</li>
++                            <li>E-Ware</li>
++                        </ul>
++                        <ul class="  col-md-2">
++
++                            <li><b>DOWNLIGHT</b></li>
++                            <li>Surya</li>
++                            <li>Murphy</li>
++                            <li>Syska</li>
++                            <li>Generic</li>
++                            <li>Wipro</li>
++                            <li>Reiz</li>
++                            <li>Puffin</li>
++                            <li>E-Ware</li>
++                        </ul>
++                        <ul class="  col-md-2">
++
++                            <li><b>DOWNLIGHT</b></li>
++                            <li>Surya</li>
++                            <li>Murphy</li>
++                            <li>Syska</li>
++                            <li>Generic</li>
++                            <li>Wipro</li>
++                            <li>Reiz</li>
++                            <li>Puffin</li>
++                            <li>E-Ware</li>
++                        </ul>
++                        <div class=" col-md-6">
++                            <img src="img/logo_collection.webp">
++                        </div>
++                    </div>
++                </li>
++                <li class="sub-menu"><a href="#">Shop</a>
++                    <div class="menu-an">
++                        <ul class=" col-md-2">
++
++                            <li><b>DOWNLIGHT</b></li>
++                            <li>Surya</li>
++                            <li>Murphy</li>
++                            <li>Syska</li>
++                            <li>Generic</li>
++                            <li>Wipro</li>
++                            <li>Reiz</li>
++                            <li>Puffin</li>
++                            <li>E-Ware</li>
++                        </ul>
++                        <ul class="  col-md-2">
++
++                            <li><b>DOWNLIGHT</b></li>
++                            <li>Surya</li>
++                            <li>Murphy</li>
++                            <li>Syska</li>
++                            <li>Generic</li>
++                            <li>Wipro</li>
++                            <li>Reiz</li>
++                            <li>Puffin</li>
++                            <li>E-Ware</li>
++                        </ul>
++                        <ul class="  col-md-2">
++
++                            <li><b>DOWNLIGHT</b></li>
++                            <li>Surya</li>
++                            <li>Murphy</li>
++                            <li>Syska</li>
++                            <li>Generic</li>
++                            <li>Wipro</li>
++                            <li>Reiz</li>
++                            <li>Puffin</li>
++                            <li>E-Ware</li>
++                        </ul>
++                        <div class=" col-md-6">
++                            <img src="img/logo_collection.webp">
++                        </div>
++                    </div>
++                </li>
++                <li class="sub-menu"><a href="#">Indoor Light</a> </li>
++                <li class="sub-menu"><a href="#">Lighting</a> </li>
++                <li class="sub-menu"><a href="#">Outdoor</a> </li>
++                <li class="sub-menu"><a href="#">Pages</a> </li>
++            </ul>
++        </div>
++    </nav>
++</div>
++<div class="Details container">
++    <div class="col-md-5">
++        <span>Tên sản phẩm</span>
++    </div>
++    <div class="col-md-2">
++        <span>Giá</span>
++    </div>
++    <div class="col-md-2">
++        <span>Số lượng</span>
++    </div>
++    <div class="col-md-3" style="text-align: center">
++        <span>Thành tiền</span>
++    </div>
++</div>
++<div class="danhsachsp">
++    <div class="col-md-5">
++        <div class="Image_giohang col-md-4">
++            <img src="img/img_review_sale.jpg" width="100%">
++        </div>
++        <div class="Tensp_giohang col-md-8">
++            <span>San pham 1</span>
++        </div>
++    </div>
++    <div class="col-md-2">
++        <span>200.000d</span>
++    </div>
++    <div class="col-md-2" style=" padding-left: 0px">
++        <input type="number" value="1" class="soluong_giohang">
++    </div>
++    <div class="col-md-3 " style="padding-left: 0px">
++        <span class="col-md-7">200.000d</span>
++        <button class="btn btn-info btn-sm col-md-1">
++            <i class="fa fa-edit"></i>
++        </button>
++        <button class="btn btn-danger btn-sm col-md-1">
++            <i class="fa fa-trash-o"></i>
++        </button>
++    </div>
++</div>
++</body>
++</html>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"BranchesTreeState\">\n    <expand>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"LOCAL_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n      <path>\n        <item name=\"ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"REMOTE_ROOT\" type=\"e8cecc67:BranchNodeDescriptor\" />\n        <item name=\"GROUP_NODE:origin\" type=\"e8cecc67:BranchNodeDescriptor\" />\n      </path>\n    </expand>\n    <select />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"6a152d3a-8240-4284-9f9e-b8dc72bf0bad\" name=\"Default Changelist\" comment=\"\" />\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"HTML File\" />\n        <option value=\"CSS File\" />\n        <option value=\"JavaScript File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"ProjectId\" id=\"1loUrKK1PEXLOFk3ABTtOhOCdYr\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\">\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/css\" />\n    <property name=\"list.type.of.created.stylesheet\" value=\"CSS\" />\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\n    <property name=\"node.js.path.for.package.eslint\" value=\"project\" />\n    <property name=\"node.js.path.for.package.tslint\" value=\"project\" />\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\n    <property name=\"vue.rearranger.settings.migration\" value=\"true\" />\n  </component>\n  <component name=\"RecentsManager\">\n    <key name=\"CopyFile.RECENT_KEYS\">\n      <recent name=\"C:\\Users\\mac\\Documents\\nhom123aaa\\css\" />\n      <recent name=\"C:\\Users\\mac\\Documents\\nhom123aaa\" />\n    </key>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"6a152d3a-8240-4284-9f9e-b8dc72bf0bad\" name=\"Default Changelist\" comment=\"\" />\n      <created>1608263134793</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1608263134793</updated>\n      <workItem from=\"1608263135864\" duration=\"187000\" />\n      <workItem from=\"1608263359893\" duration=\"5549000\" />\n      <workItem from=\"1608274440594\" duration=\"54779000\" />\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"up\">\n      <created>1608303939187</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1608303939188</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"TypeScriptGeneratedFilesManager\">\n    <option name=\"version\" value=\"3\" />\n  </component>\n  <component name=\"Vcs.Log.Tabs.Properties\">\n    <option name=\"TAB_STATES\">\n      <map>\n        <entry key=\"MAIN\">\n          <value>\n            <State />\n          </value>\n        </entry>\n      </map>\n    </option>\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"up\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"up\" />\n  </component>\n  <component name=\"WindowStateProjectService\">\n    <state x=\"318\" y=\"0\" key=\"CommitChangelistDialog2\" timestamp=\"1608872838989\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\n    </state>\n    <state x=\"318\" y=\"0\" key=\"CommitChangelistDialog2/0.0.1536.824@0.0.1536.824\" timestamp=\"1608872838989\" />\n    <state x=\"549\" y=\"202\" key=\"FileChooserDialogImpl\" timestamp=\"1608263506592\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"920\" />\n    </state>\n    <state x=\"549\" y=\"202\" key=\"FileChooserDialogImpl/0.0.1536.920@0.0.1536.920\" timestamp=\"1608263506592\" />\n    <state x=\"640\" y=\"358\" key=\"Github.ShareDialog\" timestamp=\"1608263386419\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"920\" />\n    </state>\n    <state x=\"640\" y=\"358\" key=\"Github.ShareDialog/0.0.1536.920@0.0.1536.920\" timestamp=\"1608263386419\" />\n    <state x=\"288\" y=\"144\" key=\"Vcs.Push.Dialog.v2\" timestamp=\"1608872737379\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\n    </state>\n    <state x=\"240\" y=\"140\" key=\"Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800\" timestamp=\"1608514875033\" />\n    <state x=\"288\" y=\"144\" key=\"Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824\" timestamp=\"1608872737379\" />\n    <state x=\"100\" y=\"100\" width=\"1080\" height=\"600\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog\" timestamp=\"1608478306949\">\n      <screen x=\"0\" y=\"23\" width=\"1280\" height=\"726\" />\n    </state>\n    <state x=\"100\" y=\"100\" width=\"1080\" height=\"600\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800\" timestamp=\"1608397983778\" />\n    <state x=\"100\" y=\"100\" width=\"1080\" height=\"600\" key=\"com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726\" timestamp=\"1608478306949\" />\n    <state x=\"586\" y=\"326\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2\" timestamp=\"1608872703673\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"824\" />\n    </state>\n    <state x=\"586\" y=\"326\" key=\"com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824\" timestamp=\"1608872703673\" />\n    <state x=\"359\" y=\"170\" width=\"670\" height=\"590\" key=\"search.everywhere.popup\" timestamp=\"1608466516469\">\n      <screen x=\"0\" y=\"0\" width=\"1280\" height=\"800\" />\n    </state>\n    <state x=\"359\" y=\"170\" width=\"670\" height=\"590\" key=\"search.everywhere.popup/0.0.1280.800@0.0.1280.800\" timestamp=\"1608466516469\" />\n    <state x=\"431\" y=\"195\" width=\"672\" height=\"678\" key=\"search.everywhere.popup/0.0.1536.920@0.0.1536.920\" timestamp=\"1608268042112\" />\n    <state x=\"599\" y=\"251\" key=\"svn.repositoryBrowser\" timestamp=\"1608263443443\">\n      <screen x=\"0\" y=\"0\" width=\"1536\" height=\"920\" />\n    </state>\n    <state x=\"599\" y=\"251\" key=\"svn.repositoryBrowser/0.0.1536.920@0.0.1536.920\" timestamp=\"1608263443443\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision a9ce3d1b9981a95c60143c0c29d0b3a05d445b28)
++++ .idea/workspace.xml	(date 1608909090122)
+@@ -19,7 +19,14 @@
+     <select />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="" />
++    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="">
++      <change afterPath="$PROJECT_DIR$/giohang.html" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/JScode/JS_code_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/JScode/JS_code_1.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/JScode/image_luachon.js" beforeDir="false" afterPath="$PROJECT_DIR$/JScode/image_luachon.js" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/css/duan1_thang12.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/duan1_thang12.css" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
++    </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -28,9 +35,9 @@
+   <component name="FileTemplateManagerImpl">
+     <option name="RECENT_TEMPLATES">
+       <list>
++        <option value="JavaScript File" />
+         <option value="HTML File" />
+         <option value="CSS File" />
+-        <option value="JavaScript File" />
+       </list>
+     </option>
+   </component>
+@@ -61,6 +68,9 @@
+       <recent name="C:\Users\mac\Documents\nhom123aaa\css" />
+       <recent name="C:\Users\mac\Documents\nhom123aaa" />
+     </key>
++    <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\nhom123aaa\img" />
++    </key>
+   </component>
+   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+   <component name="TaskManager">
+@@ -73,6 +83,28 @@
+       <workItem from="1608263135864" duration="187000" />
+       <workItem from="1608263359893" duration="5549000" />
+       <workItem from="1608274440594" duration="54779000" />
++      <workItem from="1608515270654" duration="9511000" />
++      <workItem from="1608623606440" duration="17241000" />
++      <workItem from="1608656670260" duration="243000" />
++      <workItem from="1608686514581" duration="685000" />
++      <workItem from="1608695291488" duration="192000" />
++      <workItem from="1608711733774" duration="90000" />
++      <workItem from="1608712358835" duration="24000" />
++      <workItem from="1608712419819" duration="15000" />
++      <workItem from="1608712522358" duration="1135000" />
++      <workItem from="1608713695510" duration="1323000" />
++      <workItem from="1608715030551" duration="8000" />
++      <workItem from="1608715049965" duration="1014000" />
++      <workItem from="1608787644124" duration="171000" />
++      <workItem from="1608787834989" duration="2065000" />
++      <workItem from="1608789922505" duration="10000" />
++      <workItem from="1608789941644" duration="252000" />
++      <workItem from="1608790219289" duration="1622000" />
++      <workItem from="1608791860439" duration="13000" />
++      <workItem from="1608791881408" duration="68000" />
++      <workItem from="1608791960733" duration="397000" />
++      <workItem from="1608797702081" duration="8926000" />
++      <workItem from="1608806720622" duration="2776000" />
+     </task>
+     <task id="LOCAL-00001" summary="up">
+       <created>1608303939187</created>
+@@ -104,10 +136,6 @@
+     <option name="LAST_COMMIT_MESSAGE" value="up" />
+   </component>
+   <component name="WindowStateProjectService">
+-    <state x="318" y="0" key="CommitChangelistDialog2" timestamp="1608872838989">
+-      <screen x="0" y="0" width="1536" height="824" />
+-    </state>
+-    <state x="318" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1608872838989" />
+     <state x="549" y="202" key="FileChooserDialogImpl" timestamp="1608263506592">
+       <screen x="0" y="0" width="1536" height="920" />
+     </state>
+@@ -116,20 +144,20 @@
+       <screen x="0" y="0" width="1536" height="920" />
+     </state>
+     <state x="640" y="358" key="Github.ShareDialog/0.0.1536.920@0.0.1536.920" timestamp="1608263386419" />
+-    <state x="288" y="144" key="Vcs.Push.Dialog.v2" timestamp="1608872737379">
+-      <screen x="0" y="0" width="1536" height="824" />
++    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1608514875033">
++      <screen x="0" y="0" width="1280" height="800" />
+     </state>
+     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
+-    <state x="288" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1608872737379" />
+-    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608478306949">
+-      <screen x="0" y="23" width="1280" height="726" />
++    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608909090103">
++      <screen x="0" y="0" width="1280" height="800" />
+     </state>
+-    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
++    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608909090102" />
+     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
+-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608872703673">
+-      <screen x="0" y="0" width="1536" height="824" />
++    <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1608909090048">
++      <screen x="0" y="0" width="1280" height="800" />
+     </state>
+-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1608872703673" />
++    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1608798108700" />
++    <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1608909090048" />
+     <state x="359" y="170" width="670" height="590" key="search.everywhere.popup" timestamp="1608466516469">
+       <screen x="0" y="0" width="1280" height="800" />
+     </state>

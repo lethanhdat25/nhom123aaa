@@ -5,15 +5,21 @@ var i=0;
 var x=0;
 var y=1;
 var z=2;
+var c=1;
 /*-------banner-----*/
+var chu_chayy=document.getElementById('chu_chay');
 function click_prev_banner(e){
     if(i<=0) i=images_banner.length;
     i--;
+    chu_chayy.classList.remove('chu_chay')
+    chu_chayy.classList.add('chu_chayyya');
     return change_banner();
 }
 function click_next_banner(e){
     if(i>=images_banner.length-1) i=-1;
     i++;
+    chu_chayy.classList.remove('chu_chay')
+    chu_chayy.classList.add('chu_chayyya');
     return change_banner();
 }
 function change_banner(){
@@ -44,15 +50,51 @@ function click_list_3(){
 }
 
 function luachon(){
-    return"<div class=\"col-md-4\">\n" +
-        "            <img src=\"img/"+images_luachon[x]+"\" class=\"luachon_left\">\n" +
+    return"\n" +
+        "<div class=\"col-md-4 div_luachon_hien\" >\n" +
+        "        <img src=\"img/anh1product.jpg\" style=\"width: 100%\" class=\"luachon_left\">\n" +
+        "        <div class=\"div_luachon_an\">\n" +
+        "            <div class=\"col-md-4\">\n" +
+        "                <a href=\"HoaDon.html\" style=\"text-decoration: none;color: black\"><i  class=\"fas fa-shopping-cart\"></i></a>\n" +
+        "            </div>\n" +
+        "            <div class=\"col-md-4\">\n" +
+        "                <a href=\"ChitietSp.html\" style=\"text-decoration: none;color: black\"><i class=\"fas fa-eye\"></i></a>\n" +
+        "            </div>\n" +
+        "            <div class=\"col-md-4\">\n" +
+        "                <a href=\"#\" style=\"text-decoration: none;color: black\"><i class=\"fas fa-heart\"></i></a>\n" +
+        "            </div>\n" +
+        "        </div>\n" +
+        "        </div>\n" +
+        "<div class=\"col-md-4 div_luachon_hien\">\n" +
+        "        <img src=\"img/anh2product.jpg\" style=\"width: 100%\" class=\"luachon_mid\">\n" +
+        "    <div class=\"div_luachon_an\">\n" +
+        "        <div class=\"col-md-4\">\n" +
+        "            <a href=\"HoaDon.html\" style=\"text-decoration: none;color: black\"><i  class=\"fas fa-shopping-cart\"></i></a>\n" +
         "        </div>\n" +
         "        <div class=\"col-md-4\">\n" +
-        "            <img src=\"img/"+images_luachon[y]+"\" class=\"luachon_mid\">\n" +
+        "            <a href=\"ChitietSp.html\" style=\"text-decoration: none;color: black\"><i class=\"fas fa-eye\"></i></a>\n" +
         "        </div>\n" +
         "        <div class=\"col-md-4\">\n" +
-        "            <img src=\"img/"+images_luachon[z]+"\" class=\"luachon_right\">\n" +
-        "        </div>"
+        "            <a href=\"#\" style=\"text-decoration: none;color: black\"><i class=\"fas fa-heart\"></i></a>\n" +
+        "        </div>\n" +
+        "    </div>\n" +
+        "\n" +
+        "</div>\n" +
+        "<div class=\"col-md-4 div_luachon_hien\">\n" +
+        "       <img src=\"img/anh3product.jpg\" style=\"width: 100%\" class=\"luachon_right\">\n" +
+        "    <div class=\"div_luachon_an\">\n" +
+        "        <div class=\"col-md-4\">\n" +
+        "            <a href=\"HoaDon.html\" style=\"text-decoration: none;color: black\"><i  class=\"fas fa-shopping-cart\"></i></a>\n" +
+        "        </div>\n" +
+        "        <div class=\"col-md-4\">\n" +
+        "            <a href=\"ChitietSp.html\" style=\"text-decoration: none;color: black\"><i class=\"fas fa-eye\"></i></a>\n" +
+        "        </div>\n" +
+        "        <div class=\"col-md-4\">\n" +
+        "            <a href=\"#\" style=\"text-decoration: none;color: black\"><i class=\"fas fa-heart\"></i></a>\n" +
+        "        </div>\n" +
+        "    </div>\n" +
+        "\n" +
+        "</div>\n"
 }
 var ganzzz=document.getElementById("image_luachon");
 ganzzz.innerHTML=luachon();
@@ -84,26 +126,4 @@ function change_luachon(){
 ]    ;
     return dulieu ;
 }
-/*--------page--------*/
-var img_reviewpage_left=["page2.jpg","page3.jpg","page4.jpg"];
-var u=0;
-var l=1;
-var o=2;
-
-function anhcuapage(){
-    return "<i class=\"fas fa-chevron-left slide-left-page col-md-1\" onclick=\"click_prev_page(this)\"></i>\n" +
-        "                        <div class=\"image_review col-md-3 page_left\">\n" +
-        "                            <img src=\"img/img_doinen1.jpg\" class=\"img_change reviewpage_left\">\n" +
-        "                        </div>\n" +
-        "                        <div class=\"image_review col-md-3 page_mid\">\n" +
-        "                            <img src=\"img/img_doinen1.jpg\" class=\"img_change reviewpage_mid\">\n" +
-        "                        </div>\n" +
-        "                        <div class=\"image_review col-md-3 page_right\">\n" +
-        "                            <img src=\"img/img_doinen1.jpg\" class=\"img_change reviewpage_right\">\n" +
-        "                        </div>\n" +
-        "\n" +
-        "                    <i class=\"fas fa-chevron-right slide-right-page col-md-1\" onclick=\"click_next_page(this)\"></i>"
-}
-var gan2=document.getElementById("review_page");
-gan2.innerHTML=anhcuapage();
 
