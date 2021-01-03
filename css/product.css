@@ -484,8 +484,19 @@ ul{
     width: 1em;
     content: '\2022';
 }
+div.item:hover{
+    transform: scale(1.1);
+}
 div.item{
-    padding: 20px;
+    padding: 0px;
+    width: 30%;
+    margin-left: 25px;
+    padding-left: 0;
+    text-align: center;
+    border: 4px solid #f8f8f8;
+    margin-top: 20px;
+    padding-bottom: 10px;
+    transition: 0.5s;
 }
 div.item img{
     max-width: 100%;
@@ -614,6 +625,13 @@ div.detail a:hover{
 }
 .thongtin3:hover{
     background-color: #ff253a;
+}
+.thongtin3 p{
+    color: black;
+    transition: 0.5s;
+}
+.thongtin3 p:hover{
+    color: white;
 }
 .thongtin_1 a{
     color: black;
