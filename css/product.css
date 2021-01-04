@@ -609,6 +609,7 @@ div.detail a:hover{
 .input button{
     top: 49px;
     right: 110px;
+    position: absolute;
     border: none;
     background-color: white;
 }
