@@ -703,3 +703,24 @@ div.detail a:hover{
     opacity: 1;
     transition: 0.5s;
 }
+.chuyentrang_moi{
+    margin-top: 60px;
+    margin-left: 39%;
+
+}
+.chuyentrang_moi button{
+    height: 37.06px;
+    line-height: 37.06px;
+    padding: 0;
+    width: 37.06px;
+    margin-left: 15px;
+    background-color: white;
+    border: 1px solid #ff5050;
+    transition: 0.3s;
+
+}
+.chuyentrang_moi button:hover{
+    color: white;
+    background-color: #ff5050;
+    transition: 0.3s;
+}
