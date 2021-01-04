@@ -489,6 +489,7 @@ div.item{
 }
 div.item img{
     max-width: 100%;
+    height: 272.97px;
 }
 div.color img{
     width: 20px;
@@ -649,4 +650,19 @@ div.detail a:hover{
     display: block;
     z-index: 30;
 }
-
+.anh{
+    position: relative;
+}
+.anhan_anh{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transform: translateX(100%);
+}
+.item:hover .anhan_anh{
+    transform: translateX(0%);
+    opacity: 1;
+    transition: 1s;
+}
