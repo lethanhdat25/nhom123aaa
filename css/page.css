@@ -509,7 +509,6 @@ span .fa-train{
 }
 /* entire container, keeps perspective */
 .flip-container {
-    perspective: 1000;
     margin: auto;
     margin-top: -3px;
     float: none;
