@@ -20,17 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="cóntac">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20,_10_11_CH_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__10_11_CH__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_26_20,_11_57_CH_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_26_20,_8_12_CH_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_26_20__11_57_CH__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_26_20__8_12_CH__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_28_20,_8_18_SA_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_28_20__8_18_SA__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/page.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +102,7 @@
       <workItem from="1608797702081" duration="8926000" />
       <workItem from="1608806720622" duration="2776000" />
       <workItem from="1609219840823" duration="10587000" />
-      <workItem from="1609723842210" duration="480000" />
+      <workItem from="1609723842210" duration="1445000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1608303939187</created>
@@ -155,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1609674124805</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="cóntac">
+      <created>1609724417246</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1609724417250</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,14 +191,15 @@
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="640" y="358" key="Github.ShareDialog/0.0.1536.920@0.0.1536.920" timestamp="1608263386419" />
-    <state x="240" y="119" key="Vcs.Push.Dialog.v2" timestamp="1609674133479">
+    <state x="240" y="119" key="Vcs.Push.Dialog.v2" timestamp="1609724493976">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="119" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609674133479" />
+    <state x="240" y="119" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609724493976" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
-    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608478306949">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state x="100" y="72" width="1080" height="562" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1609725289751">
+      <screen x="0" y="0" width="1280" height="680" />
     </state>
+    <state x="100" y="72" width="1080" height="562" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.680@0.0.1280.680" timestamp="1609725289751" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609724077392">

@@ -580,6 +580,10 @@ span .fa-train{
 .twitter:hover{
     background-color: deepskyblue;
 }
+.fa-twitter{
+    margin-top: 15px;
+    margin-left: 15px;
+}
 .facebook{
     width: 45px;
     height: 45px;
