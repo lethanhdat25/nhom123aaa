@@ -497,6 +497,7 @@ div.item{
     margin-top: 20px;
     padding-bottom: 10px;
     transition: 0.5s;
+    overflow:hidden;
 }
 div.item img{
     max-width: 100%;
@@ -544,7 +545,6 @@ div.detail a:hover{
 }
 .lists input{
     height: 40px;
-    margin-top: 40px;
 }
 .googlemap{
     margin-top: 25px;
@@ -608,8 +608,8 @@ div.detail a:hover{
     padding: 0;
 }
 .input button{
-    top: 49px;
-    right: 110px;
+    top: 10px;
+    right: 10px;
     position: absolute;
     border: none;
     background-color: white;
@@ -683,4 +683,9 @@ div.detail a:hover{
     transform: translateX(0%);
     opacity: 1;
     transition: 1s;
+}
+.sualoi_conchuot{
+    position: relative;
+    width: 182.4px;
+    height: 40px;
 }
