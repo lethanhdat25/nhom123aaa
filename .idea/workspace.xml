@@ -19,10 +19,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="cóntac">
+    <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_29_20,_11_37_SA_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_29_20,_5_30_CH_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_29_20__11_37_SA__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_29_20__5_30_CH__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChitietSp.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChitietSp.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HoaDon.html" beforeDir="false" afterPath="$PROJECT_DIR$/HoaDon.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanpham2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanpham3.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham3.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +114,10 @@
       <workItem from="1608797702081" duration="8926000" />
       <workItem from="1608806720622" duration="2776000" />
       <workItem from="1609219840823" duration="10587000" />
+      <workItem from="1609731500204" duration="1702000" />
+      <workItem from="1609734747400" duration="654000" />
+      <workItem from="1609902576398" duration="1504000" />
+      <workItem from="1609942533999" duration="3493000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1608303939187</created>
@@ -132,7 +147,21 @@
       <option name="project" value="LOCAL" />
       <updated>1609184456634</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="page xong">
+      <created>1609725664005</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1609725664005</updated>
+    </task>
+    <task id="LOCAL-00006" summary="page xong">
+      <created>1609726705849</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1609726705849</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +186,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="page xong" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="300" y="0" key="CommitChangelistDialog2" timestamp="1609726705327">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="300" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1609726705327" />
     <state x="128" y="96" key="DiffContextDialog" timestamp="1608899554468">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -169,21 +202,23 @@
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="640" y="358" key="Github.ShareDialog/0.0.1536.920@0.0.1536.920" timestamp="1608263386419" />
-    <state x="240" y="119" key="Vcs.Push.Dialog.v2" timestamp="1609184461872">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="288" y="144" key="Vcs.Push.Dialog.v2" timestamp="1609726707227">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="240" y="119" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609184461872" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
+    <state x="288" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1609726707227" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608478306949">
       <screen x="0" y="23" width="1280" height="726" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609672055495">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="550" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609734784475">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1609672055495" />
     <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1608859286329" />
+    <state x="550" y="309" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1609734784475" />
     <state x="359" y="170" width="670" height="590" key="search.everywhere.popup" timestamp="1608466516469">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
