@@ -20,9 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="cóntac">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_29_20,_11_37_SA_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_29_20,_5_30_CH_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_29_20__11_37_SA__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_29_20__5_30_CH__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_31_20__2_02_CH__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_31_20__2_02_CH__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_31_20__8_30_CH__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_31_20__8_30_CH__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JScode/JS_code_1.js" beforeDir="false" afterPath="$PROJECT_DIR$/JScode/JS_code_1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/duan1_thang12.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/duan1_thang12.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/product.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/product.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/tesst.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/tesst.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanpham.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanpham2.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sanpham3.html" beforeDir="false" afterPath="$PROJECT_DIR$/sanpham3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teest.html" beforeDir="false" afterPath="$PROJECT_DIR$/teest.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,6 +117,12 @@
       <workItem from="1608797702081" duration="8926000" />
       <workItem from="1608806720622" duration="2776000" />
       <workItem from="1609219840823" duration="10587000" />
+      <workItem from="1609743451933" duration="2126000" />
+      <workItem from="1609783948289" duration="597000" />
+      <workItem from="1609830255826" duration="378000" />
+      <workItem from="1609845419586" duration="622000" />
+      <workItem from="1609898326979" duration="1258000" />
+      <workItem from="1609901032186" duration="12795000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1608303939187</created>
@@ -157,6 +177,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="page xong" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="521" y="270" key="#Images" timestamp="1609904210774">
+      <screen x="0" y="0" width="1536" height="920" />
+    </state>
+    <state x="521" y="270" key="#Images/0.0.1536.920@0.0.1536.920" timestamp="1609904210774" />
     <state x="128" y="96" key="DiffContextDialog" timestamp="1608899554468">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
@@ -174,21 +198,23 @@
     </state>
     <state x="240" y="119" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1609184461872" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
-    <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1608478306949">
-      <screen x="0" y="23" width="1280" height="726" />
+    <state x="120" y="98" width="1296" height="761" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610003048801">
+      <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1280.800@0.0.1280.800" timestamp="1608397983778" />
+    <state x="120" y="98" width="1296" height="761" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.920@0.0.1536.920" timestamp="1610003048801" />
     <state x="100" y="100" width="1080" height="600" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.23.1280.726@0.23.1280.726" timestamp="1608478306949" />
-    <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609672055495">
-      <screen x="0" y="0" width="1280" height="680" />
+    <state x="550" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609744347978">
+      <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="458" y="255" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.680@0.0.1280.680" timestamp="1609672055495" />
     <state x="458" y="300" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1608859286329" />
-    <state x="359" y="170" width="670" height="590" key="search.everywhere.popup" timestamp="1608466516469">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state x="550" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.920@0.0.1536.920" timestamp="1609744347978" />
+    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup" timestamp="1609997882604">
+      <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state x="359" y="170" width="670" height="590" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1608466516469" />
-    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1608268042112" />
+    <state x="431" y="195" width="672" height="678" key="search.everywhere.popup/0.0.1536.920@0.0.1536.920" timestamp="1609997882604" />
     <state x="599" y="251" key="svn.repositoryBrowser" timestamp="1608263443443">
       <screen x="0" y="0" width="1536" height="920" />
     </state>

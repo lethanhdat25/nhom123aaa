@@ -1,1 +1,69 @@
+.owl-carousel .owl-nav.disabled{
+    display: block;
 
+}
+.owl-theme .owl-nav{
+    position: absolute;
+    top: 0;
+    right: 30px;
+    font-size: 30px;
+    color: lightgray;
+}
+.owl-theme .owl-nav span:hover {
+    color: #ff5050;
+    transition: 0.5s;
+
+}
+.owl-theme .owl-nav span {
+    transition: 0.5s;
+}
+.owl-theme .owl-nav .owl-prev:hover {
+    background-color: white;
+}
+.owl-theme .owl-nav .owl-next:hover {
+    background-color: white;
+}
+.owl-theme .owl-nav span {
+    background-color: white;
+}
+.owl-carousel .owl-dots.disabled{
+    display: block;
+}
+.owl-carousel.owl-loaded{
+    padding-top: 60px;
+}
+.div_luachon_an i{
+    font-size: 23px;
+}
+
+. item :hover .div_luachon_an{
+    color: red;
+}
+.div_luachon_an{
+    width: 89%;
+    position: absolute;
+    top: 85%;
+
+}
+.div_luachon_an {
+    opacity: 0;
+    transition: 0.5s;
+    left: 6%;
+
+}
+
+.item:hover .div_luachon_an{
+    opacity: 1;
+    transition: 0.5s;
+}
+.item{
+    position: relative;
+    text-align: center;
+}
+.div_luachon_an i{
+    transition: 0.5s;
+}
+.div_luachon_an i:hover{
+    color: #ff5050;
+    transition: 0.5s;
+}

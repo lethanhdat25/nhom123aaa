@@ -426,10 +426,10 @@ body{
     margin-left: 10px;
     transition: 0.5s;
 }
-.items a{
+.items_thinh a{
     transition: 0.5s;
 }
-.items{
+.items_thinh{
     text-align: center;
 }
 .thinh3 i:hover{
@@ -484,10 +484,10 @@ ul{
     width: 1em;
     content: '\2022';
 }
-div.item:hover{
+div.item_thinh:hover{
     transform: scale(1.1);
 }
-div.item{
+div.item_thinh{
     padding: 0px;
     width: 30%;
     margin-left: 25px;
@@ -499,7 +499,7 @@ div.item{
     transition: 0.5s;
     overflow:hidden;
 }
-div.item img{
+div.item_thinh img{
     max-width: 100%;
     height: 272.97px;
 }
@@ -684,7 +684,7 @@ div.detail a:hover{
     opacity: 0;
     transform: translateX(100%);
 }
-.item:hover .anhan_anh{
+.item_thinh:hover .anhan_anh{
     transform: translateX(0%);
     opacity: 1;
     transition: 1s;
@@ -699,7 +699,7 @@ div.detail a:hover{
     opacity: 0;
     transition: 0.5s;
 }
-.item:hover .div_luachon_an{
+.item_thinh:hover .div_luachon_an{
     opacity: 1;
     transition: 0.5s;
 }

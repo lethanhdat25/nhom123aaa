@@ -3,6 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>HOME</title>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/owl.carousel/dist/owl.carousel.js"></script>
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css">
     <link rel="stylesheet" href="list/bootrap3.4.1/css/bootstrap.css">
     <link rel="stylesheet" href="list/bootrap3.4.1/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="css/duan1_thang12.css">
@@ -24,7 +28,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="acc-giohang col-md-3" style="display: flex;padding-top: 8px">
+            <div class="acc-giohang col-md-3" style="display: flex;padding-top: 8px;float: right">
                 <div class="acc"><span>My account</span></div>
                 <div class="money">
                     <select>
@@ -374,20 +378,143 @@
 </section>
 <section class="titleProduct container">
     <h1>Latest Collection</h1>
-    <div>
-        <div class="luachon col-md-9">
-            <div class="list_luachon col-md-3" id="list_3" onclick="click_list_3(this)">Featured Products</div>
-            <div class="list_luachon col-md-2" id="list_2" onclick="click_list_2(this)">New Products</div>
-            <div class="list_luachon col-md-2" id="list_1" onclick="click_list_1(this)">Best Seller</div>
-        </div>
-        <div class="control_luachon col-md-3">
-            <i class="fas fa-chevron-left slide-left-luachon" onclick="click_prev_luachon(this)"></i>
-            <i class="fas fa-chevron-right slide-right-luachon" onclick="click_next_luachon(this)"></i>
-        </div>
-    </div>
-    <div class="image_luachon" id="image_luachon">
+        <div class="relative_aa" style="position: relative">
+            <div class="owl-carousel owl-theme container">
+                <div class="item " style="border: 2px solid lightgrey">
+                    <img src="img/img_luachon1.jpg">
+                    <div class=div_luachon_an>
+                        <div class="col-md-4">
+                            <a href="HoaDon.html" style="text-decoration: none;color: black"><i  class= "fas fa-shopping-cart "></i></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="ChitietSp.html " style= "text-decoration: none;color: black "><i class= "fas fa-eye "></i></a>
+                        </div>
+                        <div class= "col-md-4 ">
+                            <a href= "# " style= "text-decoration: none;color: black "><i class= "fas fa-heart "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="border: 2px solid lightgrey">
+                    <img src="img/img_luachon2.jpg">
+                    <div class=div_luachon_an>
+                        <div class="col-md-4">
+                            <a href="HoaDon.html" style="text-decoration: none;color: black"><i  class= "fas fa-shopping-cart "></i></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="ChitietSp.html " style= "text-decoration: none;color: black "><i class= "fas fa-eye "></i></a>
+                        </div>
+                        <div class= "col-md-4 ">
+                            <a href= "# " style= "text-decoration: none;color: black "><i class= "fas fa-heart "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="border: 2px solid lightgrey">
+                    <img src="img/img_luachon3.jpg">
+                    <div class=div_luachon_an>
+                        <div class="col-md-4">
+                            <a href="HoaDon.html" style="text-decoration: none;color: black"><i  class= "fas fa-shopping-cart "></i></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="ChitietSp.html " style= "text-decoration: none;color: black "><i class= "fas fa-eye "></i></a>
+                        </div>
+                        <div class= "col-md-4 ">
+                            <a href= "# " style= "text-decoration: none;color: black "><i class= "fas fa-heart "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="border: 2px solid lightgrey">
+                    <img src="img/img_luachon4.jpg">
+                    <div class=div_luachon_an>
+                        <div class="col-md-4">
+                            <a href="HoaDon.html" style="text-decoration: none;color: black"><i  class= "fas fa-shopping-cart "></i></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="ChitietSp.html " style= "text-decoration: none;color: black "><i class= "fas fa-eye "></i></a>
+                        </div>
+                        <div class= "col-md-4 ">
+                            <a href= "# " style= "text-decoration: none;color: black "><i class= "fas fa-heart "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="border: 2px solid lightgrey">
+                    <img src="img/img_luachon5.jpg">
+                    <div class=div_luachon_an>
+                        <div class="col-md-4">
+                            <a href="HoaDon.html" style="text-decoration: none;color: black"><i  class= "fas fa-shopping-cart "></i></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="ChitietSp.html " style= "text-decoration: none;color: black "><i class= "fas fa-eye "></i></a>
+                        </div>
+                        <div class= "col-md-4 ">
+                            <a href= "# " style= "text-decoration: none;color: black "><i class= "fas fa-heart "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="border: 2px solid lightgrey">
+                    <img src="img/img_luachon6.jpg">
+                    <div class=div_luachon_an>
+                        <div class="col-md-4">
+                            <a href="HoaDon.html" style="text-decoration: none;color: black"><i  class= "fas fa-shopping-cart "></i></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="ChitietSp.html " style= "text-decoration: none;color: black "><i class= "fas fa-eye "></i></a>
+                        </div>
+                        <div class= "col-md-4 ">
+                            <a href= "# " style= "text-decoration: none;color: black "><i class= "fas fa-heart "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="border: 2px solid lightgrey">
+                    <img src="img/img_luachon7.jpg">
+                    <div class=div_luachon_an>
+                        <div class="col-md-4">
+                            <a href="HoaDon.html" style="text-decoration: none;color: black"><i  class= "fas fa-shopping-cart "></i></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="ChitietSp.html " style= "text-decoration: none;color: black "><i class= "fas fa-eye "></i></a>
+                        </div>
+                        <div class= "col-md-4 ">
+                            <a href= "# " style= "text-decoration: none;color: black "><i class= "fas fa-heart "></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item " style="border: 2px solid lightgrey">
+                    <img src="img/img_luachon8.jpg">
+                    <div class=div_luachon_an>
+                        <div class="col-md-4">
+                            <a href="HoaDon.html" style="text-decoration: none;color: black"><i  class= "fas fa-shopping-cart "></i></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="ChitietSp.html " style= "text-decoration: none;color: black "><i class= "fas fa-eye "></i></a>
+                        </div>
+                        <div class= "col-md-4 ">
+                            <a href= "# " style= "text-decoration: none;color: black "><i class= "fas fa-heart "></i></a>
+                        </div>
+                    </div>
+                </div>
 
-    </div>
+            </div>
+
+        </div>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                loop:true,
+                margin:10,
+                nav:true,
+                responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:2
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+            })
+        </script>
+
 </section>
 <section class="container review_sale">
     <div class="col-md-6">
