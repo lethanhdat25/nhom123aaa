@@ -40,8 +40,10 @@ body{
     text-decoration: none;
     color: white;
 }
-.acc{
+.acc a{
     margin-left: 8px;
+    background-color: #ff5050;
+    color: white;
 }
 .money{
     margin-left: 8px;
