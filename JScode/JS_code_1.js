@@ -6,15 +6,13 @@ var chu_chayy=document.getElementById('chu_chay');
 function click_prev_banner(e){
     if(i<=0) i=images_banner.length;
     i--;
-    chu_chayy.classList.remove('chu_chay');
-    chu_chayy.classList.add('chu_chayyya');
+
     return change_banner();
 }
 function click_next_banner(e){
     if(i>=images_banner.length-1) i=-1;
     i++;
-    chu_chayy.classList.remove('chu_chay');
-    chu_chayy.classList.add('chu_chayyya');
+
     return change_banner();
 }
 function change_banner(){
