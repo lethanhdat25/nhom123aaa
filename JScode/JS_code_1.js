@@ -18,3 +18,26 @@ function click_next_banner(e){
 function change_banner(){
     return slide_img.setAttribute("src","img/"+images_banner[i]);
 }
+/*----listluachon---*/
+var txt11=document.getElementById("list_1");
+var txt22=document.getElementById("list_2");
+var txt33=document.getElementById("list_3");
+
+
+function click_list_11(){
+    txt11.classList.add('thaydoimau');
+    txt22.classList.remove('thaydoimau');
+    txt33.classList.remove('thaydoimau');
+
+}
+function click_list_22(){
+    txt22.classList.add('thaydoimau');
+    txt11.classList.remove('thaydoimau');
+    txt33.classList.remove('thaydoimau');
+}
+function click_list_33(){
+    txt33.classList.add('thaydoimau');
+    txt11.classList.remove('thaydoimau');
+    txt22.classList.remove('thaydoimau');
+
+}
