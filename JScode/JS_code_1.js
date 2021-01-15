@@ -22,22 +22,42 @@ function change_banner(){
 var txt11=document.getElementById("list_1");
 var txt22=document.getElementById("list_2");
 var txt33=document.getElementById("list_3");
-
+var owl11=document.getElementById("relative_11");
+var owl22=document.getElementById("relative_22");
+var owl33=document.getElementById("relative_33");
 
 function click_list_11(){
     txt11.classList.add('thaydoimau');
     txt22.classList.remove('thaydoimau');
     txt33.classList.remove('thaydoimau');
-
+    owl33.classList.remove('hienra_owlluachon');
+    owl33.classList.add('andi_owlluachon');
+    owl22.classList.remove('hienra_owlluachon');
+    owl22.classList.add('andi_owlluachon');
+    owl11.classList.remove('andi_owlluachon');
+    owl11.classList.add('hienra_owlluachon');
 }
 function click_list_22(){
     txt22.classList.add('thaydoimau');
     txt11.classList.remove('thaydoimau');
     txt33.classList.remove('thaydoimau');
+    owl11.classList.remove('hienra_owlluachon');
+    owl11.classList.add('andi_owlluachon');
+    owl33.classList.remove('hienra_owlluachon')
+    owl33.classList.add('andi_owlluachon');
+    owl22.classList.remove('andi_owlluachon');
+    owl22.classList.add('hienra_owlluachon');
+
+
 }
 function click_list_33(){
     txt33.classList.add('thaydoimau');
     txt11.classList.remove('thaydoimau');
     txt22.classList.remove('thaydoimau');
-
+    owl11.classList.remove('hienra_owlluachon');
+    owl11.classList.add('andi_owlluachon');
+    owl22.classList.remove('hienra_owlluachon');
+    owl22.classList.add('andi_owlluachon');
+    owl33.classList.remove('andi_owlluachon');
+    owl33.classList.add('hienra_owlluachon')
 }

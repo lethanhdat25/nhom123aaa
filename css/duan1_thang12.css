@@ -566,3 +566,9 @@ color: red;
     color: #ff5050;
     transition: 0.5s;
 }
+.andi_owlluachon{
+    display: none;
+}
+.hienra_owlluachon{
+    display: block;
+}

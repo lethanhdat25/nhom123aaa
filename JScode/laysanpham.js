@@ -13,17 +13,23 @@ function gridProductNewArrival() {
 
     return g_html;
 }
-var xhr = new XMLHttpRequest();
-function loadData() {
-    xhr.onreadystatechange = function () {
-        if(this.readyState == 4 && this.status == 200){
-            var rs = this.responseText; // nhan text/json tu api
-            products = JSON.parse(rs);// chuyen thanh object json
-            var grid = document.getElementById("sanphamden_nhom");
-            grid.innerHTML = gridProductNewArrival();
-        }
+
+    var xhr = new XMLHttpRequest();
+
+    function loadData() {
+        xhr.onreadystatechange = function () {
+            console.log("readyState = " + this.readyState + ", status = " + this.status);
+            if (this.readyState == 4 && this.status==200 ) {
+                var result = this.responseText;
+                console.log(result);
+            }
+        };
+        xhr.open("GET", "http://localhost:5000/sanpham");
+        xhr.send();
     }
-    xhttp.open("GET","http://localhost:5000/sanpham");
-    xhttp.send();
-}
-loadData();
+
+
+    loadData();
+
+
+
