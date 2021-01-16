@@ -19,6 +19,29 @@ function change_banner(){
     return slide_img.setAttribute("src","img/"+images_banner[i]);
 }
 /*----listluachon---*/
+var txt1=document.getElementById("list_1");
+var txt2=document.getElementById("list_2");
+var txt3=document.getElementById("list_3");
+
+
+function click_list_1(){
+    txt1.classList.add('thaydoimau');
+    txt2.classList.remove('thaydoimau');
+    txt3.classList.remove('thaydoimau');
+
+}
+function click_list_2(){
+    txt2.classList.add('thaydoimau');
+    txt1.classList.remove('thaydoimau');
+    txt3.classList.remove('thaydoimau');
+}
+function click_list_3(){
+    txt3.classList.add('thaydoimau');
+    txt1.classList.remove('thaydoimau');
+    txt2.classList.remove('thaydoimau');
+
+}
+/*----listluachon---*/
 var txt11=document.getElementById("list_1");
 var txt22=document.getElementById("list_2");
 var txt33=document.getElementById("list_3");

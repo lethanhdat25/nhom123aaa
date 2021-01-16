@@ -1,3 +1,4 @@
+
 .top-head{
     height: 30px;
     margin-bottom: 20px;
@@ -168,10 +169,31 @@
 .pages5{
     width: 939.2px;
     height: 500px;
-    background-color: yellow;
     float: none;
     margin: auto;
     margin-top: 60px;
+}
+.pages5 input{
+    width: 100%;
+    line-height: 40px;
+    margin-top: 30px;
+    background-color: #FAFAFA;
+    border: none;
+}
+.pages5 button{
+    width: 100%;
+    height: 40px;
+    margin-top: 25px;
+    background-color: black;
+    transition: 0.5s;
+    color: white;
+}
+.pages5 button:hover{
+    color: white;
+    background-color: #ff253a;
+}
+.page5_3 input{
+    padding-bottom: 70px;
 }
 .hr{
     border-top: 2px solid red;
@@ -223,8 +245,7 @@
 .icon-link ul li{
    float: left;
     width: 100px;
-    list-style: none;
-}
+    list-style: none;}
 .icon-link{
     margin-left: 350px;
     padding-top: 20px;
@@ -235,12 +256,14 @@
     height: 50px;
     background-color: white;
     border-radius: 50%;
+    transition: 0.5s linear;
     font-size: 17px;
 }
-.icons_contact1:hover{
+.icons_contact1:hover {
     background-color: red;
     color: white;
 }
+
 .fa-facebook-f{
     margin-left: 20px;
     margin-top: 17px;
