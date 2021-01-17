@@ -142,6 +142,6 @@ function  cl_votesao5(){
     star3_cl.classList.add('star-rate');
     star2_cl.classList.remove('star-box')
     star2_cl.classList.add('star-rate');
-    star1_cl.classList.remove('star-box')
+    star1_cl.classList.remove('star-box');
     star1_cl.classList.add('star-rate');
 }
