@@ -575,6 +575,8 @@ span .fa-train{
     border-radius: 50%;
     float: left;
     margin-left: -12px;
+    padding-top: 12px;
+    padding-left: 15px;
 }
 .twitter:hover{
     background-color: deepskyblue;
