@@ -339,22 +339,19 @@
 </div>
 <div class="danhsachsp container">
     <div class="sanphamI" id="sanphamI">
-        <div class="col-md-5" style="padding-left: 0">
-            <div class="Image_giohang col-md-4">
-                <img src="img/img_review_sale.jpg" width="100%">
-            </div>
-            <div class="Tensp_giohang col-md-8">
-                <span>San pham 1</span>
-            </div>
+        <div class="col-md-5" style="padding-left: 0" id="Detail_hoadon">
         </div>
-        <div class="col-md-2">
-            <span>200.000d</span>
+        <div class="col-md-2" id="giasp_hoadon">
         </div>
         <div id="ListSp" class="col-md-2" style=" padding-left: 0px;text-align: center">
-
+            <button id="giamSp" onclick="giamSp(this)">-</button>
+            <button class="soluong_giohang" id="SoluongSp"></button>
+            <button id="tangSp" onclick="tangSp(this)">+</button>
         </div>
         <div class="col-md-3 " style="padding-left: 0px;text-align: center">
-            <span class="col-md-7">200.000d</span>
+            <div class="col-lg-7" id="Thanhtien_SP">
+                <span>200.000d</span>
+            </div>
             <button id="XoaSp" onclick="XoaSp(this)">X</button>
         </div>
     </div>

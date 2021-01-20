@@ -10,17 +10,17 @@ function DulieuSp(){
             "                </div>\n" +
             "                <div class=\"div_luachon_an col-md-12\" style=\"margin-bottom:20px\"> \n" +
             "                    <div class=\"col-md-4\">\n" +
-            "                        <a href=\"HoaDon.html\" style=\"text-decoration: none;color: black\"><i  class=\"fas fa-shopping-cart\"></i></a>\n" +
+            "                        <a href=\"HoaDon.html?id="+products[i].ID_Sp+"\" style=\"text-decoration: none;color: black\"><i  class=\"fas fa-shopping-cart\"></i></a>\n" +
             "                    </div>\n" +
             "                    <div class=\"col-md-4\">\n" +
-            "                        <a href=\"ChitietSp.html\" style=\"text-decoration: none;color: black\"><i class=\"fas fa-eye\"></i></a>\n" +
+            "                        <a href=\"ChitietSp.html?id="+products[i].ID_Sp+"\" style=\"text-decoration: none;color: black\"><i class=\"fas fa-eye\"></i></a>\n" +
             "                    </div>\n" +
             "                    <div class=\"col-md-4\">\n" +
             "                        <a href=\"#\" style=\"text-decoration: none;color: black\"><i class=\"fas fa-heart\"></i></a>\n" +
             "                    </div>\n" +
             "                </div>\n" +
             "                <div class=\"detail\">\n" +
-            "                    <a href=\"ChitietSp.html\"><h5>"+products[i].TenSP+"</h5></a>\n" +
+            "                    <a href=\"ChitietSp.html?id="+products[i].ID_Sp+"\"><h5>"+products[i].TenSP+"</h5></a>\n" +
             "                    </br>\n" +
             "                    </br>\n" +
             "                </div>\n" +
