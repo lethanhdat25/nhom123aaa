@@ -36,8 +36,7 @@ tien.innerHTML=Tongtien();
 var thanhtien=document.getElementById('Thanhtien_SP');
 thanhtien.innerHTML=ThanhTien();
 function dulieu(){
-    return
-        "            <button id=\"giamSp\" onclick=\"giamSp(this)\">-</button>\n" +
+    return"            <button id=\"giamSp\" onclick=\"giamSp(this)\">-</button>\n" +
         "            <button class=\"soluong_giohang\" id=\"SoluongSp\">"+i+"</button>\n" +
         "            <button id=\"tangSp\" onclick=\"tangSp(this)\">+</button>"
 };

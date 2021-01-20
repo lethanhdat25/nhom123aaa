@@ -572,3 +572,9 @@ color: red;
 .hienra_owlluachon{
     display: block;
 }
+.Khong_thay_san_pham{
+    color: black;
+}
+.Khong_thay_san_pham:hover{
+    color: #ff5050;
+}

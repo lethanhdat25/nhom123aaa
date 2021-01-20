@@ -197,7 +197,10 @@ function DulieuchitietSp(products){
             "        </div>"
     }
     else {
-        dulieu_chitiet =""
+        dulieu_chitiet ="<div class=\"col-md-12\" style=\"text-align: center;margin-top: 30px\">\n" +
+            "            <a href=\"home.html\" class=\"Khong_thay_san_pham\"><i class=\"fas fa-sad-tear\" style=\"font-size: 250px;\"></i></a>\n" +
+            "            <p style=\"font-size: 30px;font-weight: bold;margin-top: 30px\">Khong Tim Thay San Pham</p>\n" +
+            "        </div>"
     }
     return dulieu_chitiet
 }
