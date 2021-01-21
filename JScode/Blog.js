@@ -5,10 +5,10 @@ function DulieuBlog(products){
             "            <div class=\"img_thinh\" ><img style=\"max-width: 100%\" src=\""+products[i].Anh_Blog+"\"/></div>\n" +
             "            <div class=\"thongtin\">\n" +
             "                <div class=\"thongtin_1\">\n" +
-            "                    <a href=\"\"><h4>"+products[i].Tieude+"</h4></a>\n" +
+            "                    <a href=\"\"><h3>"+products[i].Tieude+"</h3></a>\n" +
             "                    </br>\n" +
             "                    <div class=\"thongtin2\">\n" +
-            "                        <p>\n" +
+            "                        <p style=\"font-size: 18px;font-family: 'Yusei Magic', sans-serif\">\n" +
             "                            "+products[i].Noidung_Phu+"" +
             "                        </p>\n" +
             "                    </div>\n" +

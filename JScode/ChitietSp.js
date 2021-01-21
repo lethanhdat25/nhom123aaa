@@ -165,7 +165,7 @@ function DulieuchitietSp(products){
             "        </div>\n" +
             "        <div class=\"col-md-6\">\n" +
             "            <h1>" + products[0].TenSP + "</h1>\n" +
-            "            <h3 class=\"Price\">" + products[0].GiaSP_HT + ".000đ</h3>\n" +
+            "            <h3 class=\"Price\">" + products[0].GiaSP_HT + ".000d</h3>\n" +
             "            <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui...</span>\n" +
             "            <div class=\"Size col-md-12\" style=\"padding-left: 0\">\n" +
             "                <h4 class=\"col-md-3 \" style=\"margin-top: 20px; padding-left: 0\">Size</h4>\n" +
@@ -185,7 +185,7 @@ function DulieuchitietSp(products){
             "            </div>\n" +
             "            <div class=\"Subtotal col-md-12\" style=\"padding-left: 0\">\n" +
             "                <h4 class=\"col-md-3\" style=\"margin-top: 30px; padding-left: 0\">Subtotal</h4>\n" +
-            "                <h2 class=\"col-md-9\" style=\"color: #ff5050\">" + products[0].GiaSP_HT + ".000đ</h2>\n" +
+            "                <h2 class=\"col-md-9\" style=\"color: #ff5050\">" + products[0].GiaSP_HT + ".000d</h2>\n" +
             "            </div>\n" +
             "            <div class=\"Product Type col-md-12\" style=\"padding-left: 0\">\n" +
             "                <h4 class=\"col-md-5\" style=\"margin-top: 30px;padding-left: 0\">Product Type</h4>\n" +

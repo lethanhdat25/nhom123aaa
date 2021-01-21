@@ -25,7 +25,7 @@ function DulieuSp(){
             "                    </br>\n" +
             "                </div>\n" +
             "                <div class=\"price\">\n" +
-            "                    <span><b>"+products[i].GiaSP_HT+"</b></span>\n" +
+            "                    <span><b>"+products[i].GiaSP_HT+".000</b></span>\n" +
             "                </div>\n" +
             "                </br>\n" +
             "                <div class=\"color\">\n" +
