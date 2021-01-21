@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="up">
-      <change afterPath="$PROJECT_DIR$/CreateNewAccount.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/CreateNewAccount.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/hhhh1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/manh-h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/thin-h.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/login.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/page.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +52,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -64,12 +64,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mac\Documents\nhom123aaa\css" />
-      <recent name="C:\Users\mac\Documents\nhom123aaa" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\nhom123aaa\img" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\nhom123aaa\img" />
+      <recent name="C:\Users\mac\Documents\nhom123aaa\css" />
+      <recent name="C:\Users\mac\Documents\nhom123aaa" />
     </key>
   </component>
   <component name="RunManager">
@@ -117,7 +118,8 @@
       <workItem from="1608806720622" duration="2776000" />
       <workItem from="1609219840823" duration="10587000" />
       <workItem from="1610377595922" duration="435000" />
-      <workItem from="1611228848488" duration="10626000" />
+      <workItem from="1611228848488" duration="11086000" />
+      <workItem from="1611244805623" duration="4579000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1608303939187</created>
@@ -168,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1611238887273</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="up">
+      <created>1611239955230</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1611239955230</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -277,10 +286,10 @@
       <screen x="0" y="0" width="1536" height="920" />
     </state>
     <state width="1515" height="300" key="GridCell.Tab.3.right/0.0.1536.920@0.0.1536.920" timestamp="1610367559536" />
-    <state x="240" y="119" key="Vcs.Push.Dialog.v2" timestamp="1611238890693">
+    <state x="240" y="119" key="Vcs.Push.Dialog.v2" timestamp="1611239981405">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="240" y="119" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611238890693" />
+    <state x="240" y="119" key="Vcs.Push.Dialog.v2/0.0.1280.680@0.0.1280.680" timestamp="1611239981405" />
     <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1608514875033" />
     <state x="288" y="161" key="Vcs.Push.Dialog.v2/0.0.1536.920@0.0.1536.920" timestamp="1610333313933" />
     <state x="120" y="98" width="1296" height="761" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1610341338839">
