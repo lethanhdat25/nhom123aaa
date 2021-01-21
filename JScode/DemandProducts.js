@@ -6,7 +6,7 @@ function DulieuSp(){
             "                    <img src=\""+products[i].AnhSP+"\"/>\n" +
             "                </div>\n" +
             "                <div class=\"anhan_anh\" id=\"anhan_anh\">\n" +
-            "                    <img src=\""+products[i].AnhSP+"\">\n" +
+            "                    <img src=\""+collection[i].AnhSP+"\">\n" +
             "                </div>\n" +
             "                <div class=\"div_luachon_an col-md-12\" style=\"margin-bottom:20px\"> \n" +
             "                    <div class=\"col-md-4\">\n" +
@@ -37,7 +37,7 @@ function DulieuSp(){
     }
     return g_html;
 }
-function loadData(){
+function loadDataDemand(){
     var xhttp=new XMLHttpRequest();
     xhttp.onreadystatechange = function (){
         if(this.readyState==4 && this.status==200){
@@ -50,5 +50,18 @@ function loadData(){
     xhttp.open("GET","http://localhost:5000/Demand-product");
     xhttp.send();
 }
-loadData();
-
+loadDataDemand();
+function loadDataCollection(){
+    var xhttp=new XMLHttpRequest();
+    xhttp.onreadystatechange = function (){
+        if(this.readyState==4 && this.status==200){
+            var rs=this.responseText;
+            collection = JSON.parse(rs)
+        }
+        var grid=document.getElementById("items");
+        grid.innerHTML=DulieuSp();
+    }
+    xhttp.open("GET","http://localhost:5000/Collections");
+    xhttp.send();
+}
+loadDataCollection();

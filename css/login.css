@@ -87,7 +87,8 @@
 .khung-chu{
     width: 70%;
     height: 50px;
-    background-color: darkgray;
+    background-color: #ff5050;
+    color: white;
     margin: auto;
     float: none;
     margin-top: 70px;
@@ -112,6 +113,7 @@
 }
 .menu-chu{
     margin-top: 30px;
+    font-size: 30px;
 }
 .font-menu{
     color: darkgray;
@@ -121,8 +123,8 @@
     width: 100%;
 }
 .dangnhap{
-    height: 30px;
-    width: 80px;
+    height: 40px;
+    width: 120px;
     margin-top: 20px;
     display: inline-block;
     cursor: pointer;
@@ -132,9 +134,14 @@
     color: black;
     background-color: white;
     border: 1px solid black;
+    transition: 0.8s;
 }
 
-.dangnhap:hover {background-color: #007ba4}
+.dangnhap:hover {
+    background-color: #ff5050;
+    color: white;
+    transition: 0.8s;
+}
 
 .dangnhap:active {
     background-color: #007ba4;
@@ -151,13 +158,15 @@
 }
 .menu-chu2{
     margin-top: 30px;
+    font-size: 30px;
+
 }
 .font-menu{
     font-size: 12px;
 }
 .dangnhap1{
-    height: 30px;
-    width: 140px;
+    height: 40px;
+    width: 160px;
     display: inline-block;
     cursor: pointer;
     text-align: center;
@@ -166,9 +175,14 @@
     color: black;
     background-color: white;
     border: 1px solid black;
+    transition: 0.8s;
 }
 
-.dangnhap1:hover {background-color: #007ba4}
+.dangnhap1:hover {
+    background-color: #ff5050;
+    color: white;
+    transition: 0.8s;
+}
 
 .dangnhap1:active {
     background-color: #007ba4;

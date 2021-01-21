@@ -8,7 +8,7 @@ function DulieuBlog(products){
             "                    <a href=\"\"><h3>"+products[i].Tieude+"</h3></a>\n" +
             "                    </br>\n" +
             "                    <div class=\"thongtin2\">\n" +
-            "                        <p style=\"font-size: 18px;font-family: 'Yusei Magic', sans-serif\">\n" +
+            "                        <p style=\"font-size: 15px;font-family: 'Yusei Magic', sans-serif\">\n" +
             "                            "+products[i].Noidung_Phu+"" +
             "                        </p>\n" +
             "                    </div>\n" +

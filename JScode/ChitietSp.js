@@ -166,7 +166,7 @@ function DulieuchitietSp(products){
             "        <div class=\"col-md-6\">\n" +
             "            <h1>" + products[0].TenSP + "</h1>\n" +
             "            <h3 class=\"Price\">" + products[0].GiaSP_HT + ".000d</h3>\n" +
-            "            <span>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui...</span>\n" +
+            "            <span style=\"font-size: 19px\">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui...</span>\n" +
             "            <div class=\"Size col-md-12\" style=\"padding-left: 0\">\n" +
             "                <h4 class=\"col-md-3 \" style=\"margin-top: 20px; padding-left: 0\">Size</h4>\n" +
             "                <div class=\"col-md-9\" style=\"float: right\">\n" +
