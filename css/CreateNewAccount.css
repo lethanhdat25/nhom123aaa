@@ -113,32 +113,8 @@
 .menu-chu{
     margin-top: 30px;
 }
-.font-menu{
-    color: darkgray;
-    margin-top: 10px;
-}
 .input-khung{
     width: 100%;
-}
-.dangnhap{
-    height: 30px;
-    width: 80px;
-    margin-top: 20px;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    text-decoration: none;
-    outline: none;
-    color: black;
-    background-color: white;
-    border: 1px solid black;
-}
-
-.dangnhap:hover {background-color: #007ba4}
-
-.dangnhap:active {
-    background-color: #007ba4;
-    transform: translateY(4px);
 }
 .link-dangnhap{
     margin-left: 10px;
@@ -155,8 +131,9 @@
 .font-menu{
     font-size: 12px;
 }
-.dangnhap1{
+.dangnhap-1{
     height: 30px;
+    margin-top: 20px;
     width: 140px;
     display: inline-block;
     cursor: pointer;
@@ -168,9 +145,9 @@
     border: 1px solid black;
 }
 
-.dangnhap1:hover {background-color: #007ba4}
+.dangnhap-1:hover {background-color: #007ba4}
 
-.dangnhap1:active {
+.dangnhap-1:active {
     background-color: #007ba4;
     transform: translateY(4px);
 }

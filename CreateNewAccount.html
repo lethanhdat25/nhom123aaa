@@ -2,13 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>LOGIN</title>
+    <title>CREATE-NEW</title>
     <link rel="stylesheet" href="list/bootrap3.4.1/css/bootstrap.css">
     <link rel="stylesheet" href="list/bootrap3.4.1/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="css/duan1_thang12.css">
     <link rel="stylesheet" href="css/contact.css">
     <link rel="stylesheet" href="css/product.css">
     <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/CreateNewAccount.css">
 </head>
 <body>
 <header class="container">
@@ -322,28 +323,29 @@
 </div>
 <section class="section container">
     <div class="khung-chu">
-        <h2 class="khung-chu1">LOG IN</h2>
+        <h2 class="khung-chu1">CREATE NEW ACCOUNT</h2>
     </div>
     <div class="khung-menu">
         <div class="khung-menu1">
-            <h4 class="menu-chu">Registered Customers</h4>
+            <h4 class="menu-chu">Personal Information</h4>
             <div class="boder1"></div>
-            <p class="font-menu">If you have an account , sign in with your email address</p>
+            <h4 class="menu-chu1">Firstname:</h4>
+            <input class="input-khung" type="text" name="firstname" >
+            <h4 class="menu-chu1">Last Name:</h4>
+            <input class="input-khung" type="text" name="lastname">
+            <a href="#"><button class="dangnhap-1" type="submit">
+                Create An Account
+            </button></a>
+        </div>
+        <div class="khung-menu2">
+            <h4 class="menu-chu2">Account Information</h4>
+            <div class="boder1"></div>
             <h4 class="menu-chu1">Email:</h4>
             <input class="input-khung" type="email" name="email" >
             <h4 class="menu-chu1">Password:</h4>
-            <input class="input-khung" type="password" name="psw">
-            <a href="#"><button class="dangnhap" type="submit">
-                Sign In
-            </button></a><a href="#" class="link-dangnhap">Forget your password?</a>
-        </div>
-        <div class="khung-menu2">
-            <h4 class="menu-chu2">New Customers</h4>
-            <div class="boder1"></div>
-            <p class="font-menu">Creating an account has many benefits: check out faster,keep more than one address,track orders and more</p>
-            <a href="#"><button class="dangnhap1" type="submit">
-                Create An Account
-            </button></a>
+            <input class="input-khung" type="password" name="password">
+            <h4 class="menu-chu1">Confirm Password:</h4>
+            <input class="input-khung" type="password" name="password">
         </div>
     </div>
     <div class="border-1"></div>
