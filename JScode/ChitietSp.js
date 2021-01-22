@@ -216,7 +216,7 @@ function loadData(){
         var grid=document.getElementById("Details_ChitietSp");
         grid.innerHTML=DulieuchitietSp(products);
     }
-    xhttp.open("GET","http://localhost:5000/timkiemSp?id="+p+"");
+    xhttp.open("GET","https://t2008m-mdht-brightworld.herokuapp.com/timkiemSp?id="+p+"");
     xhttp.send();
 }
 loadData();

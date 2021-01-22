@@ -56,9 +56,11 @@
     </div>
     <div class="top-2-head">
         <div class="container">
-            <div class="lg_sr col-md-6">
-                <img src="img/logo.webp">
-            </div>
+            <a href="home.html" style="list-style-type: none">
+                <div class="lg_sr col-md-6">
+                    <img src="img/logo.webp">
+                </div>
+            </a>
             <div class="lg_sr col-md-6" style="top: 10px;text-align: right">
                 <form >
                     <input type="text" placeholder="Search......" style="padding: 0 70px 0 20px;">
@@ -327,33 +329,25 @@
         <h2 class="khung-chu1">CREATE NEW ACCOUNT</h2>
     </div>
     <div class="khung-menu">
-        <div class="khung-menu1">
-            <h4 class="menu-chu">Personal Information</h4>
-            <div class="boder1"></div>
-            <form action="login.html">
-                <h4 class="menu-chu1">Firstname:</h4>
-                <input class="input-khung" type="text" name="firstname" required >
-                <h4 class="menu-chu1">Last Name:</h4>
-                <input class="input-khung" type="text" name="lastname" required >
-                <button class="dangnhap-1" type="submit">
-                    Create An Account
-                </button>
-            </form>
-        </div>
-        <div class="khung-menu2">
-            <h4 class="menu-chu2">Account Information</h4>
-            <div class="boder1"></div>
-            <form action="login.html">
-            <h4 class="menu-chu1">Email:</h4>
-            <input class="input-khung" type="email" name="email" required >
-            <h4 class="menu-chu1">Password:</h4>
-            <input class="input-khung" type="password" name="password" required>
-            <h4 class="menu-chu1">Confirm Password:</h4>
-            <input class="input-khung" type="password" name="password" required>
-            </form>
-        </div>
+        <h3 class="input-chu1">Personal Information</h3>
+        <h3 class="input-chu3">Account Information</h3>
+        <div class="borderr1"></div>
+        <div class="borderr"></div>
+        <form action="login.html">
+            <h4 class="input-chu2">First Name:</h4>
+            <input class="khung-input" type="text" name="firstname" required>
+            <h4 class="input-chu4">Email:</h4>
+            <input class="khung-input1" type="email" name="email" required>
+            <h4 class="input-chu2">Last Name:</h4>
+            <input class="khung-input" type="text" name="lastname" required><br/>
+            <h4 class="input-chu5">Password:</h4>
+            <input class="khung-input2" type="password" name="psw" required>
+            <h4 class="input-chu6">Confirm Password:</h4>
+            <button class="dangnhap-1" type="submit">Create An Account</button>
+            <input class="khung-input3" type="password" name="coonfirmpsw" required>
+        </form>
     </div>
-    <div class="border-1"></div>
+    <div class="borderr2"></div>
 </section>
 <footer class="container list_footer">
     <div class="col-md-3 lists ">

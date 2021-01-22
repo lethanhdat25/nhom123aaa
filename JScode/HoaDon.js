@@ -87,7 +87,7 @@ function loadData(){
         var giaSp=document.getElementById("giasp_hoadon");
         giaSp.innerHTML=Giasp(products);
     }
-    xhttp.open("GET","http://localhost:5000/timkiemSp?id="+p+"");
+    xhttp.open("GET","https://t2008m-mdht-brightworld.herokuapp.com/timkiemSp?id="+p+"");
     xhttp.send();
 }
 loadData();

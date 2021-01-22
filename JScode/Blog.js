@@ -34,7 +34,7 @@ function loadData(){
         var blog=document.getElementById("Detail_Blog");
         blog.innerHTML=DulieuBlog(products);
     }
-    xhttp.open("GET","http://localhost:5000/Blog");
+    xhttp.open("GET","https://t2008m-mdht-brightworld.herokuapp.com/Blog");
     xhttp.send();
 }
 loadData();
