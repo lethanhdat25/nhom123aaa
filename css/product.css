@@ -682,6 +682,7 @@ div.detail a:hover{
 
     display: block;
     z-index: 30;
+    left: 0;
 }
 .anh{
     position: relative;
