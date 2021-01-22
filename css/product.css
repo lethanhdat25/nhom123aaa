@@ -1,7 +1,6 @@
 
 body{
     font-family: Roboto, sans-serif;
-    background-color: ghostwhite;
 }
 .top-head{
     height: 30px;
@@ -73,9 +72,8 @@ body{
 }
 .lg_sr input{
     height: 50px;
-    width: 300px;
-    background-color: #f0f0f0;
-    border: none;
+    background-color: white;
+    border: 1px solid black;
 }
 .lg_sr button{
     color: white;
@@ -92,7 +90,6 @@ body{
 }
 #run nav{
     text-align: center;
-    background-color: #ff5050;
     height: 80px;
     line-height: 80px;
 
@@ -101,14 +98,14 @@ body{
     list-style-type: none;
     display: inline-table;
     color: black;
-    padding-right: 30px;
+    padding-right: 60px;
 }
 .ssmenu {
     position: relative;
 
 }
 .sub-menu a{
-    color: white;
+    color: black;
     text-decoration: none;
 }
 .menu-an{
@@ -705,6 +702,7 @@ div.detail a:hover{
     position: relative;
     width: 182.4px;
     height: 40px;
+
     margin-top: 40px;
 }
 .div_luachon_an{
@@ -714,4 +712,14 @@ div.detail a:hover{
 .item_thinh:hover .div_luachon_an{
     opacity: 1;
     transition: 0.5s;
+}
+.dayanhlen{
+    transition: 0.5s;
+}
+.dayanhlen:hover img{
+    transform: translateY(-10px);
+    transition: 0.5s;
+}
+.dayanhlen:hover .linkanhlen{
+    text-decoration: underline;
 }
