@@ -41,7 +41,6 @@
 }
 #run nav{
     text-align: center;
-    background-color: #ff5050;
     height: 80px;
     line-height: 80px;
 
@@ -117,7 +116,7 @@
     width: 270.94px;
     height: 156.33px;
     float: left;
-    margin-left: 10px;
+    margin-left: 50px;
 }
 .back-ground1{
     width: 230.94px;

@@ -10,9 +10,9 @@
 
 </head>
 <body>
-<header class="container">
+<header class="container" style="width:90%;padding:0">
     <div class="top-head">
-        <div class="container">
+        <div class="container" style="width:90%;padding:0">
             <div class="gmail-sdt col-md-3" style="margin-top: 10px">
                 <ul class="mail">
                     <li>
@@ -54,29 +54,15 @@
             </div>
         </div>
     </div>
-    <div class="top-2-head">
-        <div class="container">
-            <a href="home.html" style="list-style-type: none">
-                <div class="lg_sr col-md-6">
-                    <img src="img/logo.webp">
-                </div>
-            </a>
-            <div class="lg_sr col-md-6" style="top: 10px;text-align: right">
-                <form >
-                    <input type="text" placeholder="Search......" style="padding: 0 70px 0 20px;">
-                    <button><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-    </div>
 </header>
 
 <div id="run">
-    <nav class="container">
+    <nav class="container" style="width:90%;padding:0">
         <div class="menu">
             <ul class="ssmenu" >
-                <li class="sub-menu"><a href="home.html">Home</a> </li>
-
+                <li class="sub-menu"  style="position:absolute;left: 0%"><a href="home.html">
+                    <img src="img/logoweb.png" height="33" width="236" style="margin-top: -10px"/>
+                </a></li>
                 <li class="sub-menu"><a href="Collections.html">Collection</a>
                     <div class="menu-an">
                         <ul class="col-md-2">
@@ -301,7 +287,7 @@
 
                     </div>
                 </li>
-                <li class="sub-menu"><a href="page.html" style="text-decoration: none;position: relative">Pages</a>
+                <li class="sub-menu" style="position: relative"><a href="page.html" style="text-decoration: none">Pages</a>
                     <div class="menu-an_page">
                         <ul>
                             <a href="page.html" style="text-decoration: none;color: black"><li>About us</li></a>
@@ -311,13 +297,20 @@
                         </ul>
                     </div>
                 </li>
+                <li class="sub-menu lg_sr" style="position: absolute;right: 0%;padding-right: 0">
+                    <form  style="position:relative;">
+                        <input type="text" placeholder="Search......" style="padding: 0 70px 0 20px;">
+                        <i class="fas fa-search" style="position: absolute;right: 3%;top: 42%"></i>
+                    </form>
+                </li>
+
             </ul>
         </div>
     </nav>
 </div>
 
 
-<section class="thinhpro container">
+<section class="thinhpro container" style="width:90%;padding:0">
     <div class="thinh1">
         <h2>COLLECTION</h2>
         <a href="home.html"><span>Home</span></a>
@@ -325,7 +318,7 @@
         <span>Collection</span>
     </div>
 </section>
-<section class="thinh2 container">
+<section class="thinh2 container" style="width:90%;padding:0">
     <aside class="thinh2_1 col-md-3">
         <div class="thinh2_2">
             <div class="thinh2_2_1">
@@ -520,35 +513,49 @@
         </ul>
     </div>
 </section>
-<footer class="container list_footer">
-    <div class="col-md-3 lists">
+<footer class="container list_footer"style="width:90%;padding:0;margin-top: 50px;margin-top: 100px;border-top: 1px solid black;padding-top: 60px;">
+    <div class="col-md-3 lists ">
+        <a href="contact.html" style="text-decoration: none"><span>CONTACT US</span></a>
+        <ul>
+            <li>
+                No: 58 A, East Madison Street,<br>
+                Baltimore, MD,<br>
+                USA 4508.<br>
+                <i class="fas fa-phone-alt"></i>
+                +080 123 4567<br>
+                <a href="mailto:support@somemail.com"><i class="far fa-envelope"></i>
+                    support@somemail.com</a>
+            </li>
+        </ul>
+    </div>
+    <div class="col-md-2 lists">
         <span>HELP</span>
         <ul>
-            <li><a href="https://dt-lights.myshopify.com/search">Search</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/faqs">Help</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/about-us">Information</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/contact-us">Privacy Policy</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/shipping-details">Shipping Details</a></li>
+            <li><a href="#">Search</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Information</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Shipping Details</a></li>
         </ul>
     </div>
-    <div class="col-md-3 lists">
-        <span>SUPPORT</span>
+    <div class="col-md-2 lists">
+        <a href="contact.html" style="text-decoration: none"><span>SUPPORT</span></a>
         <ul>
-            <li><a href="https://dt-lights.myshopify.com/pages/contact-us">Contact us</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/about-us">About us</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/faqs">Careers</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/wishlist">Refund & Return</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/shipping-details">Deliveries</a></li>
+            <li><a href="#">Contact us</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Refund & Return</a></li>
+            <li><a href="#">Deliveries</a></li>
         </ul>
     </div>
-    <div class="col-md-3 lists">
+    <div class="col-md-2 lists">
         <span>INFORMATION</span>
         <ul>
-            <li><a href="https://dt-lights.myshopify.com/search">Search Terms</a></li>
-            <li><a href="https://dt-lights.myshopify.com/search">Advance Search</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/faqs">Help & Faq's</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/contact-us">Store Location</a></li>
-            <li><a href="https://dt-lights.myshopify.com/pages/shipping-details">Orders & Returns</a></li>
+            <li><a href="#">Search Terms</a></li>
+            <li><a href="#">Advance Search</a></li>
+            <li><a href="#">Help & Faq's</a></li>
+            <li><a href="#">Store Location</a></li>
+            <li><a href="#">Orders & Returns</a></li>
         </ul>
     </div>
     </div>
@@ -564,7 +571,7 @@
         <form>
             <div class="input">
                 <div class="sualoi_conchuot">
-                <input type="email" placeholder="Email Address">
+                    <input type="email" placeholder="Email Address">
                     <button type="submit" style="margin-left: -40px">
                         <i class="fas fa-location-arrow"></i>
                     </button>
