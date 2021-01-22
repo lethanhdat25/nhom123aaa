@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6a152d3a-8240-4284-9f9e-b8dc72bf0bad" name="Default Changelist" comment="up">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_12_25_20__8_19_SA__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/contact.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/contact.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ChitietSp.html" beforeDir="false" afterPath="$PROJECT_DIR$/ChitietSp.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,13 +62,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\nhom123aaa\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\nhom123aaa\img" />
       <recent name="C:\Users\mac\Documents\nhom123aaa\css" />
       <recent name="C:\Users\mac\Documents\nhom123aaa" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\nhom123aaa\img" />
     </key>
   </component>
   <component name="RunManager">
@@ -120,6 +120,7 @@
       <workItem from="1611244805623" duration="5371000" />
       <workItem from="1611279087116" duration="3785000" />
       <workItem from="1611297039797" duration="6218000" />
+      <workItem from="1611333635811" duration="1469000" />
     </task>
     <task id="LOCAL-00001" summary="up">
       <created>1608303939187</created>
