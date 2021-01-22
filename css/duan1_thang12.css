@@ -278,7 +278,7 @@
     border: 3px double #ff5050;
     background-color: white;
     transition: 0.5s;
-
+    font-weight: 600;
 }
 .Buy_it:hover {
     background-color: #ff5050;
