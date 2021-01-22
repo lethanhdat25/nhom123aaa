@@ -634,4 +634,77 @@ span .fa-train{
     display: block;
     z-index: 30;
 }
-
+.map-map{
+    width: 1110px;
+    border: none;
+    height: 300px;
+}
+.khung-danh-gia{
+    width: 80%;
+    height: 350px;
+    float: none;
+    margin: auto;
+    margin-top: 40px;
+}
+.font-danh-gia{
+    text-align: center;
+}
+.khung-danh-gia1{
+    width: 50%;
+    float: left;
+}
+.name{
+    width: 450px;
+    height: 48.67px;
+    margin-top: 10px;
+    float: left;
+    background-color: #fafafa;
+    border: 1px solid darkgray;
+}
+.gmail{
+    width: 450px;
+    height: 48.67px;
+    float: left;
+    margin-top: 20px;
+    background-color: #fafafa;
+    border: 1px solid darkgray;
+}
+.phone {
+    width: 450px;
+    margin-top: 20px;
+    float: left;
+    height: 48.67px;
+    background-color: #fafafa;
+    border: 1px solid darkgray;
+}
+.khung-danh-gia2{
+    width: 50%;
+    float: right;
+}
+.input-massage{
+    float: right;
+    width: 450px;
+    height: 150px;
+    margin-top: 10px;
+    background-color: #fafafa;
+    border: 1px solid darkgray;
+    padding-top: -100px;
+}
+.input-button{
+    float: right;
+    width: 450px;
+    height: 48.67px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+}
+.input-button:hover{
+    background-color: #ff5050;
+}
+.boder-button{
+    height: 50px;
+    border-top: 1px solid black;
+    width: 70%;
+    margin: auto;
+    float: none;
+}
