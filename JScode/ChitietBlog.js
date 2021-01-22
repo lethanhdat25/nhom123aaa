@@ -32,7 +32,7 @@ function loadData(){
         var chitietBlog=document.getElementById("chitiet_blog");
         chitietBlog.innerHTML=Chitietsp(products);
     }
-    xhttp.open("GET","http://localhost:5000/ChitietBlog?id="+p+"");
+    xhttp.open("GET","https://t2008m-mdht-brightworld.herokuapp.com/ChitietBlog?id="+p+"");
     xhttp.send();
 }
 loadData();

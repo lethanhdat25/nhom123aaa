@@ -47,7 +47,7 @@ function loadDataDemand(){
         var grid=document.getElementById("items");
         grid.innerHTML=DulieuSp();
     }
-    xhttp.open("GET","http://localhost:5000/Demand-product");
+    xhttp.open("GET","https://t2008m-mdht-brightworld.herokuapp.com/Demand-product");
     xhttp.send();
 }
 loadDataDemand();
@@ -61,7 +61,7 @@ function loadDataCollection(){
         var grid=document.getElementById("items");
         grid.innerHTML=DulieuSp();
     }
-    xhttp.open("GET","http://localhost:5000/Collections");
+    xhttp.open("GET","https://t2008m-mdht-brightworld.herokuapp.com/Collections");
     xhttp.send();
 }
 loadDataCollection();

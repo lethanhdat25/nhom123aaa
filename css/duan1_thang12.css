@@ -1,3 +1,4 @@
+
 .top-head{
     height: 30px;
     margin-bottom: 20px;
@@ -129,7 +130,6 @@
 }
 .titleProduct {
     text-align: center;
-    border-bottom: 1px solid black;
     padding-bottom: 30px;
 }
 .slide-left-luachon{
@@ -501,7 +501,8 @@ color: red;
     top: 0;
     right: 30px;
     font-size: 30px;
-    color: lightgray;
+    color:black ;
+    background-color: ghostwhite;
 }
 .owl-theme .owl-nav span:hover {
     color: #ff5050;
@@ -510,6 +511,7 @@ color: red;
 }
 .owl-theme .owl-nav span {
     transition: 0.5s;
+    background-color: ghostwhite;
 }
 .owl-theme .owl-nav .owl-prev:hover {
     background-color: white;
@@ -517,14 +519,15 @@ color: red;
 .owl-theme .owl-nav .owl-next:hover {
     background-color: white;
 }
-.owl-theme .owl-nav span {
-    background-color: white;
-}
+
 .owl-carousel .owl-dots.disabled{
     display: block;
 }
 .owl-carousel.owl-loaded{
-    padding-top: 60px;
+    padding-top: 63px;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
 }
 .div_luachon_an i{
     font-size: 23px;
@@ -576,3 +579,10 @@ color: red;
     transition: 1s;
 
 }
+.all_width{
+    width: 90%;
+}
+.owl-stage{
+    transform: translate3d(-1916px, 0px, 0px);
+    transition: all 0s ease 0s;
+    width: 7667px;}
