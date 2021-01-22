@@ -4,7 +4,7 @@ function DulieuBlog(products){
         dulieuBlog +="        <div class=\"anh2 col-md-6\">\n" +
             "            <div class=\"img_thinh\" ><img style=\"max-width: 100%\" src=\""+products[i].Anh_Blog+"\"/></div>\n" +
             "            <div class=\"thongtin\">\n" +
-            "                <div class=\"thongtin_1\">\n" +
+            "                <div class=\"thongtin_1\" style=\"height: 350px\">\n" +
             "                    <a href=\"\"><h3>"+products[i].Tieude+"</h3></a>\n" +
             "                    </br>\n" +
             "                    <div class=\"thongtin2\">\n" +
