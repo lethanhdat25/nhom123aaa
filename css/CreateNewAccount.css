@@ -98,41 +98,20 @@
 }
 .khung-menu{
     width: 70%;
-    height: 50px;
+    height: auto;
     margin: auto;
     float: none;
 }
-.khung-menu1{
+.borderr{
+    border-bottom: 2px solid darkgray;
     width: 45%;
-    height: auto;
     float: left;
 }
-.boder1{
-    border-bottom: 2px solid grey;
-}
-.menu-chu{
-    margin-top: 30px;
-}
-.input-khung{
-    width: 100%;
-}
-.link-dangnhap{
-    margin-left: 10px;
-    color: darkgray;
-}
-.khung-menu2{
-    width: 45%;
-    height: auto;
-    float: right;
-}
-.menu-chu2{
-    margin-top: 30px;
-}
-.font-menu{
-    font-size: 12px;
-}
+.input-chu2{margin-top: 20px}
+.khung-input{width: 45%}
 .dangnhap-1{
-    height: 30px;
+    float: left;
+    height: 35px;
     margin-top: 20px;
     width: 140px;
     display: inline-block;
@@ -146,21 +125,54 @@
 }
 
 .dangnhap-1:hover {background-color: #ff5050;
-color: white}
+    color: white}
 
 .dangnhap-1:active {
     background-color: #ff5050;
     transform: translateY(4px);
 }
-.section{
-    width: 100%;
-    height: 500px;
+.input-chu3{
+    float: right;
+    margin-top: -40px;
+    margin-right: 145px;
 }
-.border-1{
-    border-bottom: 1px solid black ;
-    width: 80%;
+.borderr1{
+    border-bottom: 2px solid darkgray;
+    width: 45%;
+    float: right;
+}
+.input-chu4{
+    float: right;
+    margin-top: -30px;
+    margin-right: 310px;
+}
+.khung-input1{
+    float: right;
+    width: 45%;
+}
+.input-chu5{
+    float: right;
+    margin-right: 275px;
+    margin-top: -55px;
+}
+.khung-input2{
+    float: right;
+    width: 45%;
+    margin-top: -26px;
+}
+.input-chu6{
+    float: right;
+    margin-right: 205px;
+    margin-top: 20px;
+}
+.khung-input3{
+    float: right;
+    width: 45%;
+}
+.borderr2{
+    border-bottom: 1px solid black;
+    width: 88%;
     margin: auto;
     float: none;
-    margin-top: 280px;
+    margin-top: 140px;
 }
-
