@@ -292,7 +292,6 @@
                     <div class="menu-an_page">
                         <ul>
                             <a href="page.html" style="text-decoration: none;color: black"><li>About us</li></a>
-                            <a href="contact.html" style="text-decoration: none;color: black"><li>Contact us</li></a>
                             <a href="blog.html" style="text-decoration: none;color: black"><li>Blog</li></a>
                             <li>Wishlist</li>
                         </ul>
@@ -390,32 +389,21 @@
     </div>
 
         <div id="box_rv" class="andi_rv" >
-            <div class="rv col-md-12" style="padding-left: 0">
+            <div class="rv col-md-6" style="padding-left: 0">
                 <form action="home.html">
-                    <div class="rv1 col-md-6">
-                        <input type="text" name="Name" placeholder="Name"  style="width: 400px;height: 30px;margin-top: 20px" required>
+                    <div class="khung-danh-gia1">
+                        <input class="name" type="text" name="Name" placeholder="Name" style="margin-top: 20px;width: 400px;height: 40px" required>
                         </br>
-                        <input type="text" name="Email" placeholder="Email" style="width: 400px;height: 30px;margin-top: 20px" required>
+                        <input class="gmail" type="text" name="Email" placeholder="Email" style="margin-top: 20px;width: 400px;height: 40px" required>
                         </br>
-                        <input type="text" name="Phone" placeholder="Phone" style="width: 400px;height: 30px;margin-top: 20px" required>
-                        <div class="Rating" style="margin-top: 20px">
-                            <span style="font-size: 20px">Rating</span><br>
-                            <div class="star" style="height: 40px">
-                                <div class="star-box" id="star1" onclick="cl_votesao1(this)"  ></div>
-                                <div class="star-box" id="star2" onclick="cl_votesao2(this)" ></div>
-                                <div class="star-box" id="star3" onclick="cl_votesao3(this)" ></div>
-                                <div class="star-box" id="star4" onclick="cl_votesao4(this)" ></div>
-                                <div class="star-box" id="star5" onclick="cl_votesao5(this)"></div>
-                            </div>
-                        </div>
+                        <input class="phone" type="text" name="Phone" placeholder="Phone" style="margin-top: 20px;width: 400px;height: 40px" required>
                     </div>
-                    <div class="rv2 col-md-6">
-                        <input class="message1" type="text" name="message" placeholder="Write your comments here" style="height: 120px;width: 100%;margin-top: 20px; padding-bottom: 96px" required>
-                        <button id="button_rv" type="button" style="width: 100%; margin-top: 40px">Send</button>
+                    <div class="khung-danh-gia2">
+                        <input class="input-massage" type="text" name="message" placeholder="Write your review" style="margin-top: 20px;width: 400px;height: 100px" required>
+                        <button class="input-button" style="border: none;width: 400px;height: 40px;margin-top: 20px">Send</button>
                     </div>
                 </form>
             </div>
-
         </div>
 </section>
 <footer class="container list_footer"style="width:90%;padding:0;margin-top: 50px;margin-top: 100px;border-top: 1px solid black;padding-top: 60px;">
