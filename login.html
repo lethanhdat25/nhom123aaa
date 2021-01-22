@@ -1,466 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>LOGIN</title>
-    <link rel="stylesheet" href="list/bootrap3.4.1/css/bootstrap.css">
-    <link rel="stylesheet" href="list/bootrap3.4.1/fontawesome-free-5.15.1-web/css/all.css">
-    <link rel="stylesheet" href="css/duan1_thang12.css">
-    <link rel="stylesheet" href="css/contact.css">
-    <link rel="stylesheet" href="css/product.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Log in</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Theme style -->
     <link rel="stylesheet" href="css/login.css">
+    <!-- Google Font: Source Sans Pro -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+    <script src="list/bootrap3.4.1/js/bootstrap.js"></script>
 </head>
-<body>
-<header class="container">
-    <div class="top-head">
-        <div class="container">
-            <div class="gmail-sdt col-md-3" >
-                <ul class="mail" style="margin-top: 10px;">
-                    <li>
-                        <i class="fas fa-phone-alt"></i>
-                        <span>(00)000 111 222</span>
-                    </li>
-                    <li>
-                        <a href="mailto:support@somemail.com"><i class="far fa-envelope"></i>
-                            support@somemail.com</a>
 
-                    </li>
-                </ul>
-            </div>
-            <div class="acc-giohang col-md-3" style="display: flex;padding-top: 8px">
-                <div class="acc"><span>My account</span></div>
-                <div class="money">
-                    <select>
-                        <option value="USD">USD</option>
-                        <option value="EUR">EUR</option>
-                        <option value="GBP">GBP</option>
-                        <option value="AUD">AUD</option>
-                        <option value="INR">INR</option>
-                        <option value="JPY">JPY</option>
-                        <option value="CAD">CAD</option>
-                        <option value="CNY">CNY</option>
-                        <option value="RUB">RUB</option>
-                    </select>
-                </div>
-                <div class="gio2">
-                    <ul>
-                        <li style="margin-left: 5px">
-                            <i class="fas fa-shopping-cart"></i>
-                        </li>
-                        <li style="margin-left: 10px"><a href="HoaDon.html">Cart : 0</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+<body class="hold-transition login-page">
+<div class="login-box">
+    <div class="login-logo">
+        <a href="../../index2.html">Login</a>
     </div>
-    <div class="top-2-head">
-        <div class="container">
-            <a href="home.html" style="list-style-type: none">
-                <div class="lg_sr col-md-6">
-                    <img src="img/logo.webp">
+    <!-- /.login-logo -->
+    <div class="card">
+        <div class="card-body login-card-body">
+            <form action="../../index3.html" method="post">
+                <div class="input-group mb-3">
+                    <input type="email" class="form-control" placeholder="Email">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-envelope"></span>
+                        </div>
+                    </div>
                 </div>
-            </a>
-            <div class="lg_sr col-md-6" style="top: 10px;text-align: right">
-                <form >
-                    <input type="text" placeholder="Search......" style="padding: 0 70px 0 20px;">
-                    <button><i class="fas fa-search"></i></button>
-                </form>
-            </div>
-        </div>
-    </div>
-</header>
-
-<div id="run">
-    <nav class="container">
-        <div class="menu">
-            <ul class="ssmenu" >
-                <li class="sub-menu"><a href="home.html">Home</a> </li>
-
-                <li class="sub-menu"><a href="Collections.html">Collection</a>
-                    <div class="menu-an">
-                        <ul class="col-md-2">
-
-                            <li><b>DOWNLIGHT</b></li>
-                            <li>Surya</li>
-                            <li>Murphy</li>
-                            <li>Syska</li>
-                            <li>Generic</li>
-                            <li>Wipro</li>
-                            <li>Reiz</li>
-                            <li>Puffin</li>
-                            <li>E-Ware</li>
-                        </ul>
-                        <ul class="col-md-2">
-
-                            <li><b>WALLWASHER</b></li>
-                            <li>Soledi</li>
-                            <li>Peak</li>
-                            <li>WAC</li>
-                            <li>SLB</li>
-                            <li>Adapter</li>
-                            <li>Cable Cord</li>
-                            <li>Inventis</li>
-                            <li>Generic</li>
-                        </ul>
-                        <ul class=" col-md-2">
-
-                            <li><b>STREETLIGHT</b></li>
-                            <li>Hardoll</li>
-                            <li>Novel</li>
-                            <li>Mpow</li>
-                            <li>Versace</li>
-                            <li>Quace</li>
-                            <li>Phillips</li>
-                            <li>Oreva</li>
-                            <li>D'Mak</li>
-                        </ul>
-                        <div class=" col-md-6">
-                            <img src="img/logo_collection.webp">
+                <div class="input-group mb-3">
+                    <input type="password" class="form-control" placeholder="Password">
+                    <div class="input-group-append">
+                        <div class="input-group-text">
+                            <span class="fas fa-lock"></span>
                         </div>
                     </div>
-                </li>
-                <li class="sub-menu"><a href="Collections.html">Shop</a>
-                    <div class="menu-an">
-                        <ul class=" col-md-2">
-
-                            <li><b>PENDANTS</b></li>
-                            <li>Glitz</li>
-                            <li>Homesake</li>
-                            <li>Logam</li>
-                            <li>Philips</li>
-                            <li>Finike</li>
-                            <li>SFL</li>
-                            <li>Generic</li>
-                            <li>Technologies</li>
-                        </ul>
-                        <ul class="  col-md-2">
-                            <li><b>MODERN LIGHT</b></li>
-                            <li>WhiteRay</li>
-                            <li>Craftter</li>
-                            <li>Zeven</li>
-                            <li>Marical</li>
-                            <li>Finike</li>
-                            <li>LeArc</li>
-                            <li>Garments</li>
-                            <li>Homefab</li>
-                        </ul>
-                        <ul class="col-md-2">
-
-                            <li><b>GATELIGHT</b></li>
-                            <li>WhiteRay</li>
-                            <li>Generic</li>
-                            <li>Farmhouse</li>
-                            <li>DMT</li>
-                            <li>Lucky</li>
-                            <li>DecoLight</li>
-                            <li>Glow Fixtures</li>
-                            <li>Weldecor</li>
-                        </ul>
-                        <div class=" col-md-6">
-                            <div class="col-md-6">
-                                <img  src="img/logo_collection2.1.webp">
-                            </div>
-                            <div class="col-md-6">
-                                <img  src="img/logo_collection2.webp">
-                            </div>
+                </div>
+                <div class="row">
+                    <div class="col-8">
+                        <div class="icheck-primary">
+                            <input type="checkbox" id="remember">
+                            <label for="remember">
+                                Remember Me
+                            </label>
                         </div>
                     </div>
-                </li>
-                <li class="sub-menu"><a href="Collections.html">Indoor Light</a>
-                    <div class="menu-an">
-                        <ul class="col-md-2">
+                    <!-- /.col -->
 
-                            <li><b>LINEAR LIGHT</b></li>
-                            <li>Noble</li>
-                            <li>Philips</li>
-                            <li>Corvi</li>
-                            <li>Homesake</li>
-                            <br>
-                            <li><b>VINTAGE LIGHT</b></li>
-                            <li>Tootpado</li>
-                            <li>Farmhouse</li>
-                            <li>3Keys</li>
-                            <li>Yadav Decor</li>
-                        </ul>
-                        <ul class="col-md-2">
+                    <!-- /.col -->
+                </div>
 
-                            <li><b>STEPLIGHT</b></li>
-                            <li>Rab</li>
-                            <li>Architectural</li>
-                            <li>Nickel</li>
-                            <li>Opertated</li>
-                            <br>
-                            <li><b>EDISON LIGHT</b></li>
-                            <li>Jaz Deals</li>
-                            <li>fufuh</li>
-                            <li>WhiteRay</li>
-                            <li>Prop It Up</li>
-                        </ul>
-                        <ul class="col-md-2">
-
-                            <li><b>COVERLIGHT</b></li>
-                            <li>Indigifts</li>
-                            <li>Magideal</li>
-                            <li>Generic</li>
-                            <li>Colorado</li>
-                            <br>
-                            <li><b>LED LIGHT</b></li>
-                            <li>Magideal</li>
-                            <li>Goldone</li>
-                            <li>Inventis</li>
-                            <li>captcha</li>
-                        </ul>
-                        <div class=" col-md-6">
-                            <div class="col-md-6">
-                                <img style="margin-bottom: 5px" src="img/logo_collection3.1.webp">
-                                <img style="margin-top: 5px;margin-bottom: 15px" src="img/logo_collection3.2.webp">
-                            </div>
-                            <div class="col-md-6">
-                                <img src="img/logo_collection3.3.webp">
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="sub-menu"><a href="Collections.html">Lighting</a>
-                    <div class="menu-an">
-                        <ul class="col-md-3">
-
-                            <li><b>CDMT</b></li>
-                            <li>Panel Square</li>
-                            <li>Light Roof</li>
-                            <li>Focus Pure</li>
-                            <li>Panel Round</li>
-
-                        </ul>
-                        <ul class="col-md-3">
-
-                            <li><b>HUBS</b></li>
-                            <li>SilverStone</li>
-                            <li>Bando</li>
-                            <li>Cotts Hub</li>
-                            <li>Bando</li>
-
-                        </ul>
-                        <ul class=" col-md-3">
-
-                            <li><b>BULKHEAD LIGHT</b></li>
-                            <li>Partsam</li>
-                            <li>DecoLight</li>
-                            <li>Fos Lighting</li>
-                            <li>Jaz Deals</li>
-
-                        </ul>
-                        <ul class=" col-md-3">
-
-                            <li><b>STREETLIGHT</b></li>
-                            <li>Hardoll</li>
-                            <li>Mpow</li>
-                            <li>Versace</li>
-                            <li>Philips</li>
-
-                        </ul>
-                        <div>
-                            <div class="col-md-6" style="margin-bottom: 10px">
-                                <a href="Collections.html"><img src="img/logo_collection4.1.webp"></a>
-                            </div>
-                            <div class="col-md-6" style="margin-bottom: 10px">
-                                <a href="Collections.html"><img src="img/logo_collection4.2.webp"></a>
-                            </div>
-                        </div>
-                    </div>
-                </li>
-                <li class="sub-menu"><a href="Collections.html">Outdoor</a>
-                    <div class="menu-an">
-                        <ul class="col-md-3">
-
-                            <li><b>STREETLIGHT</b></li>
-                            <li>Mpow</li>
-                            <li>AR LED</li>
-                            <li>NOVEL</li>
-                            <li>Quace</li>
-                            <li>Philips</li>
-                        </ul>
-                        <ul class="col-md-3">
-
-                            <li><b>FACADE LIGHT</b></li>
-                            <li>Noble</li>
-                            <li>Citra</li>
-                            <li>Philips</li>
-                            <li>Ascension</li>
-                            <li>Glitz</li>
-                        </ul>
-                        <ul class=" col-md-3">
-
-                            <li><b>GARDEN LIGHT</b></li>
-                            <li>Ascension</li>
-                            <li>Futaba</li>
-                            <li>Voona</li>
-                            <li>Bulfyss</li>
-                            <li>Ariana</li>
-                        </ul>
-                        <ul class=" col-md-3">
-
-                            <li><b>GATELIGHT</b></li>
-                            <li>DecoLight</li>
-                            <li>WhiteRay</li>
-                            <li>Lucky</li>
-                            <li>Munchkin</li>
-                            <li>Farmhouse</li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="sub-menu"><a href="page.html" style="text-decoration: none;position: relative">Pages</a>
-                    <div class="menu-an_page">
-                        <ul>
-                            <a href="page.html" style="text-decoration: none;color: black"><li>About us</li></a>
-                            <a href="contact.html" style="text-decoration: none;color: black"><li>Contact us</li></a>
-                            <a href="blog.html" style="text-decoration: none;color: black"><li>Blog</li></a>
-                            <li>Wishlist</li>
-                        </ul>
-                    </div>
-                </li>
-            </ul>
-        </div>
-    </nav>
-</div>
-<section class="section container">
-    <div class="khung-chu">
-        <h2 class="khung-chu1">LOG IN</h2>
-    </div>
-    <div class="khung-menu">
-        <div class="khung-menu1">
-            <h4 class="menu-chu">Registered Customers</h4>
-            <div class="boder1"></div>
-            <p class="font-menu">If you have an account , sign in with your email address</p>
-            <form action="home.html">
-                <h4 class="menu-chu1">Email:</h4>
-                <input class="input-khung" type="email" name="email" required >
-                <h4 class="menu-chu1">Password:</h4>
-                <input class="input-khung" type="password" name="psw"  required>
-                <button class="dangnhap" type="submit">
-                    Sign In
-                </button></form><a href="#" class="link-dangnhap">Forget your password?</a>
-        </div>
-        <div class="khung-menu2">
-            <h4 class="menu-chu2">New Customers</h4>
-            <div class="boder1"></div>
-            <p class="font-menu">Creating an account has many benefits: check out faster,keep more than one address,track orders and more</p>
-            <form action="CreateNewAccount.html">
-                <button class="dangnhap1" type="submit">
-                    Create An Account
-                </button>
+                <div class="social-auth-links text-center mb-3">
+                    <a href="home.html" class="btn btn-block btn-primary">
+                        <i class="fab fa-facebook mr-2"></i> Sign in
+                    </a>
+                </div>
+                <!-- /.social-auth-links -->
             </form>
         </div>
-    </div>
-    <div class="border-1"></div>
-</section>
-<footer class="container list_footer">
-    <div class="col-md-3 lists ">
-        <a href="contact.html" style="text-decoration: none"><span>CONTACT US</span></a>
-        <ul>
-            <li>
-                No: 58 A, East Madison Street,<br>
-                Baltimore, MD,<br>
-                USA 4508.<br>
-                <i class="fas fa-phone-alt"></i>
-                +080 123 4567<br>
-                <a href="mailto:support@somemail.com"><i class="far fa-envelope"></i>
-                    support@somemail.com</a>
-            </li>
-        </ul>
-    </div>
-    <div class="col-md-2 lists">
-        <span>HELP</span>
-        <ul>
-            <li><a href="#">Search</a></li>
-            <li><a href="#">Help</a></li>
-            <li><a href="#">Information</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Shipping Details</a></li>
-        </ul>
-    </div>
-    <div class="col-md-2 lists">
-        <a href="contact.html" style="text-decoration: none"><span>SUPPORT</span></a>
-        <ul>
-            <li><a href="#">Contact us</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Refund & Return</a></li>
-            <li><a href="#">Deliveries</a></li>
-        </ul>
-    </div>
-    <div class="col-md-2 lists">
-        <span>INFORMATION</span>
-        <ul>
-            <li><a href="#">Search Terms</a></li>
-            <li><a href="#">Advance Search</a></li>
-            <li><a href="#">Help & Faq's</a></li>
-            <li><a href="#">Store Location</a></li>
-            <li><a href="#">Orders & Returns</a></li>
-        </ul>
-    </div>
-    </div>
-    <div class="col-md-3 lists">
-        <span>NEWSLETTER</span>
-        <ul>
-            <li>
-                A short sentence describing <br>
-                what someone will receive by <br>
-                subscribing
-            </li>
-        </ul>
-        <form>
-            <div class="input">
-                <div class="sualoi_conchuot">
-                    <input type="email" placeholder="Email Address">
-                    <button type="submit" style="margin-left: -40px">
-                        <i class="fas fa-location-arrow"></i>
-                    </button>
-                </div>
-            </div>
-        </form>
-    </div>
-</footer>
-</br>
-</br>
-<div class="border"></div>
-</br>
-</br>
-<div class="last col-md-12">
-    <div class="copy col-md-3">
-        <p>
-            Copyright
-            <a href="#">Powered by Shopify</a>
-        </p>
-    </div>
-    <div class="icon col-md-2">
-        <ul class="icons">
-            <li>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fab fa-facebook-square"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fab fa-google"></i></a>
-            </li>
-            <li>
-                <a href="#"><i class="fab fa-tumblr"></i></a>
-            </li>
-        </ul>
-    </div>
-    <div class="card col-md-4">
-        <ul>
-            <li><a href="#"><img src="img/paypal.webp" height="28" width="45"/></a></li>
-            <li><a href="#"><img src="img/cirrus.webp" height="28" width="45"/></a></li>
-            <li><a href="#"><img src="img/sage.webp" height="28" width="45"/></a></li>
-            <li><a href="#"><img src="img/master.webp" height="28" width="45"/></a></li>
-            <li><a href="#"><img src="img/visa.webp" height="28" width="45"/></a></li>
-        </ul>
+        <!-- /.login-card-body -->
     </div>
 </div>
+<!-- /.login-box -->
 
-<script src="JScode/JS_code_1.js"></script>
+<!-- jQuery -->
+<script src="node_modules/jquery/dist/jquery.js"></script>
+<!-- Bootstrap 4 -->
+<script src="../../plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+<!-- AdminLTE App -->
+<script src="../../dist/js/adminlte.min.js"></script>
 
 </body>
+
 </html>
