@@ -330,21 +330,24 @@
             <h4 class="menu-chu">Registered Customers</h4>
             <div class="boder1"></div>
             <p class="font-menu">If you have an account , sign in with your email address</p>
-            <h4 class="menu-chu1">Email:</h4>
-            <input class="input-khung" type="email" name="email" >
-            <h4 class="menu-chu1">Password:</h4>
-            <input class="input-khung" type="password" name="psw">
-            <a href="#"><button class="dangnhap" type="submit">
-                Sign In
-            </button></a><a href="#" class="link-dangnhap">Forget your password?</a>
+            <form action="home.html">
+                <h4 class="menu-chu1">Email:</h4>
+                <input class="input-khung" type="email" name="email" required >
+                <h4 class="menu-chu1">Password:</h4>
+                <input class="input-khung" type="password" name="psw" required>
+                <button class="dangnhap" type="submit">
+                    Sign In
+                </button></form><a href="#" class="link-dangnhap">Forget your password?</a>
         </div>
         <div class="khung-menu2">
             <h4 class="menu-chu2">New Customers</h4>
             <div class="boder1"></div>
             <p class="font-menu">Creating an account has many benefits: check out faster,keep more than one address,track orders and more</p>
-            <a href="#"><button class="dangnhap1" type="submit">
-                Create An Account
-            </button></a>
+            <form action="CreateNewAccount.html">
+                <button class="dangnhap1" type="submit">
+                    Create An Account
+                </button>
+            </form>
         </div>
     </div>
     <div class="border-1"></div>

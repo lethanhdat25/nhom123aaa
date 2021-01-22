@@ -87,7 +87,7 @@
 .khung-chu{
     width: 70%;
     height: 50px;
-    background-color: darkgray;
+    background-color: #ff5050;
     margin: auto;
     float: none;
     margin-top: 70px;
@@ -145,10 +145,11 @@
     border: 1px solid black;
 }
 
-.dangnhap-1:hover {background-color: #007ba4}
+.dangnhap-1:hover {background-color: #ff5050;
+color: white}
 
 .dangnhap-1:active {
-    background-color: #007ba4;
+    background-color: #ff5050;
     transform: translateY(4px);
 }
 .section{
