@@ -389,36 +389,32 @@
         <span  style="float: left;font-size:25px;padding-left:30px;cursor: pointer "onclick="hien_write(this)">Write a review</span>
     </div>
 
-        <div style="border-top: 1px solid grey" id="box_rv" class="andi_rv" >
-            <div class="Name_rv">
-                <span style="font-size: 20px">Name</span><br>
-                <input type="text" style="width: 100%;height: 60px" placeholder="Enter your name">
+        <div id="box_rv" class="andi_rv" >
+            <div class="rv col-md-12" style="padding-left: 0">
+                <form action="home.html">
+                    <div class="rv1 col-md-6">
+                        <input type="text" name="Name" placeholder="Name"  style="width: 400px;height: 30px;margin-top: 20px" required>
+                        </br>
+                        <input type="text" name="Email" placeholder="Email" style="width: 400px;height: 30px;margin-top: 20px" required>
+                        </br>
+                        <input type="text" name="Phone" placeholder="Phone" style="width: 400px;height: 30px;margin-top: 20px" required>
+                        <div class="Rating" style="margin-top: 20px">
+                            <span style="font-size: 20px">Rating</span><br>
+                            <div class="star" style="height: 40px">
+                                <div class="star-box" id="star1" onclick="cl_votesao1(this)"  ></div>
+                                <div class="star-box" id="star2" onclick="cl_votesao2(this)" ></div>
+                                <div class="star-box" id="star3" onclick="cl_votesao3(this)" ></div>
+                                <div class="star-box" id="star4" onclick="cl_votesao4(this)" ></div>
+                                <div class="star-box" id="star5" onclick="cl_votesao5(this)"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rv2 col-md-6">
+                        <input class="message1" type="text" name="message" placeholder="Write your comments here" style="height: 120px;width: 100%;margin-top: 20px; padding-bottom: 96px" required>
+                        <button id="button_rv" type="button" style="width: 100%; margin-top: 40px">Send</button>
+                    </div>
+                </form>
             </div>
-            <div class="Email_rv">
-                <span style="font-size: 20px">Email</span><br>
-                <input type="text" style="width: 100%;height: 60px" placeholder="john.smith@example.com">
-            </div>
-            <div class="Rating">
-                <span style="font-size: 20px">Rating</span><br>
-                <div class="star" style="height: 40px">
-                    <div class="star-box" id="star1" onclick="cl_votesao1(this)"  ></div>
-                    <div class="star-box" id="star2" onclick="cl_votesao2(this)" ></div>
-                    <div class="star-box" id="star3" onclick="cl_votesao3(this)" ></div>
-                    <div class="star-box" id="star4" onclick="cl_votesao4(this)" ></div>
-                    <div class="star-box" id="star5" onclick="cl_votesao5(this)"></div>
-                </div>
-            </div>
-            <div class="Title">
-                <span style="font-size: 20px">Review Title</span><br>
-                <input type="text" style="width: 100%;height: 60px" placeholder="Give your review a title">
-            </div>
-            <div class="Body_rv">
-                <span style="font-size: 20px">Body of Review (1500)</span><br>
-                <textarea style="width: 100%;height: 250px;wrap-option: off" id="Text_rv" placeholder="Write your comments here"></textarea>
-            </div>
-            <button id="button_rv" type="button" onclick="button_rv(this)">Submit Review</button>
-        </div>
-        <div id="Content_rv" style="width: 100%" class="andi_rv">
 
         </div>
 </section>
