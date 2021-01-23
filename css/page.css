@@ -631,9 +631,10 @@ span .fa-train{
     z-index: 30;
 }
 .map-map{
-    width: 1110px;
+    width: 100%;
     border: none;
     height: 300px;
+    padding: 0;
 }
 .khung-danh-gia{
     width: 80%;
