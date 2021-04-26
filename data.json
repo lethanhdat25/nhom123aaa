@@ -1,0 +1,629 @@
+{
+  "products": [
+    {
+      "id": 0,
+      "name": "Widescreen 4K SUHD TV",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/t/v/tv.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/p/h/photography.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/p/r/printer_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/p/h/phone3_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/p/h/phone2_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/p/h/phone4_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/p/h/photocamera_2.jpg"
+        }
+      ],
+      "star": 3.7,
+      "Availability": " In Stock",
+      "SKU": "demo3",
+      "price": "$2,999.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "45 inch HD Touch Screen (1280 x 720)"
+        },
+        {
+          "id": 2,
+          "text": "Android 4.4 KitKat OS"
+        },
+        {
+          "id": 3,
+          "text": "1.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "20 MP front and 28 megapixel CMOS rear camera"
+        }
+      ],
+      "Detail": "Smart Tivi LG 4K 45 inch 43UK6200PTA sở hữu thiết kế khung thép chắc chắn đi kèm chân đế hình chữ V thanh mảnh nhưng không kém phần vững chãi, giúp tivi LG trụ vững trên không gian đặt.\n\nTivi LG 45 inch với kích thước vừa phải có thể bố trí ở những không gian vừa và nhỏ như phòng khách, phòng ngủ,…",
+      "MoreInfor": {
+        "Manufacturer": "LG",
+        "Color": "Black",
+        "Size": "38"
+      }
+    },
+    {
+      "id": 1,
+      "name": "Smartwatch 2.0 LTE Wifi",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartwatch2_1_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartwatch_1_1.jpg"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "demo5",
+      "price": "$99.00",
+      "li": [
+      ],
+      "Detail": "IM gọi thẻ / điện thoại Bluetooth.Bạn có thể nghe gọi hoặc trả lời cuộc gọi điện thoại từ đồng hồ của.bạn khi gắn Sim,  hoặc kết nối với điện thoại như một chiếc.đồng hồ thông minh bằng bluetooth",
+      "MoreInfor": {
+        "Manufacturer": "Sony",
+        "Color": "White",
+        "Size": "39"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Nerocool EN52377 Dead Silence Gaming Cube Case",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/d/e/dekstoppc_1.jpg"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "demo6",
+      "price": "$180.00",
+      "li": [
+      ],
+      "Detail": "Nerocool EN52377 Dead Silence Gaming Cube Case là dòng PC giá rẻ hướng tới phân khúc người dùng phổ thông và văn phòng cơ bản",
+      "MoreInfor": {
+        "Manufacturer": "LG",
+        "Color": "Pink",
+        "Size": "40"
+      }
+    },
+    {
+      "id": 3,
+      "name": "White Tablet S2 WiFi 62GB LTE Internet",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/t/a/tablet_1_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/t/a/tablet2_1_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone8_2_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone5_2_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone7_3_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone6_1_1.jpg"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "demo6",
+      "price": "$180.00",
+      "li": [
+      ],
+      "Detail": "A12Z Bionic chip with 64-bit desktop-class architecture, Neural Engine, Embedded M12 coprocessor",
+      "MoreInfor": {
+        "Manufacturer": "LG",
+        "Color": "Pink",
+        "Size": "41"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Camera C430W 4k with Waterproof cover",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/a/c/actioncamera_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/c/a/camera_2.jpg"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "demo8",
+      "price": "$782.00",
+      "li": [
+      ],
+      "Detail": "Canon EOS RP kế thừa khả năng hoạt động mạnh mẽ của hệ thống EOS R trong một dáng hình nhỏ và gọn nhẹ hơn. Với cảm biến ảnh Dual Pixel CMOS 26.2 megapixel, tốc độ lấy nét cực nhanh 0.05 giây và khả năng lấy nét thiếu sáng tối thiểu EV -5, EOS RP là chiếc máy ảnh không gương lật full-frame tiện dụng nhất của Canon.",
+      "MoreInfor": {
+        "Manufacturer": "Sony",
+        "Color": "Brown",
+        "Size": "35"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Wireless Audio System Multiroom 360",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/v/i/virtualgogles.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/w/i/wifirouter.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/w/i/wirelesssound.jpg"
+        }
+      ],
+      "star": 4.35,
+      "Availability": " In Stock",
+      "SKU": "demo9",
+      "price": "$550.00",
+      "li": [
+      ],
+      "Detail": "Lấy cảm hứng từ phiên bản Airpods Pro mới nhất của Apple, tai nghe bluetooth Airs Pro gây ấn tượng bởi thiết kế độc lạ cùng những tính năng vượt trội, dẫn đầu xu hướng công nghệ 2020",
+      "MoreInfor": {
+        "Manufacturer": "HTC",
+        "Color": "White",
+        "Size": "39"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Wireless Audio SamSung",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/1/_/1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/2/_/2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/3/_/3.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/4/_/4.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/5/_/5.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/d500e214958dbc08ac65dad036025b47/f/o/fordescription.png"
+        }
+      ],
+      "star": 4,
+      "Availability": " In Stock",
+      "SKU": "demo11",
+      "price": "$230.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "45 inch HD Touch Screen (1280 x 720)"
+        },
+        {
+          "id": 2,
+          "text": "Android 4.4 KitKat OS"
+        },
+        {
+          "id": 3,
+          "text": "1.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "20 MP front and 28 megapixel CMOS rear camera"
+        }
+      ],
+      "Detail": "Airs Pro sở hữu thiết kế in-ear hoàn toàn mới đến từ tai nghe airpods pro,  giúp bám tai chắc chắn hơn cùng khả năng cách âm tốt hơn",
+      "MoreInfor": {
+        "Manufacturer": "HTC",
+        "Color": "Orange",
+        "Size": "41"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Wireless Audio Xiaomi",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/1/_/1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/2/_/2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/3/_/3.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/4/_/4.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/5/_/5.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/d500e214958dbc08ac65dad036025b47/f/o/fordescription.png"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "demo13",
+      "price": "$999.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "45 inch HD Touch Screen (1280 x 720)"
+        },
+        {
+          "id": 2,
+          "text": "Android 4.4 KitKat OS"
+        },
+        {
+          "id": 3,
+          "text": "1.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "20 MP front and 28 megapixel CMOS rear camera"
+        }
+      ],
+      "Detail": "Tai nghe được tích hợp chip xử lý mở nắp hiển thị pop-up lập tức ngay khi kết nối với iphone cung cấp thông tin % pin tai nghe và dock sạc cực tiện lợi ",
+      "MoreInfor": {
+        "Manufacturer": "HTC, Samsung, LG",
+        "Color": "Orange, Brown, Blue",
+        "Size": "35, 36, 38"
+      }
+    },
+    {
+      "id": 8,
+      "name": "demo13-Samsung-Symbian",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/g/a/gamestation_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/g/o/goldphone_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/4/_/4.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/5/_/5.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/d500e214958dbc08ac65dad036025b47/f/o/fordescription.png"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "demo13-Samsung-Symbian",
+      "price": "$999.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "45 inch HD Touch Screen (1280 x 720)"
+        },
+        {
+          "id": 2,
+          "text": "Android 4.4 KitKat OS"
+        },
+        {
+          "id": 3,
+          "text": "1.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "20 MP front and 28 megapixel CMOS rear camera"
+        }
+      ],
+      "Detail": "Nổi bật với thiết kế đầy phá cách, cùng những tính năng vượt trội, tai nghe bluetooth Buds live không chỉ đem lại những trải nghiệm âm nhạc tuyệt vời mà còn là vật trang sức bắt mắt để thể hiện cá tính của riêng bạn",
+      "MoreInfor": {
+        "Manufacturer": "HTC, Samsung, LG",
+        "Color": "Orange, Brown, Blue",
+        "Size": "35, 36, 38"
+      }
+    },
+    {
+      "id": 9,
+      "name": "demo13-Samsung-iOS",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/g/a/gamestation_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/g/o/goldphone_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/4/_/4.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/5/_/5.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/d500e214958dbc08ac65dad036025b47/f/o/fordescription.png"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "demo13-Samsung-iOS",
+      "price": "$50.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "45 inch HD Touch Screen (1280 x 720)"
+        },
+        {
+          "id": 2,
+          "text": "Android 4.4 KitKat OS"
+        },
+        {
+          "id": 3,
+          "text": "1.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "20 MP front and 28 megapixel CMOS rear camera"
+        }
+      ],
+      "Detail": "Sản phẩm được hoàn thiện đẹp mắt với chất liệu nhựa nhám cao cấp đem lại cho ngoại hình sang trọng, thời trang",
+      "MoreInfor": {
+        "Manufacturer": "Samsung",
+        "Color": "Orange, Brown, Blue",
+        "Size": "38"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Smartphone 6S 128GB LTE",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone5_2_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone3_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone6_1_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone8_2_2.jpg"
+        }
+      ],
+      "star": 3,
+      "Availability": " In Stock",
+      "SKU": "smartphone",
+      "price": "$3.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "4.7 inch 720p Screen"
+        },
+        {
+          "id": 2,
+          "text": "Android 6.0 OS"
+        },
+        {
+          "id": 3,
+          "text": "2.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "23 MP front Camera"
+        }
+      ],
+      "Detail": "Màn hình đẹp, hiệu năng đỉnh, thời lượng pin khủng",
+      "MoreInfor": {
+        "Manufacturer": "Samsung",
+        "Color": "White",
+        "Size": "38"
+      }
+    },
+    {
+      "id": 11,
+      "name": "Laptop WiFi CX61 2QF 15.6″ 4210M",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop2_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop3_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop4_1_3.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptopyoga_1_2.jpg"
+        }
+      ],
+      "star": 3,
+      "Availability": " In Stock",
+      "SKU": "laptopwificx61",
+      "price": "$199.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "4.7 inch 720p Screen"
+        },
+        {
+          "id": 2,
+          "text": "Android 6.0 OS"
+        },
+        {
+          "id": 3,
+          "text": "2.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "23 MP front Camera"
+        }
+      ],
+      "Detail": "Laptop gaming giá rẻ nhất, cấu hình mạnh mẽ, cùng với nhiều tính năng nổi bật trong tầm giá",
+      "MoreInfor": {
+        "Manufacturer": "HTC",
+        "Color": "Blue",
+        "Size": "35"
+      }
+    },
+    {
+      "id": 12,
+      "name": "External SSD USB 3.1 750 GB",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/w/i/wifirouter_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/h/e/headphones_1_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/w/i/wirelesssound_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/s/m/smartphone6_1_2.jpg"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "protectionplanformacbook",
+      "price": "$240.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "4.7 inch 720p Screen"
+        },
+        {
+          "id": 2,
+          "text": "Android 6.0 OS"
+        },
+        {
+          "id": 3,
+          "text": "2.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "23 MP front Camera"
+        }
+      ],
+      "Detail": "Sử dụng chuẩn USB 5.0 mới nhất trên thị trường, dung lượng cao trong tầm giá",
+      "MoreInfor": {
+        "Manufacturer": "HTC",
+        "Color": "Orange",
+        "Size": "38"
+      }
+    },
+    {
+      "id": 13,
+      "name": "External SSD USB 10.1 750 GB",
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop3_1_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop_1_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop2_1_1.jpg"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "demo13-LG-Symbian",
+      "price": "$1.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "4.7 inch 720p Screen"
+        },
+        {
+          "id": 2,
+          "text": "Android 6.0 OS"
+        },
+        {
+          "id": 3,
+          "text": "2.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "23 MP front Camera"
+        }
+      ],
+      "Detail": "Thiết kế nhỏ gọn đẹp mắt, thân thiện với người dùng, chuẩn USB mới nhất",
+      "MoreInfor": {
+        "Manufacturer": "LG",
+        "Color": "White",
+        "Size": "40"
+      }
+    },
+    {
+      "id": 14,
+      "name": "demo13-LG-iOS" ,
+      "img": [
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop4_2.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptopyoga_2_1.jpg"
+        },
+        {
+          "url": "https://m2.alothemes.com/electro/media/catalog/product/cache/4a1bf5ebc954204912c56d569921dcd1/l/a/laptop2_1_1.jpg"
+        }
+      ],
+      "star": null,
+      "Availability": " In Stock",
+      "SKU": "demo13-LG-iOS",
+      "price": "$5.00",
+      "li": [
+        {
+          "id": 1,
+          "text": "4.7 inch 720p Screen"
+        },
+        {
+          "id": 2,
+          "text": "Android 6.0 OS"
+        },
+        {
+          "id": 3,
+          "text": "2.4 GHz Quad Core™ Processor"
+        },
+        {
+          "id": 4,
+          "text": "23 MP front Camera"
+        }
+      ],
+      "Detail": "Màn hình lớn, thiết kế đẹp, phù hợp với xu thế, cấu hình cao",
+      "MoreInfor": {
+        "Manufacturer": "LG",
+        "Color": "Black",
+        "Size": "38"
+      }
+    }
+  ]
+}
